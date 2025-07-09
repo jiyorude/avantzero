@@ -9,7 +9,9 @@ Quake III Machinima (post-)production
 **Version: 0.0.0**
 <br/><br/>
 Created by Jordy Veenstra (A Pixelated Point of View)<br/>
-Submitted for
+Final submission project for Harvard's CS50X (Introduction to Computer Science) course. <br><br>
+
+*Video Demo:* TBA
 
 <br/>
 
