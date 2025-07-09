@@ -39,9 +39,9 @@ Submitted for
 
 
 ### Documentation
-The AvantZero algorithm has a dedicated documentation website containing extensive information regarding installation, information on getting started, algorithm usage, functionality, changelogs, answers to frequently asked questions and a database of error codes; should you encounter one. Check it out [here.](https://www.avantzero-docs.vercel.app)
+The AvantZero algorithm has a dedicated documentation website containing extensive information regarding installation, information on getting started, algorithm usage, functionality, changelogs, answers to frequently asked questions and a database of error codes; should you encounter one. Check it out [here.](http://avantzero-docs.vercel.app)
 
-The documentation website was created with Next.js and TypeScript. While extensive efforts have been made to present a complete overview of information regarding AvantZero, it is possible that a bug or issue with the algorithm has not been properly documented yet. If this is the case, feel free to open an issue on [Github.](https://www.github.com/jiyorude/avantzero/issues)
+The documentation website was created with Next.js and TypeScript. While extensive efforts have been made to present a complete overview of information regarding AvantZero, it is possible that a bug or issue with the algorithm has not been properly documented yet. If this is the case, feel free to open an issue on [Github.](http://www.github.com/jiyorude/avantzero/issues)
 
 
 <br/><br/>
