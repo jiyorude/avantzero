@@ -1,6 +1,6 @@
 ### AvantZero
 Random-data generating Algorithm for experimental,<br>
-Quake III Machinima (post-)production
+Quake III Machinima (post-)production 
 <br/>
 
 
