@@ -117,7 +117,9 @@ AvantZero can be installed through one of three possible methods: either by inst
 
 
 ### License
-AvantZero is licensed under the MIT-License. Please check the <code>LICENSE</code> file found in the repository regarding usage and implementing AvantZero or parts of its source code into your own software. <br> <br>
+AvantZero is licensed under the MIT-License. Please check the <code>LICENSE</code> file found in the repository regarding usage and implementing AvantZero or parts of its source code into your own software. <br>
+
+The Avant and AvantZero logo's use a typeface named 'Valorant', created by typeface artist Bryan T and obtained from dafont.com with a 100% free license. The logo's designed for the Avant and AvantZero algorithms are custom-designed and are not affiliated with Valorant, and/or Riot games in any way, shape or form. <br>
 
 AvantZero is a final submission project for Harvard's CS50X (Introduction to Computer Science) course. Completing this project fulfilled the final requirement to be eligible for the CS50 certificate. If you are a student currently enrolled in CS50X or any of the other CS50-branded courses, you may only use the code and files found inside this repository for *inspiriational* purposes for your own final project. 
 
