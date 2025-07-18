@@ -20,7 +20,6 @@ Final submission project for Harvard's CS50X (Introduction to Computer Science) 
 ### Table of Contents
 
 * [Background](#background)
-* [Tech Stack](#tech-stack)
 * [Documentation](#documentation)
 * [Installation](#installation)
 * [License](#license)
@@ -29,22 +28,41 @@ Final submission project for Harvard's CS50X (Introduction to Computer Science) 
 
 
 ### Background
+**Origins** <br/>
+AvantZero is a Python-based tool designed to automate and randomize the post-production process of experimental machinima films, with a particular focus on Quake III machinima. It evolved from the (now defunct) Dominion algorithm; an early Node.js/JavaScript-based prototype released on NPM in late 2022. The main issue with the Dominion framework was that it lacked any automation features and merely outputted large quantities of randomized and raw (post-)production data in `.txt` format, which still had to be interpreted and used manually. 
+
+Dominion's inability to fully automate its randomized workflow sparked the development for a better, more capable and intelligent system named *Avant*. Where Dominion merely generated randomized production- and edit data, such as sequence length, shot choice, framerates, camera positions, depth of field parameters and the like, Avant is able to automatically generate all of the required production data, post-production data, download all of the required maps, automate the creation of required files for the Q3MME mod and generate a singular `.bat` file: allowing the user to manually start the entire Q3MME capturing process with a single click. Furthermore, Avant is able to output a full sequence in `.edl` and `.xml` formats, and contains additional functionality such as neatly structured outputs and visualizations of the generated data in PDF, CSV or image formats. Later versions of Avant will include notions of machine learning and artificial intelligence implementation for embedding specific editing styles and direct connectivity towards a custom-made API containing extensive amounts of Quake III map-related data, such as size, geometry, spawn point locations, and map boundaries, to name a few examples.
+
+While Avant's emphasis is placed on the automated production and post-production of Quake III machinima, the user is free to use its features in a stand-alone type fashion. For instance: if the user only wants to generate map data, or randomize a folder of non-Quake (or even non-machinima based footage - with origins from camcorders or smartphones), they're completely free in their choice to do so; further highlighting its modular philosophy.
+
+Avant was named after the highly popular art movement 'avant-garde', as it outputs raw, randomized and basically unchecked film data for the primary purpose of creating innovative, experimental and unconventional Quake III machinima films. It is not until the actual post-production process that the user is able to see how the generated data is visualized and captured. The films generated with avant focus on design, graphical representation, artistic expression and the idea of challenging traditional norms and practices found within Quake III movie production, and not necessarily on their contents nor story; thus staying in true 'avant-garde fashion. For more information regarding Avant, please check out its [GitHub repository](https://github.com/jiyorude/avant) or refer towards either the `Functional Design Report` or the `Technical Design Report`; both found within the docs section of the AvantZero repository.
+
+<br>
+
+
+**AvantZero: A proof of Concept** <br>
+AvantZero acts as a lighterweight, functional 'proof of concept' of the more advanced Avant algorithm to demonstrate its core functionality, feasability and relevance. While it includes fewer features, it retains core components such as:
+
+* Randomized post-production data generation;
+* Output of post-production data in both xml and edl formats;
+* Project-based workflow in which the user can execute CRUD-based operations (create, view, edit and delete avant projects);
+* Export generated data in PDF and/or CSV formats;
+* Export data plots inside the generated PDF files or as standalone image files;
+* Generate depth of field maps of randomized footage, or choose to generate depth of field maps from the footage bin in its entirety;
+
+AvantZero demonstrates the viability and functionality of the broader Avant concept and functions as a final submission for Hardvard's CS50X (Introduction to Computer Science course). Furthermore, AvantZero introduces the concept of 'avant-machinima' or 'algorithmic machinima': abstract, design-focused films that explore randomness and aesthetic unpredictability in digital and experimental media, while simultaneously exploring the concept of (wo)man-machine co-creation and creative co-ownership in an highly experimental manner.
+
+<br>
+
+**Algorithmic Machinima** <br>
+The ever-evolving approach visible in each of the development cycles for each of the algorithms (Dominion, AvantZero and Avant) illustrates a trajectory of design, technological refinement and deepening of concepts. Each stage serves a purpose in the vision to merge algorithmic processes with create co-authorship in the context of machinima. While limited, Dominion exposed the core functionality but also the core bottlenecks of early automation attempts. It laid the foundation for a more extensible system. Avant, while still in early development, reflects an ambitious take at creating a modular, intelligent and fully integrated piece of software that aligns with efficiency and artistic unpredictability. 
+
+AvantZero, in this larger context, operates as a technical manifest. It allows for entry into assisted forms of machinima filmmaking and ‘avant-machinima’, opening possibilities for students, researchers and artists alike. The project, while rooted in Quake III Arena, opens a broader conversation around how experimental filmmaking can evolve through co-creation, partial automation, machine-based assistance and randomness. Avant and AvantZero position themselves as bridges between co-creativity and co-authorship. 
+
+In this model, the algorithm is not merely a tool but a collaborator with its own logic and aesthetic tendencies as the algorithm outputs decisions concerning the visual aspect of the film, while the filmmaker will remain in control of the auditory scope. The line between author and assistant becomes blurred, resulting in a new hybrid form of authorship where intentionality and spontaneity coexist.
 
 
 <br/><br/>
-
-### Tech Stack
-
-AvantZero is entirely developed in Python, a language selected not just for its unlimited amount of capabilities, but for a personal familiarity with its ecosystem. Python’s concise and highly readable syntax allows for clear architecture and dito development. Its support for object-oriented programming (OOP) enables clean, modular code organization — critical for maintaining complex systems like AvantZero.
-
-Another key factor in choosing Python over alternatives such as C# and .NET MAUI inside Visual Studio was the ease of getting up to speed, as well as a well-established personal knowledge base across a wide range of Python libraries. This familiarity significantly shortened development time, enabled faster debugging, and allowed for seamless integration of functionality, particularly in areas such as automation, file handling, and image or video processing, which for proof of concept and prototyping purposes met all of the intended requirements. Later versions of the definitive version of AvantZero, named Avant, 
-
-The official documentation website was built using Next.js and TypeScript. This allowed for a highly performant frontend with an emphasis on developer experience and long-term maintainability. The site is deployed through Vercel, ensuring a low-effort continuous updated pipeline for fast, automated deployments and low-latency content delivery.
-
-
-
-<br/><br/>
-
 
 
 ### Documentation
