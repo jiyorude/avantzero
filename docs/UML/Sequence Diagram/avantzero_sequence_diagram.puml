@@ -1,0 +1,29 @@
+@startuml AvantZeroSequenceDiagram
+
+title AvantZero Sequence Diagram
+
+skinparam {
+    title {
+        FontColor #2b2b2b
+        FontName Arial
+        FontSize 20
+    }
+    participant {
+        BackgroundColor #2f2f2f
+        FontColor #fafafa
+        BorderColor #fafafa
+        fontSize 14
+        FontName Arial
+    }
+    padding 15
+    participantPadding 20
+}
+
+participant SYS
+participant UTILS
+participant PROJM
+participant DATAGEN
+participant NLEGEN
+participant DANLY
+participant DEPGEN
+@enduml

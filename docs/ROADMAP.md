@@ -9,7 +9,7 @@ AvantZero was created as a final submission project for Harvard's CS50X - Introd
 
 | Version | To-Do | Description | Status |
 |---------:|:--------:|:-----------:|:-------:|
-| 0.0.0 | Documentation | ~~Functional Design~~, Technical Design, Software Diagrams, Design mock-up Documentation website, ~~Readme~~, ~~Development Roadmap~~ | *50%* |
+| 0.0.0 | Documentation | ~~Functional Design~~, *Technical Design*, *Sequence Diagram*, Activity Diagram, Design mock-up Documentation website, ~~Readme~~, ~~Development Roadmap~~ | *50%* |
 | 0.1.0 | Preparation | **Software:** File- and folder structre ready, outline of algorithm functions and helper function definitions. **Documentation Website:** Loading screen and Homepage layout ready (a11y, responsive), i18n implementation for Dutch and English | 0% |
 | 0.2.0 | Splash Screen / Main Menu | **Software:** Completed Loading/Splash screen, completed splash helper functions, main menu completed with full functionality, user can terminate out of the program. **Documentation website:** Errors are properly documented alongside fixes, homepage of Documentation Website has clickable buttons leading to empty pages, responsivity, a11y, i18n, fully working loading screen | 0% |
 | 0.2.1 + 0.2.2 | Splash Screen / Main Menu - GUI/Unit Testing | **Software:** Tkinter GUI fully working, GUI implementation for all functions, Manual and automated unit tests of main menu, loading screen and functions. **Documentation:** Error Database is updated | 0% |
@@ -39,4 +39,4 @@ AvantZero was created as a final submission project for Harvard's CS50X - Introd
 | 0.18.0 | Depth of Field | **Documentation:** depth of field page fully completed, a11y compliant, responsive, i18n compliant | 0% |
 | 0.19.0a| Alpha | **Software:** final code checks, final tests, final adjustments. **Documentation:** final documenation checks. | 0% |
 | 0.20.0b| Beta | **Software:** shipped software on TestPyPi, testing by body of external individuals, analysis of test data, final code adjustments. **Documentation:** Final documentation adjustments | 0% |
-| 1.0.0 | Initial Release | Finalization of GitHub repository, completed code, completed documentation, uploaded all cs50x requirements, Windows executables, MacOS executables, shipping of PyPi package, completion of two experimental avant-machinima compositions, completed presentation video | 0% |
+| 1.0.0 | Initial Release | Finalization of GitHub repository, completed code, completed documentation, uploaded all cs50x requirements, Windows executables, MacOS executables, shipping of PyPi package, completion of two experimental avant-machinima compositions, completed presentation video, Book version release AvantZero: Technical Perspectives | 0% |
