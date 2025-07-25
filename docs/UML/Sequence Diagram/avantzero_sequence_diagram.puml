@@ -1,5 +1,4 @@
 @startuml AvantZeroSequenceDiagram
-
 title AvantZero Sequence Diagram
 
 skinparam {
@@ -12,13 +11,15 @@ skinparam {
         BackgroundColor #2f2f2f
         FontColor #fafafa
         BorderColor #fafafa
-        fontSize 14
+        FontSize 14
         FontName Arial
     }
-    padding 15
+    padding 10
     participantPadding 20
 }
 
+
+participant USIF
 participant SYS
 participant UTILS
 participant PROJM
@@ -26,4 +27,45 @@ participant DATAGEN
 participant NLEGEN
 participant DANLY
 participant DEPGEN
+
+group BOOT [BOOT- AND\nINITIAL CHECKS]
+    USIF -> SYS : init() 
+    activate SYS #16ad8f
+    SYS -> USIF : show_splash()
+    ====DEPENDENCY CHECK====
+    SYS --> DEPGEN : check_dependencies()
+    activate UTILS #16ad8f
+    activate PROJM #16ad8f
+    activate DATAGEN #16ad8f
+    activate NLEGEN #16ad8f
+    activate DANLY #16ad8f
+    activate DEPGEN #16ad8f
+    alt SUCCESS
+    DEPGEN --> SYS : True
+    SYS -> USIF : update_splash()
+    else FAILURE
+    DEPGEN --> SYS: <b>ERR001</b>
+    deactivate UTILS
+    deactivate PROJM
+    deactivate NLEGEN
+    deactivate DATAGEN
+    deactivate DANLY
+    deactivate DEPGEN
+    SYS -> USIF : remove_splash()
+    SYS --x USIF : <b>ERR001 / EXIT</b>
+    end
+    ====PACKAGE CHECK====
+    SYS -> SYS : check_packages()
+    alt SUCCESS
+    SYS -> USIF : remove_splash()
+    SYS -> USIF : boot_mame()
+    else FAILURE
+    SYS -> USIF : remove_splash()
+    SYS --x USIF : <b>ERR002 / EXIT</b>
+    end
+    deactivate SYS
+end
+
+
+
 @enduml
