@@ -1,0 +1,362 @@
+@startuml AvantZeroSequenceDiagram
+title AvantZero Sequence Diagram
+
+skinparam {
+    title {
+        FontColor #2b2b2b
+        FontName Arial
+        FontSize 20
+    }
+    participant {
+        BackgroundColor #2f2f2f
+        FontColor #fafafa
+        BorderColor #fafafa
+        FontSize 14
+        FontName Arial
+    }
+    participantPadding 25
+}
+
+participant USIF
+participant SYS
+participant UTILS
+participant PROJM
+participant DATAGEN
+participant NLEGEN
+participant DANLY
+participant DEPGEN
+
+==BOOT & INITIALIZATION==
+group BOOT [BOOT- AND\nINITIAL CHECKS]
+    USIF -> SYS : init() 
+    activate SYS #16ad8f
+    SYS -> USIF : show_splash()
+    ====DEPENDENCY CHECK====
+    SYS --> DEPGEN : check_dependencies()
+    activate UTILS #16ad8f
+    activate PROJM #16ad8f
+    activate DATAGEN #16ad8f
+    activate NLEGEN #16ad8f
+    activate DANLY #16ad8f
+    activate DEPGEN #16ad8f
+    alt SUCCESS
+        DEPGEN --> SYS : True
+        SYS -> USIF : update_splash()
+        else FAILURE
+            DEPGEN --> SYS: <b>ERR001</b>
+            deactivate UTILS
+            deactivate PROJM
+            deactivate NLEGEN
+            deactivate DATAGEN
+            deactivate DANLY
+            deactivate DEPGEN
+            SYS -> USIF : remove_splash()
+            SYS -x USIF : <b>ERR001 / EXIT(1)</b>
+    end
+    ====PACKAGE CHECK====
+    SYS -> SYS : check_packages()
+    alt SUCCESS
+        SYS -> USIF : remove_splash()
+        SYS -> USIF : True
+        else FAILURE
+            SYS -> USIF : remove_splash()
+            SYS -x USIF : <b>ERR002 / EXIT(1)</b>
+    end
+    deactivate SYS
+end
+
+==MAIN FUNCTIONALITY==
+group MAIN [MAIN\nFUNCTIONALITY]
+    USIF -> UTILS : boot_mame()
+    activate UTILS #E21E00
+    activate SYS #E21E00
+    UTILS --> SYS : Retrieve Main Menu Contents
+    SYS --> USIF : Return Menu
+    deactivate UTILS
+    deactivate SYS
+   
+    ====PROJECT MANAGER====
+    opt PROJECTMANAGER
+        USIF -> PROJM: boot_projm()
+        activate PROJM #3F7FD9
+        alt No Projects Found
+            PROJM -> PROJM : create_project()
+            PROJM --> SYS : Retrieve Setup Contents
+            activate UTILS #3F7FD9
+            activate SYS #3F7FD9
+            SYS --> USIF : Show Setup
+                alt Keyboard\nInterrupt
+                    PROJM -X USIF : <b>ERR003 / EXIT(0) </b>
+                end
+            USIF --> PROJM : Send Data
+            PROJM -> PROJM : create_structures()
+                alt Permission\n Error
+                    PROJM -> SYS: <b>ERR004</b>
+                    SYS -> USIF : <b>ERR004 / BACK</b>
+                else Generic\n Error
+                    PROJM -> SYS : <b>ERR005</b>
+                    SYS -x USIF : <b>ERR005 / EXIT(1)</b>
+                end
+                loop while len\n(name)> 30
+                    PROJM -> USIF: <b>ERR006</b>
+                    USIF -> PROJM : Retry
+                    PROJM -> PROJM : create_structures()
+                end
+                PROJM --> USIF : Break
+            deactivate SYS
+        else Projects Found
+            PROJM -> PROJM : check_projects()
+                alt Keyboard\nInterrupt
+                    PROJM -X USIF : <b>ERR003 / EXIT(0) </b>
+                end
+            PROJM --> USIF : Break
+        end
+    
+    opt CREATE PROJECT
+        USIF --> PROJM : Function call
+        PROJM -> PROJM : create_project()
+        PROJM --> SYS : Retrieve Setup Contents
+        activate SYS #3F7FD9
+        SYS --> USIF : Show Setup
+        alt Keyboard\nInterrupt
+            PROJM -X USIF : <b>ERR003 / EXIT(0) </b>
+        end
+        USIF --> PROJM : Send Data
+        PROJM -> PROJM : create_structures()
+        alt Permission\n Error
+            PROJM -> SYS: <b>ERR004</b>
+            SYS -> USIF : <b>ERR004 / BACK</b>
+            else Generic\n Error
+                PROJM -> SYS : <b>ERR005</b>
+                SYS -x USIF : <b>ERR005 / EXIT(1)</b>
+                end
+            loop while len\n(name)> 30
+                PROJM -> USIF: <b>ERR006</b>
+                USIF -> PROJM : Retry
+                PROJM -> PROJM : create_structures()
+            end
+        PROJM --> USIF : Break
+        deactivate SYS
+    end
+    
+    opt VIEW PROJECT
+        USIF -> PROJM : Function call
+        PROJM -> PROJM : retrieve_proj_list()
+        alt Keyboard\nInterrupt
+            PROJM -X USIF : <b>ERR003 / EXIT(0)</b>
+        end
+        alt No Projects Found
+            PROJM -> SYS : <b>ERR007</b>
+            activate SYS #3F7FD9
+            SYS -> USIF : <b>ERR007 / BACK</b>
+            else GENERIC ERROR
+                PROJM -> SYS : <b>ERR005</b>
+                deactivate SYS
+                SYS -x USIF : <b>ERR005 / EXIT(1)</b>  
+        end
+        PROJM --> SYS : Return Data
+        activate SYS #3F7FD9
+        SYS --> USIF: Show List
+        deactivate SYS
+        USIF -> PROJM : Function Call
+        PROJM -> PROJM : show_proj()
+        PROJM --> SYS : Return Data
+        activate SYS #3F7FD9
+        SYS --> USIF : Show Project
+        deactivate SYS
+    end
+    
+    opt MODIFY PROJECT
+        USIF -> PROJM : Function call
+        PROJM -> PROJM : retrieve_proj_list()
+        alt Keyboard\nInterrupt
+            PROJM -X USIF : <b>ERR003 / EXIT(0) </b>
+        end
+        alt No Projects Found
+            PROJM -> SYS : <b>ERR007</b>
+            activate SYS #3F7FD9
+            SYS -> USIF : <b>ERR007 / BACK</b>
+            else GENERIC ERROR
+                PROJM -> SYS : <b>ERR005</b>
+                deactivate SYS
+                SYS -x USIF : <b>ERR005 / EXIT(1)</b>  
+        end
+        PROJM --> SYS : Return Data
+        activate SYS #3F7FD9
+        SYS --> USIF: Show List
+        deactivate SYS
+        USIF --> PROJM : Send Data
+        PROJM -> PROJM : modify_proj()
+        loop while len\n(name)> 30
+            PROJM -> USIF: <b>ERR006</b>
+            USIF -> PROJM : Retry
+            PROJM -> PROJM : modify_proj()
+        end   
+        PROJM -> USIF : Break  
+    end
+
+    opt DELETE PROJECT
+        USIF -> PROJM : Function call
+        PROJM -> PROJM : retrieve_proj_list()
+        alt Keyboard\nInterrupt
+            PROJM -X USIF : <b>ERR003 / EXIT(0) </b>
+        end
+        alt No Projects Found
+            PROJM -> SYS : <b>ERR007</b>
+            activate SYS #3F7FD9
+            SYS -> USIF : <b>ERR007 / BACK</b>
+            else GENERIC ERROR
+                PROJM -> SYS : <b>ERR005</b>
+                deactivate SYS
+                SYS -x USIF : <b>ERR005 / EXIT(1)</b>  
+        end
+        PROJM --> SYS : Return Data
+        activate SYS #3F7FD9
+        SYS --> USIF: Show List
+        deactivate SYS
+        USIF --> PROJM : Send Data
+        PROJM -> PROJM : delete_proj()
+        PROJM -> USIF : Break
+        deactivate UTILS
+        deactivate PROJM
+    end
+
+    opt RETURN TO MAIN MENU
+    USIF -> SYS : Function call
+    activate SYS #3F7FD9
+    SYS -> USIF : Break
+    deactivate SYS
+    end
+
+    ====DATA GENERATION====
+    opt DATA GENERATION
+        USIF -> UTILS : Function Call
+        activate UTILS #9DE637
+        UTILS --> SYS : Retrieve Menu Information
+        deactivate UTILS
+        activate SYS #9DE637
+        SYS -> USIF : Show Data Generation Menu
+        
+        opt GENERATE EDIT DATA
+            USIF -> SYS : Function Call
+            activate PROJM #9DE637
+            SYS --> PROJM : Request Project Data
+            alt No Projects Found
+                PROJM -> SYS : <b>ERR007</b>
+                SYS -> USIF : <b>ERR007 / BACK</b>
+            end
+            PROJM -> USIF : Show Project Data
+            USIF --> DATAGEN : confirm_proj_data()
+            activate DATAGEN #9de637
+            DATAGEN --> SYS : check_files()
+            deactivate PROJM
+            alt Keyboard\nInterrupt
+                DATAGEN -X USIF : <b>ERR003 / EXIT(0) </b>
+            end
+            alt Codec/File Error
+                DATAGEN -> SYS: <b>ERR008</b>
+                SYS -X USIF : <b>ERR008 / EXIT(1)</b>
+                else Generic Error
+                    DATAGEN -> SYS : <b>ERR005</b>
+                    deactivate DATAGEN
+                    SYS -x USIF : <b>ERR005 / EXIT(1)</b>
+            end
+            DATAGEN --> SYS : True
+            activate DATAGEN #9DE637
+            SYS --> DATAGEN : gen_data()
+            DATAGEN --> SYS: save_to_json()
+            activate PROJM #9de637
+            SYS --> PROJM : update_proj()
+            PROJM --> SYS : True
+            deactivate DATAGEN
+            deactivate PROJM
+            SYS -> USIF : Break
+        end
+        
+        opt GENERATE EDL/XML
+            USIF -> SYS : Function Call
+            SYS --> PROJM: Request Project Data
+            activate PROJM #9de637
+            alt No Projects Found
+                PROJM -> SYS : <b>ERR007</b>
+                SYS -> USIF : <b>ERR007 / BACK</b>
+            end
+            PROJM -> USIF: Show Project Data
+            USIF -> PROJM : Select Project
+            PROJM -> USIF : show_generated_data_versions()
+            alt Keyboard\nInterrupt
+                PROJM -X USIF : <b>ERR003 / EXIT(0) </b>
+            end
+            USIF -> PROJM: Select Data Version
+            PROJM --> NLEGEN : generate_nle_files()
+            activate NLEGEN #9de637
+            alt Data Error
+                NLEGEN -> SYS: <b>ERR009</b>
+                SYS -> USIF : <b>ERR009 / BACK</b>
+            else Generic Error
+                NLEGEN -> SYS : <b>ERR005</b>
+                SYS -x USIF : <b>ERR005 / EXIT(1)</b>
+            end
+            NLEGEN --> SYS: Save Generated File
+            deactivate NLEGEN
+            SYS --> PROJM: update_proj()
+            PROJM --> SYS : True
+            deactivate PROJM
+            SYS -> USIF: Break
+        end
+
+        opt GENERATE DEPTH
+        end
+
+        opt VISUALIZE DATA
+        end
+
+        opt EXPORT DATA
+        end
+        deactivate SYS
+    end
+
+    ====ABOUT====
+    opt SHOW ABOUT
+        USIF -> UTILS : Function Call
+        activate UTILS #E6C600
+        UTILS --> SYS : Retrieve About Information
+        deactivate UTILS
+        activate SYS #E6C600
+        SYS -> USIF : Show About Information
+        alt Keyboard\nInterrupt
+            SYS -X USIF : <b>ERR003 / Exit(0)</b>
+        end
+        USIF -> SYS : Press Return / Timer
+        SYS -> USIF : Break
+        deactivate SYS
+    end
+
+    ====CREDITS====
+    opt SHOW CREDITS
+        USIF -> UTILS : Function Call
+        activate UTILS #C500E6
+        UTILS --> SYS : Retrieve Credits
+        deactivate UTILS
+        activate SYS #C500E6
+        SYS -> USIF : Show Credits
+        alt Keyboard\nInterrupt
+            SYS -X USIF : <b>ERR003 / Exit(0)</b>
+        end
+        USIF -> SYS : Press Return / Timer
+        SYS -> USIF : Break
+        deactivate SYS
+    end
+
+    ====EXIT====
+    opt EXIT ALGORITHM
+        USIF -> SYS : Function call
+        activate SYS #E67C00
+        SYS -> USIF : True
+        deactivate SYS
+        USIF -> USIF : Break
+        USIF -> USIF : Exit(0)
+    end
+end
+end
+@enduml
