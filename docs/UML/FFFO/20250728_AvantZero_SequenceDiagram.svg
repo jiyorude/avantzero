@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1266 9667">
+  <!-- Generator: Adobe Illustrator 29.6.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 9)  -->
+  <defs>
+    <style>
+      .st0 {
+        letter-spacing: .26em;
+      }
+
+      .st1, .st2, .st3, .st4, .st5 {
+        isolation: isolate;
+      }
+
+      .st1, .st2, .st4 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st1, .st5 {
+        font-size: 13px;
+      }
+
+      .st6 {
+        letter-spacing: .31em;
+      }
+
+      .st7 {
+        letter-spacing: 0em;
+      }
+
+      .st8 {
+        letter-spacing: .28em;
+      }
+
+      .st9 {
+        stroke-dasharray: 5 5;
+      }
+
+      .st9, .st10 {
+        stroke-width: .5px;
+      }
+
+      .st9, .st11, .st12, .st13, .st14, .st15, .st16 {
+        fill: none;
+      }
+
+      .st9, .st13, .st17, .st18, .st19, .st20, .st21, .st15, .st22, .st23, .st16, .st24 {
+        stroke: #181818;
+      }
+
+      .st25 {
+        letter-spacing: .05em;
+      }
+
+      .st10 {
+        fill: #2f2f2f;
+        stroke: #fafafa;
+      }
+
+      .st11, .st12, .st26, .st27, .st14 {
+        stroke: #000;
+      }
+
+      .st28 {
+        letter-spacing: .33em;
+      }
+
+      .st2 {
+        fill: #2b2b2b;
+        font-size: 20px;
+      }
+
+      .st3 {
+        fill: #fafafa;
+        font-size: 14px;
+      }
+
+      .st3, .st5 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st29 {
+        letter-spacing: .01em;
+      }
+
+      .st30 {
+        letter-spacing: .02em;
+      }
+
+      .st31 {
+        letter-spacing: .13em;
+      }
+
+      .st4 {
+        font-size: 11px;
+      }
+
+      .st32 {
+        letter-spacing: .02em;
+      }
+
+      .st33 {
+        letter-spacing: 0em;
+      }
+
+      .st34 {
+        letter-spacing: .08em;
+      }
+
+      .st35 {
+        letter-spacing: .14em;
+      }
+
+      .st36 {
+        letter-spacing: .58em;
+      }
+
+      .st37 {
+        letter-spacing: .35em;
+      }
+
+      .st12, .st13 {
+        stroke-dasharray: 2 2;
+      }
+
+      .st26, .st38, .st27 {
+        fill: #eee;
+      }
+
+      .st26, .st15 {
+        stroke-width: 2px;
+      }
+
+      .st39 {
+        letter-spacing: .34em;
+      }
+
+      .st40 {
+        letter-spacing: .01em;
+      }
+
+      .st41 {
+        letter-spacing: .05em;
+      }
+
+      .st42 {
+        letter-spacing: .13em;
+      }
+
+      .st17 {
+        fill: #181818;
+      }
+
+      .st43 {
+        letter-spacing: 0em;
+      }
+
+      .st38 {
+        stroke: #eee;
+      }
+
+      .st44 {
+        letter-spacing: 0em;
+      }
+
+      .st18 {
+        fill: #c500e6;
+      }
+
+      .st45 {
+        letter-spacing: 0em;
+      }
+
+      .st46 {
+        letter-spacing: .42em;
+      }
+
+      .st27, .st14 {
+        stroke-width: 1.5px;
+      }
+
+      .st47 {
+        letter-spacing: .42em;
+      }
+
+      .st48 {
+        letter-spacing: .02em;
+      }
+
+      .st19 {
+        fill: #3f7fd9;
+      }
+
+      .st49 {
+        letter-spacing: .05em;
+      }
+
+      .st50 {
+        letter-spacing: .36em;
+      }
+
+      .st51 {
+        letter-spacing: .26em;
+      }
+
+      .st52 {
+        letter-spacing: .03em;
+      }
+
+      .st53 {
+        letter-spacing: .05em;
+      }
+
+      .st54 {
+        letter-spacing: 0em;
+      }
+
+      .st55 {
+        letter-spacing: .03em;
+      }
+
+      .st56 {
+        letter-spacing: .08em;
+      }
+
+      .st20 {
+        fill: #e67c00;
+      }
+
+      .st57 {
+        letter-spacing: 0em;
+      }
+
+      .st58 {
+        letter-spacing: .01em;
+      }
+
+      .st59 {
+        letter-spacing: 0em;
+      }
+
+      .st60 {
+        letter-spacing: .23em;
+      }
+
+      .st21 {
+        fill: #e21e00;
+      }
+
+      .st61 {
+        letter-spacing: .04em;
+      }
+
+      .st62 {
+        letter-spacing: .01em;
+      }
+
+      .st22 {
+        fill: #e6c600;
+      }
+
+      .st63 {
+        letter-spacing: 0em;
+      }
+
+      .st64 {
+        letter-spacing: .02em;
+      }
+
+      .st65 {
+        letter-spacing: -.03em;
+      }
+
+      .st66 {
+        letter-spacing: .43em;
+      }
+
+      .st67 {
+        letter-spacing: .02em;
+      }
+
+      .st23 {
+        fill: #16ad8f;
+      }
+
+      .st68 {
+        letter-spacing: .03em;
+      }
+
+      .st69 {
+        letter-spacing: .35em;
+      }
+
+      .st70 {
+        letter-spacing: .04em;
+      }
+
+      .st71 {
+        letter-spacing: .03em;
+      }
+
+      .st72 {
+        letter-spacing: 0em;
+      }
+
+      .st73 {
+        letter-spacing: -.03em;
+      }
+
+      .st24 {
+        fill: #9de637;
+      }
+    </style>
+  </defs>
+  <text class="st2" transform="translate(489.75 33.76)"><tspan x="0" y="0">AvantZero Sequence Diagram</tspan></text>
+  <rect class="st23" x="297" y="194.82" width="10" height="863.3"/>
+  <rect class="st21" x="297" y="1169.85" width="10" height="60.7"/>
+  <rect class="st19" x="297" y="1429.66" width="10" height="554.96"/>
+  <rect class="st19" x="297" y="2285.94" width="10" height="554.96"/>
+  <rect class="st19" x="297" y="3078.03" width="10" height="76.54"/>
+  <rect class="st19" x="297" y="3222.28" width="10" height="30.35"/>
+  <rect class="st19" x="297" y="3356.68" width="10" height="30.35"/>
+  <rect class="st19" x="297" y="3624.17" width="10" height="76.54"/>
+  <rect class="st19" x="297" y="3768.41" width="10" height="30.35"/>
+  <rect class="st19" x="297" y="4289.03" width="10" height="76.54"/>
+  <rect class="st19" x="297" y="4433.27" width="10" height="30.35"/>
+  <rect class="st19" x="297" y="4630.38" width="10" height="30.35"/>
+  <rect class="st24" x="297" y="4798.14" width="10" height="3971.29"/>
+  <rect class="st22" x="297" y="8898.83" width="10" height="166.43"/>
+  <rect class="st18" x="297" y="9202.67" width="10" height="166.43"/>
+  <rect class="st20" x="297" y="9476.15" width="10" height="30.35"/>
+  <rect class="st23" x="501" y="592.88" width="10" height="132.24"/>
+  <rect class="st21" x="501" y="1169.85" width="10" height="60.7"/>
+  <rect class="st19" x="501" y="1429.66" width="10" height="3138.02"/>
+  <rect class="st24" x="501" y="4767.78" width="10" height="30.35"/>
+  <rect class="st22" x="501" y="8868.48" width="10" height="30.35"/>
+  <rect class="st18" x="501" y="9172.32" width="10" height="30.35"/>
+  <rect class="st23" x="617.5" y="592.88" width="10" height="132.24"/>
+  <rect class="st19" x="617.5" y="1330.6" width="10" height="3237.07"/>
+  <rect class="st24" x="617.5" y="4884.19" width="10" height="214.46"/>
+  <rect class="st24" x="617.5" y="5434.67" width="10" height="60.7"/>
+  <rect class="st24" x="617.5" y="5618.78" width="10" height="580.84"/>
+  <rect class="st24" x="617.5" y="6323.03" width="10" height="718.08"/>
+  <rect class="st24" x="617.5" y="7164.51" width="10" height="718.08"/>
+  <rect class="st24" x="617.5" y="8006" width="10" height="718.08"/>
+  <rect class="st23" x="750.5" y="592.88" width="10" height="132.24"/>
+  <rect class="st24" x="750.5" y="5068.3" width="10" height="237.97"/>
+  <rect class="st24" x="750.5" y="5373.97" width="10" height="121.41"/>
+  <rect class="st23" x="885" y="592.88" width="10" height="132.24"/>
+  <rect class="st24" x="885" y="5938.97" width="10" height="199.95"/>
+  <rect class="st23" x="1009" y="592.88" width="10" height="132.24"/>
+  <rect class="st24" x="1009" y="7545.4" width="10" height="276.48"/>
+  <rect class="st24" x="1009" y="8386.89" width="10" height="276.48"/>
+  <rect class="st23" x="1134" y="592.88" width="10" height="132.24"/>
+  <rect class="st24" x="1134" y="6703.92" width="10" height="276.48"/>
+  <rect class="st14" x="30" y="141.45" width="1189.5" height="916.67"/>
+  <rect class="st14" x="40" y="240.17" width="327.5" height="279"/>
+  <rect class="st14" x="50" y="433.12" width="307.5" height="48.7"/>
+  <rect class="st14" x="50" y="607.88" width="1159.5" height="185.95"/>
+  <rect class="st14" x="50" y="895.53" width="307.5" height="155.59"/>
+  <rect class="st14" x="10" y="1116.47" width="1239.5" height="8498.73"/>
+  <rect class="st14" x="20" y="1289.9" width="1219.5" height="8318.3"/>
+  <rect class="st14" x="40" y="1345.6" width="725.5" height="811.93"/>
+  <rect class="st14" x="50" y="1475.01" width="638" height="61.38"/>
+  <rect class="st14" x="50" y="1624.09" width="638" height="182.1"/>
+  <rect class="st14" x="50" y="1820.19" width="705.5" height="135.08"/>
+  <rect class="st14" x="50" y="2058.81" width="638" height="61.38"/>
+  <rect class="st14" x="40" y="2171.53" width="725.5" height="677.37"/>
+  <rect class="st14" x="50" y="2331.29" width="638" height="61.38"/>
+  <rect class="st14" x="50" y="2480.37" width="638" height="182.1"/>
+  <rect class="st14" x="50" y="2676.47" width="705.5" height="135.08"/>
+  <rect class="st14" x="40" y="2862.9" width="707.5" height="532.13"/>
+  <rect class="st14" x="50" y="2961.96" width="638" height="61.38"/>
+  <rect class="st14" x="50" y="3037.33" width="638" height="155.59"/>
+  <rect class="st14" x="40" y="3409.03" width="707.5" height="650.86"/>
+  <rect class="st14" x="50" y="3508.09" width="638" height="61.38"/>
+  <rect class="st14" x="50" y="3583.46" width="638" height="155.59"/>
+  <rect class="st14" x="50" y="3887.46" width="670.5" height="135.08"/>
+  <rect class="st14" x="40" y="4073.89" width="707.5" height="501.78"/>
+  <rect class="st14" x="50" y="4172.95" width="638" height="61.38"/>
+  <rect class="st14" x="50" y="4248.32" width="638" height="155.59"/>
+  <rect class="st14" x="50" y="4589.67" width="307.5" height="79.05"/>
+  <rect class="st14" x="30" y="4727.08" width="1199.5" height="4042.34"/>
+  <rect class="st14" x="40" y="4843.49" width="800.5" height="690.24"/>
+  <rect class="st14" x="50" y="4929.54" width="638" height="79.05"/>
+  <rect class="st14" x="50" y="5113.65" width="780.5" height="61.38"/>
+  <rect class="st14" x="50" y="5189.03" width="780.5" height="155.59"/>
+  <rect class="st14" x="40" y="5547.73" width="929.5" height="690.24"/>
+  <rect class="st14" x="50" y="5633.78" width="638" height="79.05"/>
+  <rect class="st14" x="50" y="5817.89" width="638" height="61.38"/>
+  <rect class="st14" x="50" y="5953.97" width="909.5" height="155.59"/>
+  <rect class="st14" x="40" y="6251.97" width="1179.5" height="827.48"/>
+  <rect class="st14" x="50" y="6338.03" width="638" height="79.05"/>
+  <rect class="st14" x="50" y="6522.14" width="638" height="61.38"/>
+  <rect class="st14" x="50" y="6718.92" width="1159.5" height="232.13"/>
+  <rect class="st14" x="40" y="7093.46" width="1048.5" height="827.48"/>
+  <rect class="st14" x="50" y="7179.51" width="638" height="79.05"/>
+  <rect class="st14" x="50" y="7363.62" width="638" height="61.38"/>
+  <rect class="st14" x="50" y="7560.4" width="1028.5" height="232.13"/>
+  <rect class="st14" x="40" y="7934.94" width="1048.5" height="827.48"/>
+  <rect class="st14" x="50" y="8021" width="638" height="79.05"/>
+  <rect class="st14" x="50" y="8205.1" width="638" height="61.38"/>
+  <rect class="st14" x="50" y="8401.89" width="1028.5" height="232.13"/>
+  <rect class="st14" x="40" y="8827.78" width="527" height="245.48"/>
+  <rect class="st14" x="50" y="8944.18" width="307.5" height="61.38"/>
+  <rect class="st14" x="40" y="9131.61" width="527" height="245.48"/>
+  <rect class="st14" x="50" y="9248.02" width="307.5" height="61.38"/>
+  <rect class="st14" x="50" y="9435.45" width="307.5" height="165.76"/>
+  <line class="st9" x1="107" y1="80.1" x2="107" y2="9632.21"/>
+  <line class="st9" x1="301.5" y1="80.1" x2="301.5" y2="9632.21"/>
+  <line class="st9" x1="506" y1="80.1" x2="506" y2="9632.21"/>
+  <line class="st9" x1="622" y1="80.1" x2="622" y2="9632.21"/>
+  <line class="st9" x1="755.5" y1="80.1" x2="755.5" y2="9632.21"/>
+  <line class="st9" x1="889.5" y1="80.1" x2="889.5" y2="9632.21"/>
+  <line class="st9" x1="1013.5" y1="80.1" x2="1013.5" y2="9632.21"/>
+  <line class="st9" x1="1138.5" y1="80.1" x2="1138.5" y2="9632.21"/>
+  <rect class="st10" x="85" y="49" width="44" height="30.1" rx="2.5" ry="2.5"/>
+  <text class="st3" transform="translate(92 69.13)"><tspan x="0" y="0">USIF</tspan></text>
+  <rect class="st10" x="85" y="9631.21" width="44" height="30.1" rx="2.5" ry="2.5"/>
+  <text class="st3" transform="translate(92 9651.34)"><tspan x="0" y="0">USIF</tspan></text>
+  <rect class="st10" x="281.5" y="49" width="41" height="30.1" rx="2.5" ry="2.5"/>
+  <text class="st3" transform="translate(288.5 69.13)"><tspan x="0" y="0">SYS</tspan></text>
+  <rect class="st10" x="281.5" y="9631.21" width="41" height="30.1" rx="2.5" ry="2.5"/>
+  <text class="st3" transform="translate(288.5 9651.34)"><tspan x="0" y="0">SYS</tspan></text>
+  <rect class="st10" x="480" y="49" width="52" height="30.1" rx="2.5" ry="2.5"/>
+  <text class="st3" transform="translate(487 69.13)"><tspan x="0" y="0">UTILS</tspan></text>
+  <rect class="st10" x="480" y="9631.21" width="52" height="30.1" rx="2.5" ry="2.5"/>
+  <text class="st3" transform="translate(487 9651.34)"><tspan x="0" y="0">UTILS</tspan></text>
+  <rect class="st10" x="592" y="49" width="61" height="30.1" rx="2.5" ry="2.5"/>
+  <text class="st3" transform="translate(599 69.13)"><tspan x="0" y="0">PROJM</tspan></text>
+  <rect class="st10" x="592" y="9631.21" width="61" height="30.1" rx="2.5" ry="2.5"/>
+  <text class="st3" transform="translate(599 9651.34)"><tspan x="0" y="0">PROJM</tspan></text>
+  <rect class="st10" x="715.5" y="49" width="80" height="30.1" rx="2.5" ry="2.5"/>
+  <text class="st3" transform="translate(722.5 69.13)"><tspan class="st66" x="0" y="0">DATA</tspan><tspan x="61.34" y="0">-</tspan></text>
+  <rect class="st10" x="715.5" y="9631.21" width="80" height="30.1" rx="2.5" ry="2.5"/>
+  <text class="st3" transform="translate(722.5 9651.34)"><tspan class="st66" x="0" y="0">DATA</tspan><tspan x="61.34" y="0">-</tspan></text>
+  <rect class="st10" x="855.5" y="49" width="69" height="30.1" rx="2.5" ry="2.5"/>
+  <text class="st3" transform="translate(862.5 69.13)"><tspan x="0" y="0">NLEGEN</tspan></text>
+  <rect class="st10" x="855.5" y="9631.21" width="69" height="30.1" rx="2.5" ry="2.5"/>
+  <text class="st3" transform="translate(862.5 9651.34)"><tspan x="0" y="0">NLEGEN</tspan></text>
+  <rect class="st10" x="984.5" y="49" width="59" height="30.1" rx="2.5" ry="2.5"/>
+  <text class="st3" transform="translate(991.5 69.13)"><tspan x="0" y="0">DANLY</tspan></text>
+  <rect class="st10" x="984.5" y="9631.21" width="59" height="30.1" rx="2.5" ry="2.5"/>
+  <text class="st3" transform="translate(991.5 9651.34)"><tspan x="0" y="0">DANLY</tspan></text>
+  <rect class="st10" x="1103.5" y="49" width="71" height="30.1" rx="2.5" ry="2.5"/>
+  <text class="st3" transform="translate(1110.5 69.13)"><tspan x="0" y="0">DEPGEN</tspan></text>
+  <rect class="st10" x="1103.5" y="9631.21" width="71" height="30.1" rx="2.5" ry="2.5"/>
+  <text class="st3" transform="translate(1110.5 9651.34)"><tspan x="0" y="0">DEPGEN</tspan></text>
+  <rect class="st23" x="297" y="194.82" width="10" height="863.3"/>
+  <rect class="st21" x="297" y="1169.85" width="10" height="60.7"/>
+  <rect class="st19" x="297" y="1429.66" width="10" height="554.96"/>
+  <rect class="st19" x="297" y="2285.94" width="10" height="554.96"/>
+  <rect class="st19" x="297" y="3078.03" width="10" height="76.54"/>
+  <rect class="st19" x="297" y="3222.28" width="10" height="30.35"/>
+  <rect class="st19" x="297" y="3356.68" width="10" height="30.35"/>
+  <rect class="st19" x="297" y="3624.17" width="10" height="76.54"/>
+  <rect class="st19" x="297" y="3768.41" width="10" height="30.35"/>
+  <rect class="st19" x="297" y="4289.03" width="10" height="76.54"/>
+  <rect class="st19" x="297" y="4433.27" width="10" height="30.35"/>
+  <rect class="st19" x="297" y="4630.38" width="10" height="30.35"/>
+  <rect class="st24" x="297" y="4798.14" width="10" height="3971.29"/>
+  <rect class="st22" x="297" y="8898.83" width="10" height="166.43"/>
+  <rect class="st18" x="297" y="9202.67" width="10" height="166.43"/>
+  <rect class="st20" x="297" y="9476.15" width="10" height="30.35"/>
+  <rect class="st23" x="501" y="592.88" width="10" height="132.24"/>
+  <rect class="st21" x="501" y="1169.85" width="10" height="60.7"/>
+  <rect class="st19" x="501" y="1429.66" width="10" height="3138.02"/>
+  <rect class="st24" x="501" y="4767.78" width="10" height="30.35"/>
+  <rect class="st22" x="501" y="8868.48" width="10" height="30.35"/>
+  <rect class="st18" x="501" y="9172.32" width="10" height="30.35"/>
+  <rect class="st23" x="617.5" y="592.88" width="10" height="132.24"/>
+  <rect class="st19" x="617.5" y="1330.6" width="10" height="3237.07"/>
+  <rect class="st24" x="617.5" y="4884.19" width="10" height="214.46"/>
+  <rect class="st24" x="617.5" y="5434.67" width="10" height="60.7"/>
+  <rect class="st24" x="617.5" y="5618.78" width="10" height="580.84"/>
+  <rect class="st24" x="617.5" y="6323.03" width="10" height="718.08"/>
+  <rect class="st24" x="617.5" y="7164.51" width="10" height="718.08"/>
+  <rect class="st24" x="617.5" y="8006" width="10" height="718.08"/>
+  <rect class="st23" x="750.5" y="592.88" width="10" height="132.24"/>
+  <rect class="st24" x="750.5" y="5068.3" width="10" height="237.97"/>
+  <rect class="st24" x="750.5" y="5373.97" width="10" height="121.41"/>
+  <rect class="st23" x="885" y="592.88" width="10" height="132.24"/>
+  <rect class="st24" x="885" y="5938.97" width="10" height="199.95"/>
+  <rect class="st23" x="1009" y="592.88" width="10" height="132.24"/>
+  <rect class="st24" x="1009" y="7545.4" width="10" height="276.48"/>
+  <rect class="st24" x="1009" y="8386.89" width="10" height="276.48"/>
+  <rect class="st23" x="1134" y="592.88" width="10" height="132.24"/>
+  <rect class="st24" x="1134" y="6703.92" width="10" height="276.48"/>
+  <rect class="st38" y="111.27" width="1259.5" height="3"/>
+  <line class="st11" y1="111.27" x2="1259.5" y2="111.27"/>
+  <line class="st11" y1="114.27" x2="1259.5" y2="114.27"/>
+  <rect class="st26" x="547.25" y="100.1" width="165" height="24.35"/>
+  <text class="st1" transform="translate(553.25 117.59)"><tspan x="0" y="0">BOOT</tspan><tspan class="st73" x="37.55" y="0"> </tspan><tspan x="40.84" y="0">&amp;</tspan><tspan class="st65" x="50.23" y="0"> </tspan><tspan x="53.51" y="0">INITIALIZATION</tspan></text>
+  <path class="st27" d="M30,141.45h86v8.35l-10,10H30v-18.35"/>
+  <rect class="st14" x="30" y="141.45" width="1189.5" height="916.67"/>
+  <text class="st1" transform="translate(45 155.94)"><tspan x="0" y="0">BOOT</tspan></text>
+  <text class="st4" transform="translate(131 154.87)"><tspan x="0" y="0">[BOOT- AND</tspan></text>
+  <text class="st4" transform="translate(131 168.7)"><tspan x="0" y="0">INITIAL CHECKS]</tspan></text>
+  <polygon class="st17" points="285 190.82 295 194.82 285 198.82 289 194.82 285 190.82"/>
+  <line class="st16" x1="107" y1="194.82" x2="291" y2="194.82"/>
+  <text class="st5" transform="translate(114 189.97)"><tspan x="0" y="0">init()</tspan></text>
+  <polygon class="st17" points="118 221.17 108 225.17 118 229.17 114 225.17 118 221.17"/>
+  <line class="st16" x1="112" y1="225.17" x2="296" y2="225.17"/>
+  <text class="st5" transform="translate(124 220.32)"><tspan x="0" y="0">show_splash()</tspan></text>
+  <path class="st27" d="M40,240.17h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="40" y="240.17" width="327.5" height="279"/>
+  <text class="st1" transform="translate(55 254.67)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(116 253.59)"><tspan x="0" y="0">[Check</tspan><tspan class="st47" x="36.68" y="0"> </tspan><tspan x="44.39" y="0">folder</tspan><tspan class="st46" x="74.95" y="0"> </tspan><tspan x="82.66" y="0">structure]</tspan></text>
+  <polygon class="st17" points="285 276.88 295 280.88 285 284.88 289 280.88 285 276.88"/>
+  <line class="st16" x1="107" y1="280.88" x2="291" y2="280.88"/>
+  <text class="st5" transform="translate(114 276.02)"><tspan x="0" y="0">check_folder_structure()</tspan></text>
+  <polygon class="st17" points="118 307.23 108 311.23 118 315.23 114 311.23 118 307.23"/>
+  <line class="st16" x1="112" y1="311.23" x2="296" y2="311.23"/>
+  <text class="st5" transform="translate(124 306.37)"><tspan x="0" y="0">True</tspan></text>
+  <line class="st12" x1="40" y1="320.23" x2="367.5" y2="320.23"/>
+  <text class="st4" transform="translate(45 331.65)"><tspan x="0" y="0">[Folder</tspan><tspan class="st51" x="37.28" y="0"> </tspan><tspan x="43.16" y="0">structure</tspan><tspan class="st51" x="90.84" y="0"> </tspan><tspan x="96.72" y="0">does</tspan><tspan class="st51" x="122.39" y="0"> </tspan><tspan x="128.28" y="0">not</tspan><tspan class="st0" x="145.38" y="0"> </tspan><tspan x="151.26" y="0">exist]</tspan></text>
+  <polygon class="st17" points="285 353.42 295 357.42 285 361.42 289 357.42 285 353.42"/>
+  <line class="st16" x1="107" y1="357.42" x2="291" y2="357.42"/>
+  <text class="st5" transform="translate(114 352.56)"><tspan x="0" y="0">check_folder_structure()</tspan></text>
+  <polygon class="st17" points="118 383.77 108 387.77 118 391.77 114 387.77 118 383.77"/>
+  <line class="st16" x1="112" y1="387.77" x2="296" y2="387.77"/>
+  <text class="st5" transform="translate(124 382.91)"><tspan class="st59" x="0" y="0">Fals</tspan><tspan x="24.77" y="0">e</tspan></text>
+  <polygon class="st17" points="285 414.12 295 418.12 285 422.12 289 418.12 285 414.12"/>
+  <line class="st16" x1="107" y1="418.12" x2="291" y2="418.12"/>
+  <text class="st5" transform="translate(114 413.26)"><tspan x="0" y="0">create_folder_structure()</tspan></text>
+  <path class="st27" d="M50,433.12h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="433.12" width="307.5" height="48.7"/>
+  <text class="st1" transform="translate(65 447.62)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 446.54)"><tspan x="0" y="0">[Permission</tspan><tspan class="st36" x="62.96" y="0"> </tspan><tspan x="72.44" y="0">Error]</tspan></text>
+  <line class="st15" x1="114" y1="468.82" x2="124" y2="478.82"/>
+  <line class="st15" x1="114" y1="478.82" x2="124" y2="468.82"/>
+  <line class="st16" x1="119" y1="473.82" x2="296" y2="473.82"/>
+  <text class="st1" transform="translate(124 468.97)"><tspan x="0" y="0">ERR004 / EXIT (1)</tspan></text>
+  <polygon class="st17" points="118 507.17 108 511.17 118 515.17 114 511.17 118 507.17"/>
+  <line class="st16" x1="112" y1="511.17" x2="296" y2="511.17"/>
+  <text class="st5" transform="translate(124 506.32)"><tspan x="0" y="0">True</tspan></text>
+  <rect class="st38" y="547.35" width="1259.5" height="3"/>
+  <line class="st11" y1="547.35" x2="1259.5" y2="547.35"/>
+  <line class="st11" y1="550.35" x2="1259.5" y2="550.35"/>
+  <rect class="st26" x="555.75" y="536.17" width="148" height="24.35"/>
+  <line class="st11" x1="557.75" y1="548.35" x2="561.75" y2="548.35"/>
+  <line class="st11" x1="557.75" y1="550.35" x2="561.75" y2="550.35"/>
+  <text class="st1" transform="translate(561.75 553.17)"><tspan x="0" y="0">DEPENDENCY CHECK</tspan></text>
+  <line class="st11" x1="695.75" y1="548.35" x2="699.75" y2="548.35"/>
+  <line class="st11" x1="695.75" y1="550.35" x2="699.75" y2="550.35"/>
+  <polygon class="st17" points="1122 588.88 1132 592.88 1122 596.88 1126 592.88 1122 588.88"/>
+  <line class="st13" x1="307" y1="592.88" x2="1128" y2="592.88"/>
+  <text class="st5" transform="translate(314 588.02)"><tspan x="0" y="0">check_dependencies()</tspan></text>
+  <path class="st27" d="M50,607.88h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="607.88" width="1159.5" height="185.95"/>
+  <text class="st1" transform="translate(65 622.37)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 621.3)"><tspan x="0" y="0">[SUCCESS]</tspan></text>
+  <polygon class="st17" points="318 644.58 308 648.58 318 652.58 314 648.58 318 644.58"/>
+  <line class="st13" x1="312" y1="648.58" x2="1133" y2="648.58"/>
+  <text class="st5" transform="translate(324 643.72)"><tspan x="0" y="0">True</tspan></text>
+  <polygon class="st17" points="118 674.93 108 678.93 118 682.93 114 678.93 118 674.93"/>
+  <line class="st16" x1="112" y1="678.93" x2="296" y2="678.93"/>
+  <text class="st5" transform="translate(124 674.08)"><tspan x="0" y="0">update_splash()</tspan></text>
+  <line class="st12" x1="50" y1="687.93" x2="1209.5" y2="687.93"/>
+  <text class="st4" transform="translate(55 699.35)"><tspan x="0" y="0">[FAILURE]</tspan></text>
+  <polygon class="st17" points="318 721.12 308 725.12 318 729.12 314 725.12 318 721.12"/>
+  <line class="st13" x1="312" y1="725.12" x2="1138" y2="725.12"/>
+  <text class="st1" transform="translate(324 720.26)"><tspan x="0" y="0">ERR001</tspan></text>
+  <polygon class="st17" points="118 751.47 108 755.47 118 759.47 114 755.47 118 751.47"/>
+  <line class="st16" x1="112" y1="755.47" x2="296" y2="755.47"/>
+  <text class="st5" transform="translate(124 750.62)"><tspan x="0" y="0">remove_splash()</tspan></text>
+  <line class="st15" x1="114" y1="780.82" x2="124" y2="790.82"/>
+  <line class="st15" x1="114" y1="790.82" x2="124" y2="780.82"/>
+  <line class="st16" x1="119" y1="785.82" x2="296" y2="785.82"/>
+  <text class="st1" transform="translate(124 780.97)"><tspan x="0" y="0">ERR001 / EXIT(1)</tspan></text>
+  <rect class="st38" y="822" width="1259.5" height="3"/>
+  <line class="st11" y1="822" x2="1259.5" y2="822"/>
+  <line class="st11" y1="825" x2="1259.5" y2="825"/>
+  <rect class="st26" x="567.25" y="810.82" width="125" height="24.35"/>
+  <line class="st11" x1="569.25" y1="823" x2="573.25" y2="823"/>
+  <line class="st11" x1="569.25" y1="825" x2="573.25" y2="825"/>
+  <text class="st1" transform="translate(573.25 827.82)"><tspan x="0" y="0">PACKAGE CHECK</tspan></text>
+  <line class="st11" x1="684.25" y1="823" x2="688.25" y2="823"/>
+  <line class="st11" x1="684.25" y1="825" x2="688.25" y2="825"/>
+  <line class="st16" x1="307" y1="867.53" x2="349" y2="867.53"/>
+  <line class="st16" x1="349" y1="867.53" x2="349" y2="880.53"/>
+  <line class="st16" x1="308" y1="880.53" x2="349" y2="880.53"/>
+  <polygon class="st17" points="318 876.53 308 880.53 318 884.53 314 880.53 318 876.53"/>
+  <text class="st5" transform="translate(314 862.67)"><tspan class="st44" x="0" y="0">check_packages(</tspan><tspan x="101.67" y="0">)</tspan></text>
+  <path class="st27" d="M50,895.53h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="895.53" width="307.5" height="155.59"/>
+  <text class="st1" transform="translate(65 910.02)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 908.95)"><tspan x="0" y="0">[SUCCESS]</tspan></text>
+  <polygon class="st17" points="118 932.23 108 936.23 118 940.23 114 936.23 118 932.23"/>
+  <line class="st16" x1="112" y1="936.23" x2="296" y2="936.23"/>
+  <text class="st5" transform="translate(124 931.37)"><tspan x="0" y="0">remove_splash()</tspan></text>
+  <polygon class="st17" points="118 962.58 108 966.58 118 970.58 114 966.58 118 962.58"/>
+  <line class="st16" x1="112" y1="966.58" x2="296" y2="966.58"/>
+  <text class="st5" transform="translate(124 961.72)"><tspan x="0" y="0">True</tspan></text>
+  <line class="st12" x1="50" y1="975.58" x2="357.5" y2="975.58"/>
+  <text class="st4" transform="translate(55 987)"><tspan x="0" y="0">[FAILURE]</tspan></text>
+  <polygon class="st17" points="118 1008.77 108 1012.77 118 1016.77 114 1012.77 118 1008.77"/>
+  <line class="st16" x1="112" y1="1012.77" x2="296" y2="1012.77"/>
+  <text class="st5" transform="translate(124 1007.91)"><tspan x="0" y="0">remove_splash()</tspan></text>
+  <line class="st15" x1="114" y1="1038.12" x2="124" y2="1048.12"/>
+  <line class="st15" x1="114" y1="1048.12" x2="124" y2="1038.12"/>
+  <line class="st16" x1="119" y1="1043.12" x2="296" y2="1043.12"/>
+  <text class="st1" transform="translate(124 1038.26)"><tspan x="0" y="0">ERR002 / EXIT(1)</tspan></text>
+  <rect class="st38" y="1086.3" width="1259.5" height="3"/>
+  <line class="st11" y1="1086.3" x2="1259.5" y2="1086.3"/>
+  <line class="st11" y1="1089.3" x2="1259.5" y2="1089.3"/>
+  <rect class="st26" x="552.75" y="1075.12" width="154" height="24.35"/>
+  <text class="st1" transform="translate(558.75 1092.62)"><tspan x="0" y="0">MAIN FUNCTIONALITY</tspan></text>
+  <path class="st27" d="M10,1116.47h82v8.35l-10,10H10v-18.35"/>
+  <rect class="st14" x="10" y="1116.47" width="1239.5" height="8498.73"/>
+  <text class="st1" transform="translate(25 1130.97)"><tspan x="0" y="0">MAIN</tspan></text>
+  <text class="st4" transform="translate(107 1129.89)"><tspan class="st54" x="0" y="0">[MAI</tspan><tspan x="24.06" y="0">N</tspan></text>
+  <text class="st4" transform="translate(107 1143.73)"><tspan x="0" y="0">FUNCTIONALITY]</tspan></text>
+  <polygon class="st17" points="489 1165.85 499 1169.85 489 1173.85 493 1169.85 489 1165.85"/>
+  <line class="st16" x1="107" y1="1169.85" x2="495" y2="1169.85"/>
+  <text class="st5" transform="translate(114 1164.99)"><tspan x="0" y="0">boot_mame()</tspan></text>
+  <polygon class="st17" points="318 1196.2 308 1200.2 318 1204.2 314 1200.2 318 1196.2"/>
+  <line class="st13" x1="312" y1="1200.2" x2="500" y2="1200.2"/>
+  <text class="st5" transform="translate(324 1195.34)"><tspan x="0" y="0">Retrieve Main Menu Contents</tspan></text>
+  <polygon class="st17" points="118 1226.55 108 1230.55 118 1234.55 114 1230.55 118 1226.55"/>
+  <line class="st13" x1="112" y1="1230.55" x2="301" y2="1230.55"/>
+  <text class="st5" transform="translate(124 1225.69)"><tspan x="0" y="0">Return Menu</tspan></text>
+  <rect class="st38" y="1259.73" width="1259.5" height="3"/>
+  <line class="st11" y1="1259.73" x2="1259.5" y2="1259.73"/>
+  <line class="st11" y1="1262.73" x2="1259.5" y2="1262.73"/>
+  <rect class="st26" x="558.25" y="1248.55" width="143" height="24.35"/>
+  <line class="st11" x1="560.25" y1="1260.73" x2="564.25" y2="1260.73"/>
+  <line class="st11" x1="560.25" y1="1262.73" x2="564.25" y2="1262.73"/>
+  <text class="st1" transform="translate(564.25 1265.54)"><tspan x="0" y="0">PROJECT MANAGER</tspan></text>
+  <line class="st11" x1="693.25" y1="1260.73" x2="697.25" y2="1260.73"/>
+  <line class="st11" x1="693.25" y1="1262.73" x2="697.25" y2="1262.73"/>
+  <path class="st27" d="M20,1289.9h65v8.35l-10,10H20v-18.35"/>
+  <rect class="st14" x="20" y="1289.9" width="1219.5" height="8318.3"/>
+  <text class="st1" transform="translate(35 1304.4)"><tspan x="0" y="0">opt</tspan></text>
+  <text class="st4" transform="translate(100 1303.32)"><tspan x="0" y="0">[PROJECTMANAGER]</tspan></text>
+  <polygon class="st17" points="605.5 1326.6 615.5 1330.6 605.5 1334.6 609.5 1330.6 605.5 1326.6"/>
+  <line class="st16" x1="107" y1="1330.6" x2="611.5" y2="1330.6"/>
+  <text class="st5" transform="translate(114 1325.75)"><tspan x="0" y="0">boot_projm()</tspan></text>
+  <path class="st27" d="M40,1345.6h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="40" y="1345.6" width="725.5" height="811.93"/>
+  <text class="st1" transform="translate(55 1360.1)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(116 1359.02)"><tspan x="0" y="0">[No</tspan><tspan class="st42" x="18.33" y="0"> </tspan><tspan x="22.83" y="0">Projects</tspan><tspan class="st31" x="66.24" y="0"> </tspan><tspan x="70.74" y="0">Found]</tspan></text>
+  <line class="st16" x1="627.5" y1="1386.31" x2="669.5" y2="1386.31"/>
+  <line class="st16" x1="669.5" y1="1386.31" x2="669.5" y2="1399.31"/>
+  <line class="st16" x1="628.5" y1="1399.31" x2="669.5" y2="1399.31"/>
+  <polygon class="st17" points="638.5 1395.31 628.5 1399.31 638.5 1403.31 634.5 1399.31 638.5 1395.31"/>
+  <text class="st5" transform="translate(634.5 1381.45)"><tspan x="0" y="0">create_project()</tspan></text>
+  <polygon class="st17" points="318 1425.66 308 1429.66 318 1433.66 314 1429.66 318 1425.66"/>
+  <line class="st13" x1="312" y1="1429.66" x2="616.5" y2="1429.66"/>
+  <text class="st5" transform="translate(324 1424.8)"><tspan x="0" y="0">Retrieve Setup Contents</tspan></text>
+  <polygon class="st17" points="118 1456.01 108 1460.01 118 1464.01 114 1460.01 118 1456.01"/>
+  <line class="st13" x1="112" y1="1460.01" x2="296" y2="1460.01"/>
+  <text class="st5" transform="translate(124 1455.15)"><tspan x="0" y="0">Show Setup</tspan></text>
+  <path class="st27" d="M50,1475.01h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="1475.01" width="638" height="61.38"/>
+  <text class="st1" transform="translate(65 1489.51)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 1488.43)"><tspan class="st64" x="0" y="0">[Keyboar</tspan><tspan x="49.28" y="0">d</tspan></text>
+  <text class="st4" transform="translate(126 1502.27)"><tspan class="st61" x="0" y="0">Interrupt</tspan><tspan class="st33" x="49.34" y="0">]</tspan></text>
+  <line class="st15" x1="114" y1="1523.39" x2="124" y2="1533.39"/>
+  <line class="st15" x1="114" y1="1533.39" x2="124" y2="1523.39"/>
+  <line class="st16" x1="119" y1="1528.39" x2="616.5" y2="1528.39"/>
+  <text class="st1" transform="translate(124 1523.53)"><tspan x="0" y="0">ERR003 / EXIT(0)</tspan></text>
+  <polygon class="st17" points="605.5 1561.74 615.5 1565.74 605.5 1569.74 609.5 1565.74 605.5 1561.74"/>
+  <line class="st13" x1="107" y1="1565.74" x2="611.5" y2="1565.74"/>
+  <text class="st5" transform="translate(114 1560.88)"><tspan x="0" y="0">Send Data</tspan></text>
+  <line class="st16" x1="627.5" y1="1596.09" x2="669.5" y2="1596.09"/>
+  <line class="st16" x1="669.5" y1="1596.09" x2="669.5" y2="1609.09"/>
+  <line class="st16" x1="628.5" y1="1609.09" x2="669.5" y2="1609.09"/>
+  <polygon class="st17" points="638.5 1605.09 628.5 1609.09 638.5 1613.09 634.5 1609.09 638.5 1605.09"/>
+  <text class="st5" transform="translate(634.5 1591.23)"><tspan x="0" y="0">create_structures()</tspan></text>
+  <path class="st27" d="M50,1624.09h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="1624.09" width="638" height="182.1"/>
+  <text class="st1" transform="translate(65 1638.58)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 1637.51)"><tspan class="st49" x="0" y="0">[Permissio</tspan><tspan x="61.28" y="0">n</tspan></text>
+  <text class="st4" transform="translate(129 1651.34)"><tspan class="st71" x="0" y="0">Error</tspan><tspan x="28.34" y="0">]</tspan></text>
+  <polygon class="st17" points="318 1673.46 308 1677.46 318 1681.46 314 1677.46 318 1673.46"/>
+  <line class="st16" x1="312" y1="1677.46" x2="616.5" y2="1677.46"/>
+  <text class="st1" transform="translate(324 1672.61)"><tspan x="0" y="0">ERR004</tspan></text>
+  <polygon class="st17" points="118 1703.82 108 1707.82 118 1711.82 114 1707.82 118 1703.82"/>
+  <line class="st16" x1="112" y1="1707.82" x2="296" y2="1707.82"/>
+  <text class="st1" transform="translate(124 1702.96)"><tspan x="0" y="0">ERR004 / BACK</tspan></text>
+  <line class="st12" x1="50" y1="1716.82" x2="688" y2="1716.82"/>
+  <text class="st4" transform="translate(55 1728.23)"><tspan class="st55" x="0" y="0">[Generi</tspan><tspan x="40.88" y="0">c</tspan></text>
+  <text class="st4" transform="translate(58 1742.07)"><tspan class="st71" x="0" y="0">Error</tspan><tspan x="28.34" y="0">]</tspan></text>
+  <polygon class="st17" points="318 1763.84 308 1767.84 318 1771.84 314 1767.84 318 1763.84"/>
+  <line class="st16" x1="312" y1="1767.84" x2="616.5" y2="1767.84"/>
+  <text class="st1" transform="translate(324 1762.98)"><tspan x="0" y="0">ERR005</tspan></text>
+  <line class="st15" x1="114" y1="1793.19" x2="124" y2="1803.19"/>
+  <line class="st15" x1="114" y1="1803.19" x2="124" y2="1793.19"/>
+  <line class="st16" x1="119" y1="1798.19" x2="296" y2="1798.19"/>
+  <text class="st1" transform="translate(124 1793.33)"><tspan x="0" y="0">ERR005 / EXIT(1)</tspan></text>
+  <path class="st27" d="M50,1820.19h73v8.35l-10,10h-63v-18.35"/>
+  <rect class="st14" x="50" y="1820.19" width="705.5" height="135.08"/>
+  <text class="st1" transform="translate(65 1834.69)"><tspan class="st62" x="0" y="0">loo</tspan><tspan x="20.06" y="0">p</tspan></text>
+  <text class="st4" transform="translate(138 1833.61)"><tspan x="0" y="0">[while</tspan><tspan class="st69" x="31.17" y="0"> </tspan><tspan x="38.11" y="0">len</tspan></text>
+  <text class="st4" transform="translate(138 1847.45)"><tspan x="0" y="0">(name)&gt;</tspan><tspan class="st60" x="42.49" y="0"> </tspan><tspan x="48.1" y="0">30]</tspan></text>
+  <polygon class="st17" points="118 1869.57 108 1873.57 118 1877.57 114 1873.57 118 1869.57"/>
+  <line class="st16" x1="112" y1="1873.57" x2="616.5" y2="1873.57"/>
+  <text class="st1" transform="translate(124 1868.71)"><tspan x="0" y="0">ERR006</tspan></text>
+  <polygon class="st17" points="605.5 1899.92 615.5 1903.92 605.5 1907.92 609.5 1903.92 605.5 1899.92"/>
+  <line class="st16" x1="107" y1="1903.92" x2="611.5" y2="1903.92"/>
+  <text class="st5" transform="translate(114 1899.06)"><tspan x="0" y="0">Retry</tspan></text>
+  <line class="st16" x1="627.5" y1="1934.27" x2="669.5" y2="1934.27"/>
+  <line class="st16" x1="669.5" y1="1934.27" x2="669.5" y2="1947.27"/>
+  <line class="st16" x1="628.5" y1="1947.27" x2="669.5" y2="1947.27"/>
+  <polygon class="st17" points="638.5 1943.27 628.5 1947.27 638.5 1951.27 634.5 1947.27 638.5 1943.27"/>
+  <text class="st5" transform="translate(634.5 1929.41)"><tspan x="0" y="0">create_structures()</tspan></text>
+  <polygon class="st17" points="118 1980.62 108 1984.62 118 1988.62 114 1984.62 118 1980.62"/>
+  <line class="st13" x1="112" y1="1984.62" x2="616.5" y2="1984.62"/>
+  <text class="st5" transform="translate(124 1979.76)"><tspan x="0" y="0">Break</tspan></text>
+  <line class="st12" x1="40" y1="1993.62" x2="765.5" y2="1993.62"/>
+  <text class="st4" transform="translate(45 2005.04)"><tspan x="0" y="0">[Projects</tspan><tspan class="st28" x="47.07" y="0"> </tspan><tspan x="53.74" y="0">Found]</tspan></text>
+  <line class="st16" x1="627.5" y1="2030.81" x2="669.5" y2="2030.81"/>
+  <line class="st16" x1="669.5" y1="2030.81" x2="669.5" y2="2043.81"/>
+  <line class="st16" x1="628.5" y1="2043.81" x2="669.5" y2="2043.81"/>
+  <polygon class="st17" points="638.5 2039.81 628.5 2043.81 638.5 2047.81 634.5 2043.81 638.5 2039.81"/>
+  <text class="st5" transform="translate(634.5 2025.95)"><tspan class="st45" x="0" y="0">check_projects(</tspan><tspan x="91.67" y="0">)</tspan></text>
+  <path class="st27" d="M50,2058.81h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="2058.81" width="638" height="61.38"/>
+  <text class="st1" transform="translate(65 2073.3)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 2072.23)"><tspan class="st64" x="0" y="0">[Keyboar</tspan><tspan x="49.28" y="0">d</tspan></text>
+  <text class="st4" transform="translate(126 2086.06)"><tspan class="st61" x="0" y="0">Interrupt</tspan><tspan class="st33" x="49.34" y="0">]</tspan></text>
+  <line class="st15" x1="114" y1="2107.18" x2="124" y2="2117.18"/>
+  <line class="st15" x1="114" y1="2117.18" x2="124" y2="2107.18"/>
+  <line class="st16" x1="119" y1="2112.18" x2="616.5" y2="2112.18"/>
+  <text class="st1" transform="translate(124 2107.33)"><tspan x="0" y="0">ERR003 / EXIT(0)</tspan></text>
+  <polygon class="st17" points="118 2145.53 108 2149.53 118 2153.53 114 2149.53 118 2145.53"/>
+  <line class="st13" x1="112" y1="2149.53" x2="616.5" y2="2149.53"/>
+  <text class="st5" transform="translate(124 2144.68)"><tspan x="0" y="0">Break</tspan></text>
+  <path class="st27" d="M40,2171.53h65v8.35l-10,10h-55v-18.35"/>
+  <rect class="st14" x="40" y="2171.53" width="725.5" height="677.37"/>
+  <text class="st1" transform="translate(55 2186.03)"><tspan x="0" y="0">opt</tspan></text>
+  <text class="st4" transform="translate(120 2184.95)"><tspan x="0" y="0">[CREATE PROJECT]</tspan></text>
+  <polygon class="st17" points="605.5 2208.24 615.5 2212.24 605.5 2216.24 609.5 2212.24 605.5 2208.24"/>
+  <line class="st13" x1="107" y1="2212.24" x2="611.5" y2="2212.24"/>
+  <text class="st5" transform="translate(114 2207.38)"><tspan x="0" y="0">Function</tspan><tspan class="st56" x="49.86" y="0"> </tspan><tspan x="54.5" y="0">call</tspan></text>
+  <line class="st16" x1="627.5" y1="2242.59" x2="669.5" y2="2242.59"/>
+  <line class="st16" x1="669.5" y1="2242.59" x2="669.5" y2="2255.59"/>
+  <line class="st16" x1="628.5" y1="2255.59" x2="669.5" y2="2255.59"/>
+  <polygon class="st17" points="638.5 2251.59 628.5 2255.59 638.5 2259.59 634.5 2255.59 638.5 2251.59"/>
+  <text class="st5" transform="translate(634.5 2237.73)"><tspan x="0" y="0">create_project()</tspan></text>
+  <polygon class="st17" points="318 2281.94 308 2285.94 318 2289.94 314 2285.94 318 2281.94"/>
+  <line class="st13" x1="312" y1="2285.94" x2="616.5" y2="2285.94"/>
+  <text class="st5" transform="translate(324 2281.08)"><tspan x="0" y="0">Retrieve Setup Contents</tspan></text>
+  <polygon class="st17" points="118 2312.29 108 2316.29 118 2320.29 114 2316.29 118 2312.29"/>
+  <line class="st13" x1="112" y1="2316.29" x2="296" y2="2316.29"/>
+  <text class="st5" transform="translate(124 2311.44)"><tspan x="0" y="0">Show Setup</tspan></text>
+  <path class="st27" d="M50,2331.29h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="2331.29" width="638" height="61.38"/>
+  <text class="st1" transform="translate(65 2345.79)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 2344.71)"><tspan class="st64" x="0" y="0">[Keyboar</tspan><tspan x="49.28" y="0">d</tspan></text>
+  <text class="st4" transform="translate(126 2358.55)"><tspan class="st61" x="0" y="0">Interrupt</tspan><tspan class="st33" x="49.34" y="0">]</tspan></text>
+  <line class="st15" x1="114" y1="2379.67" x2="124" y2="2389.67"/>
+  <line class="st15" x1="114" y1="2389.67" x2="124" y2="2379.67"/>
+  <line class="st16" x1="119" y1="2384.67" x2="616.5" y2="2384.67"/>
+  <text class="st1" transform="translate(124 2379.81)"><tspan x="0" y="0">ERR003 / EXIT(0)</tspan></text>
+  <polygon class="st17" points="605.5 2418.02 615.5 2422.02 605.5 2426.02 609.5 2422.02 605.5 2418.02"/>
+  <line class="st13" x1="107" y1="2422.02" x2="611.5" y2="2422.02"/>
+  <text class="st5" transform="translate(114 2417.16)"><tspan x="0" y="0">Send Data</tspan></text>
+  <line class="st16" x1="627.5" y1="2452.37" x2="669.5" y2="2452.37"/>
+  <line class="st16" x1="669.5" y1="2452.37" x2="669.5" y2="2465.37"/>
+  <line class="st16" x1="628.5" y1="2465.37" x2="669.5" y2="2465.37"/>
+  <polygon class="st17" points="638.5 2461.37 628.5 2465.37 638.5 2469.37 634.5 2465.37 638.5 2461.37"/>
+  <text class="st5" transform="translate(634.5 2447.51)"><tspan x="0" y="0">create_structures()</tspan></text>
+  <path class="st27" d="M50,2480.37h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="2480.37" width="638" height="182.1"/>
+  <text class="st1" transform="translate(65 2494.87)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 2493.79)"><tspan class="st49" x="0" y="0">[Permissio</tspan><tspan x="61.28" y="0">n</tspan></text>
+  <text class="st4" transform="translate(129 2507.62)"><tspan class="st71" x="0" y="0">Error</tspan><tspan x="28.34" y="0">]</tspan></text>
+  <polygon class="st17" points="318 2529.75 308 2533.75 318 2537.75 314 2533.75 318 2529.75"/>
+  <line class="st16" x1="312" y1="2533.75" x2="616.5" y2="2533.75"/>
+  <text class="st1" transform="translate(324 2528.89)"><tspan x="0" y="0">ERR004</tspan></text>
+  <polygon class="st17" points="118 2560.1 108 2564.1 118 2568.1 114 2564.1 118 2560.1"/>
+  <line class="st16" x1="112" y1="2564.1" x2="296" y2="2564.1"/>
+  <text class="st1" transform="translate(124 2559.24)"><tspan x="0" y="0">ERR004 / BACK</tspan></text>
+  <line class="st12" x1="50" y1="2573.1" x2="688" y2="2573.1"/>
+  <text class="st4" transform="translate(55 2584.52)"><tspan class="st55" x="0" y="0">[Generi</tspan><tspan x="40.88" y="0">c</tspan></text>
+  <text class="st4" transform="translate(58 2598.35)"><tspan class="st71" x="0" y="0">Error</tspan><tspan x="28.34" y="0">]</tspan></text>
+  <polygon class="st17" points="318 2620.12 308 2624.12 318 2628.12 314 2624.12 318 2620.12"/>
+  <line class="st16" x1="312" y1="2624.12" x2="616.5" y2="2624.12"/>
+  <text class="st1" transform="translate(324 2619.26)"><tspan x="0" y="0">ERR005</tspan></text>
+  <line class="st15" x1="114" y1="2649.47" x2="124" y2="2659.47"/>
+  <line class="st15" x1="114" y1="2659.47" x2="124" y2="2649.47"/>
+  <line class="st16" x1="119" y1="2654.47" x2="296" y2="2654.47"/>
+  <text class="st1" transform="translate(124 2649.62)"><tspan x="0" y="0">ERR005 / EXIT(1)</tspan></text>
+  <path class="st27" d="M50,2676.47h73v8.35l-10,10h-63v-18.35"/>
+  <rect class="st14" x="50" y="2676.47" width="705.5" height="135.08"/>
+  <text class="st1" transform="translate(65 2690.97)"><tspan class="st62" x="0" y="0">loo</tspan><tspan x="20.06" y="0">p</tspan></text>
+  <text class="st4" transform="translate(138 2689.89)"><tspan x="0" y="0">[while</tspan><tspan class="st69" x="31.17" y="0"> </tspan><tspan x="38.11" y="0">len</tspan></text>
+  <text class="st4" transform="translate(138 2703.73)"><tspan x="0" y="0">(name)&gt;</tspan><tspan class="st60" x="42.49" y="0"> </tspan><tspan x="48.1" y="0">30]</tspan></text>
+  <polygon class="st17" points="118 2725.85 108 2729.85 118 2733.85 114 2729.85 118 2725.85"/>
+  <line class="st16" x1="112" y1="2729.85" x2="616.5" y2="2729.85"/>
+  <text class="st1" transform="translate(124 2724.99)"><tspan x="0" y="0">ERR006</tspan></text>
+  <polygon class="st17" points="605.5 2756.2 615.5 2760.2 605.5 2764.2 609.5 2760.2 605.5 2756.2"/>
+  <line class="st16" x1="107" y1="2760.2" x2="611.5" y2="2760.2"/>
+  <text class="st5" transform="translate(114 2755.34)"><tspan x="0" y="0">Retry</tspan></text>
+  <line class="st16" x1="627.5" y1="2790.55" x2="669.5" y2="2790.55"/>
+  <line class="st16" x1="669.5" y1="2790.55" x2="669.5" y2="2803.55"/>
+  <line class="st16" x1="628.5" y1="2803.55" x2="669.5" y2="2803.55"/>
+  <polygon class="st17" points="638.5 2799.55 628.5 2803.55 638.5 2807.55 634.5 2803.55 638.5 2799.55"/>
+  <text class="st5" transform="translate(634.5 2785.69)"><tspan x="0" y="0">create_structures()</tspan></text>
+  <polygon class="st17" points="118 2836.9 108 2840.9 118 2844.9 114 2840.9 118 2836.9"/>
+  <line class="st13" x1="112" y1="2840.9" x2="616.5" y2="2840.9"/>
+  <text class="st5" transform="translate(124 2836.04)"><tspan x="0" y="0">Break</tspan></text>
+  <path class="st27" d="M40,2862.9h65v8.35l-10,10h-55v-18.35"/>
+  <rect class="st14" x="40" y="2862.9" width="707.5" height="532.13"/>
+  <text class="st1" transform="translate(55 2877.4)"><tspan x="0" y="0">opt</tspan></text>
+  <text class="st4" transform="translate(120 2876.32)"><tspan x="0" y="0">[VIEW PROJECT]</tspan></text>
+  <polygon class="st17" points="605.5 2899.6 615.5 2903.6 605.5 2907.6 609.5 2903.6 605.5 2899.6"/>
+  <line class="st16" x1="107" y1="2903.6" x2="611.5" y2="2903.6"/>
+  <text class="st5" transform="translate(114 2898.75)"><tspan x="0" y="0">Function</tspan><tspan class="st56" x="49.86" y="0"> </tspan><tspan x="54.5" y="0">call</tspan></text>
+  <line class="st16" x1="627.5" y1="2933.96" x2="669.5" y2="2933.96"/>
+  <line class="st16" x1="669.5" y1="2933.96" x2="669.5" y2="2946.96"/>
+  <line class="st16" x1="628.5" y1="2946.96" x2="669.5" y2="2946.96"/>
+  <polygon class="st17" points="638.5 2942.96 628.5 2946.96 638.5 2950.96 634.5 2946.96 638.5 2942.96"/>
+  <text class="st5" transform="translate(634.5 2929.1)"><tspan x="0" y="0">retrieve_proj_list()</tspan></text>
+  <path class="st27" d="M50,2961.96h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="2961.96" width="638" height="61.38"/>
+  <text class="st1" transform="translate(65 2976.45)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 2975.38)"><tspan class="st64" x="0" y="0">[Keyboar</tspan><tspan x="49.28" y="0">d</tspan></text>
+  <text class="st4" transform="translate(126 2989.21)"><tspan class="st61" x="0" y="0">Interrupt</tspan><tspan class="st33" x="49.34" y="0">]</tspan></text>
+  <line class="st15" x1="114" y1="3010.33" x2="124" y2="3020.33"/>
+  <line class="st15" x1="114" y1="3020.33" x2="124" y2="3010.33"/>
+  <line class="st16" x1="119" y1="3015.33" x2="616.5" y2="3015.33"/>
+  <text class="st1" transform="translate(124 3010.47)"><tspan x="0" y="0">ERR003 / EXIT(0)</tspan></text>
+  <path class="st27" d="M50,3037.33h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="3037.33" width="638" height="155.59"/>
+  <text class="st1" transform="translate(65 3051.83)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 3050.75)"><tspan x="0" y="0">[No</tspan><tspan class="st42" x="18.33" y="0"> </tspan><tspan x="22.83" y="0">Projects</tspan><tspan class="st31" x="66.24" y="0"> </tspan><tspan x="70.74" y="0">Found]</tspan></text>
+  <polygon class="st17" points="318 3074.03 308 3078.03 318 3082.03 314 3078.03 318 3074.03"/>
+  <line class="st16" x1="312" y1="3078.03" x2="616.5" y2="3078.03"/>
+  <text class="st1" transform="translate(324 3073.18)"><tspan x="0" y="0">ERR007</tspan></text>
+  <polygon class="st17" points="118 3104.39 108 3108.39 118 3112.39 114 3108.39 118 3104.39"/>
+  <line class="st16" x1="112" y1="3108.39" x2="296" y2="3108.39"/>
+  <text class="st1" transform="translate(124 3103.53)"><tspan x="0" y="0">ERR007 / BACK</tspan></text>
+  <line class="st12" x1="50" y1="3117.39" x2="688" y2="3117.39"/>
+  <text class="st4" transform="translate(55 3128.8)"><tspan x="0" y="0">[GENERIC ERROR]</tspan></text>
+  <polygon class="st17" points="313 3150.57 303 3154.57 313 3158.57 309 3154.57 313 3150.57"/>
+  <line class="st16" x1="307" y1="3154.57" x2="616.5" y2="3154.57"/>
+  <text class="st1" transform="translate(319 3149.72)"><tspan x="0" y="0">ERR005</tspan></text>
+  <line class="st15" x1="114" y1="3179.92" x2="124" y2="3189.92"/>
+  <line class="st15" x1="114" y1="3189.92" x2="124" y2="3179.92"/>
+  <line class="st16" x1="119" y1="3184.92" x2="301" y2="3184.92"/>
+  <text class="st1" transform="translate(124 3180.07)"><tspan x="0" y="0">ERR005 / EXIT(1)</tspan></text>
+  <polygon class="st17" points="318 3218.28 308 3222.28 318 3226.28 314 3222.28 318 3218.28"/>
+  <line class="st13" x1="312" y1="3222.28" x2="616.5" y2="3222.28"/>
+  <text class="st5" transform="translate(324 3217.42)"><tspan x="0" y="0">Return Data</tspan></text>
+  <polygon class="st17" points="118 3248.63 108 3252.63 118 3256.63 114 3252.63 118 3248.63"/>
+  <line class="st13" x1="112" y1="3252.63" x2="301" y2="3252.63"/>
+  <text class="st5" transform="translate(124 3247.77)"><tspan x="0" y="0">Show</tspan><tspan class="st25" x="32.52" y="0"> </tspan><tspan x="36.77" y="0">List</tspan></text>
+  <polygon class="st17" points="605.5 3278.98 615.5 3282.98 605.5 3286.98 609.5 3282.98 605.5 3278.98"/>
+  <line class="st16" x1="107" y1="3282.98" x2="611.5" y2="3282.98"/>
+  <text class="st5" transform="translate(114 3278.12)"><tspan x="0" y="0">Function</tspan><tspan class="st29" x="49.86" y="0"> </tspan><tspan x="53.61" y="0">Call</tspan></text>
+  <line class="st16" x1="627.5" y1="3313.33" x2="669.5" y2="3313.33"/>
+  <line class="st16" x1="669.5" y1="3313.33" x2="669.5" y2="3326.33"/>
+  <line class="st16" x1="628.5" y1="3326.33" x2="669.5" y2="3326.33"/>
+  <polygon class="st17" points="638.5 3322.33 628.5 3326.33 638.5 3330.33 634.5 3326.33 638.5 3322.33"/>
+  <text class="st5" transform="translate(634.5 3308.47)"><tspan x="0" y="0">show_proj()</tspan></text>
+  <polygon class="st17" points="318 3352.68 308 3356.68 318 3360.68 314 3356.68 318 3352.68"/>
+  <line class="st13" x1="312" y1="3356.68" x2="616.5" y2="3356.68"/>
+  <text class="st5" transform="translate(324 3351.83)"><tspan x="0" y="0">Return Data</tspan></text>
+  <polygon class="st17" points="118 3383.03 108 3387.03 118 3391.03 114 3387.03 118 3383.03"/>
+  <line class="st13" x1="112" y1="3387.03" x2="301" y2="3387.03"/>
+  <text class="st5" transform="translate(124 3382.18)"><tspan x="0" y="0">Show</tspan><tspan class="st68" x="32.52" y="0"> </tspan><tspan x="36.54" y="0">Project</tspan></text>
+  <path class="st27" d="M40,3409.03h65v8.35l-10,10h-55v-18.35"/>
+  <rect class="st14" x="40" y="3409.03" width="707.5" height="650.86"/>
+  <text class="st1" transform="translate(55 3423.53)"><tspan x="0" y="0">opt</tspan></text>
+  <text class="st4" transform="translate(120 3422.45)"><tspan x="0" y="0">[MODIFY PROJECT]</tspan></text>
+  <polygon class="st17" points="605.5 3445.74 615.5 3449.74 605.5 3453.74 609.5 3449.74 605.5 3445.74"/>
+  <line class="st16" x1="107" y1="3449.74" x2="611.5" y2="3449.74"/>
+  <text class="st5" transform="translate(114 3444.88)"><tspan x="0" y="0">Function</tspan><tspan class="st56" x="49.86" y="0"> </tspan><tspan x="54.5" y="0">call</tspan></text>
+  <line class="st16" x1="627.5" y1="3480.09" x2="669.5" y2="3480.09"/>
+  <line class="st16" x1="669.5" y1="3480.09" x2="669.5" y2="3493.09"/>
+  <line class="st16" x1="628.5" y1="3493.09" x2="669.5" y2="3493.09"/>
+  <polygon class="st17" points="638.5 3489.09 628.5 3493.09 638.5 3497.09 634.5 3493.09 638.5 3489.09"/>
+  <text class="st5" transform="translate(634.5 3475.23)"><tspan x="0" y="0">retrieve_proj_list()</tspan></text>
+  <path class="st27" d="M50,3508.09h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="3508.09" width="638" height="61.38"/>
+  <text class="st1" transform="translate(65 3522.58)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 3521.51)"><tspan class="st64" x="0" y="0">[Keyboar</tspan><tspan x="49.28" y="0">d</tspan></text>
+  <text class="st4" transform="translate(126 3535.34)"><tspan class="st61" x="0" y="0">Interrupt</tspan><tspan class="st33" x="49.34" y="0">]</tspan></text>
+  <line class="st15" x1="114" y1="3556.46" x2="124" y2="3566.46"/>
+  <line class="st15" x1="114" y1="3566.46" x2="124" y2="3556.46"/>
+  <line class="st16" x1="119" y1="3561.46" x2="616.5" y2="3561.46"/>
+  <text class="st1" transform="translate(124 3556.61)"><tspan x="0" y="0">ERR003 / EXIT(0)</tspan></text>
+  <path class="st27" d="M50,3583.46h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="3583.46" width="638" height="155.59"/>
+  <text class="st1" transform="translate(65 3597.96)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 3596.88)"><tspan x="0" y="0">[No</tspan><tspan class="st42" x="18.33" y="0"> </tspan><tspan x="22.83" y="0">Projects</tspan><tspan class="st31" x="66.24" y="0"> </tspan><tspan x="70.74" y="0">Found]</tspan></text>
+  <polygon class="st17" points="318 3620.17 308 3624.17 318 3628.17 314 3624.17 318 3620.17"/>
+  <line class="st16" x1="312" y1="3624.17" x2="616.5" y2="3624.17"/>
+  <text class="st1" transform="translate(324 3619.31)"><tspan x="0" y="0">ERR007</tspan></text>
+  <polygon class="st17" points="118 3650.52 108 3654.52 118 3658.52 114 3654.52 118 3650.52"/>
+  <line class="st16" x1="112" y1="3654.52" x2="296" y2="3654.52"/>
+  <text class="st1" transform="translate(124 3649.66)"><tspan x="0" y="0">ERR007 / BACK</tspan></text>
+  <line class="st12" x1="50" y1="3663.52" x2="688" y2="3663.52"/>
+  <text class="st4" transform="translate(55 3674.94)"><tspan x="0" y="0">[GENERIC ERROR]</tspan></text>
+  <polygon class="st17" points="313 3696.71 303 3700.71 313 3704.71 309 3700.71 313 3696.71"/>
+  <line class="st16" x1="307" y1="3700.71" x2="616.5" y2="3700.71"/>
+  <text class="st1" transform="translate(319 3695.85)"><tspan x="0" y="0">ERR005</tspan></text>
+  <line class="st15" x1="114" y1="3726.06" x2="124" y2="3736.06"/>
+  <line class="st15" x1="114" y1="3736.06" x2="124" y2="3726.06"/>
+  <line class="st16" x1="119" y1="3731.06" x2="301" y2="3731.06"/>
+  <text class="st1" transform="translate(124 3726.2)"><tspan x="0" y="0">ERR005 / EXIT(1)</tspan></text>
+  <polygon class="st17" points="318 3764.41 308 3768.41 318 3772.41 314 3768.41 318 3764.41"/>
+  <line class="st13" x1="312" y1="3768.41" x2="616.5" y2="3768.41"/>
+  <text class="st5" transform="translate(324 3763.55)"><tspan x="0" y="0">Return Data</tspan></text>
+  <polygon class="st17" points="118 3794.76 108 3798.76 118 3802.76 114 3798.76 118 3794.76"/>
+  <line class="st13" x1="112" y1="3798.76" x2="301" y2="3798.76"/>
+  <text class="st5" transform="translate(124 3793.9)"><tspan x="0" y="0">Show</tspan><tspan class="st25" x="32.52" y="0"> </tspan><tspan x="36.77" y="0">List</tspan></text>
+  <polygon class="st17" points="605.5 3825.11 615.5 3829.11 605.5 3833.11 609.5 3829.11 605.5 3825.11"/>
+  <line class="st13" x1="107" y1="3829.11" x2="611.5" y2="3829.11"/>
+  <text class="st5" transform="translate(114 3824.26)"><tspan x="0" y="0">Send Data</tspan></text>
+  <line class="st16" x1="627.5" y1="3859.46" x2="669.5" y2="3859.46"/>
+  <line class="st16" x1="669.5" y1="3859.46" x2="669.5" y2="3872.46"/>
+  <line class="st16" x1="628.5" y1="3872.46" x2="669.5" y2="3872.46"/>
+  <polygon class="st17" points="638.5 3868.46 628.5 3872.46 638.5 3876.46 634.5 3872.46 638.5 3868.46"/>
+  <text class="st5" transform="translate(634.5 3854.61)"><tspan x="0" y="0">modify_proj()</tspan></text>
+  <path class="st27" d="M50,3887.46h73v8.35l-10,10h-63v-18.35"/>
+  <rect class="st14" x="50" y="3887.46" width="670.5" height="135.08"/>
+  <text class="st1" transform="translate(65 3901.96)"><tspan class="st62" x="0" y="0">loo</tspan><tspan x="20.06" y="0">p</tspan></text>
+  <text class="st4" transform="translate(138 3900.88)"><tspan x="0" y="0">[while</tspan><tspan class="st69" x="31.17" y="0"> </tspan><tspan x="38.11" y="0">len</tspan></text>
+  <text class="st4" transform="translate(138 3914.72)"><tspan x="0" y="0">(name)&gt;</tspan><tspan class="st60" x="42.49" y="0"> </tspan><tspan x="48.1" y="0">30]</tspan></text>
+  <polygon class="st17" points="118 3936.84 108 3940.84 118 3944.84 114 3940.84 118 3936.84"/>
+  <line class="st16" x1="112" y1="3940.84" x2="616.5" y2="3940.84"/>
+  <text class="st1" transform="translate(124 3935.98)"><tspan x="0" y="0">ERR006</tspan></text>
+  <polygon class="st17" points="605.5 3967.19 615.5 3971.19 605.5 3975.19 609.5 3971.19 605.5 3967.19"/>
+  <line class="st16" x1="107" y1="3971.19" x2="611.5" y2="3971.19"/>
+  <text class="st5" transform="translate(114 3966.33)"><tspan x="0" y="0">Retry</tspan></text>
+  <line class="st16" x1="627.5" y1="4001.54" x2="669.5" y2="4001.54"/>
+  <line class="st16" x1="669.5" y1="4001.54" x2="669.5" y2="4014.54"/>
+  <line class="st16" x1="628.5" y1="4014.54" x2="669.5" y2="4014.54"/>
+  <polygon class="st17" points="638.5 4010.54 628.5 4014.54 638.5 4018.54 634.5 4014.54 638.5 4010.54"/>
+  <text class="st5" transform="translate(634.5 3996.69)"><tspan x="0" y="0">modify_proj()</tspan></text>
+  <polygon class="st17" points="118 4047.89 108 4051.89 118 4055.89 114 4051.89 118 4047.89"/>
+  <line class="st16" x1="112" y1="4051.89" x2="616.5" y2="4051.89"/>
+  <text class="st5" transform="translate(124 4047.04)"><tspan x="0" y="0">Break</tspan></text>
+  <path class="st27" d="M40,4073.89h65v8.35l-10,10h-55v-18.35"/>
+  <rect class="st14" x="40" y="4073.89" width="707.5" height="501.78"/>
+  <text class="st1" transform="translate(55 4088.39)"><tspan x="0" y="0">opt</tspan></text>
+  <text class="st4" transform="translate(120 4087.31)"><tspan x="0" y="0">[DELETE PROJECT]</tspan></text>
+  <polygon class="st17" points="605.5 4110.6 615.5 4114.6 605.5 4118.6 609.5 4114.6 605.5 4110.6"/>
+  <line class="st16" x1="107" y1="4114.6" x2="611.5" y2="4114.6"/>
+  <text class="st5" transform="translate(114 4109.74)"><tspan x="0" y="0">Function</tspan><tspan class="st56" x="49.86" y="0"> </tspan><tspan x="54.5" y="0">call</tspan></text>
+  <line class="st16" x1="627.5" y1="4144.95" x2="669.5" y2="4144.95"/>
+  <line class="st16" x1="669.5" y1="4144.95" x2="669.5" y2="4157.95"/>
+  <line class="st16" x1="628.5" y1="4157.95" x2="669.5" y2="4157.95"/>
+  <polygon class="st17" points="638.5 4153.95 628.5 4157.95 638.5 4161.95 634.5 4157.95 638.5 4153.95"/>
+  <text class="st5" transform="translate(634.5 4140.09)"><tspan x="0" y="0">retrieve_proj_list()</tspan></text>
+  <path class="st27" d="M50,4172.95h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="4172.95" width="638" height="61.38"/>
+  <text class="st1" transform="translate(65 4187.44)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 4186.37)"><tspan class="st64" x="0" y="0">[Keyboar</tspan><tspan x="49.28" y="0">d</tspan></text>
+  <text class="st4" transform="translate(126 4200.2)"><tspan class="st61" x="0" y="0">Interrupt</tspan><tspan class="st33" x="49.34" y="0">]</tspan></text>
+  <line class="st15" x1="114" y1="4221.32" x2="124" y2="4231.32"/>
+  <line class="st15" x1="114" y1="4231.32" x2="124" y2="4221.32"/>
+  <line class="st16" x1="119" y1="4226.32" x2="616.5" y2="4226.32"/>
+  <text class="st1" transform="translate(124 4221.47)"><tspan x="0" y="0">ERR003 / EXIT(0)</tspan></text>
+  <path class="st27" d="M50,4248.32h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="4248.32" width="638" height="155.59"/>
+  <text class="st1" transform="translate(65 4262.82)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 4261.74)"><tspan x="0" y="0">[No</tspan><tspan class="st42" x="18.33" y="0"> </tspan><tspan x="22.83" y="0">Projects</tspan><tspan class="st31" x="66.24" y="0"> </tspan><tspan x="70.74" y="0">Found]</tspan></text>
+  <polygon class="st17" points="318 4285.03 308 4289.03 318 4293.03 314 4289.03 318 4285.03"/>
+  <line class="st16" x1="312" y1="4289.03" x2="616.5" y2="4289.03"/>
+  <text class="st1" transform="translate(324 4284.17)"><tspan x="0" y="0">ERR007</tspan></text>
+  <polygon class="st17" points="118 4315.38 108 4319.38 118 4323.38 114 4319.38 118 4315.38"/>
+  <line class="st16" x1="112" y1="4319.38" x2="296" y2="4319.38"/>
+  <text class="st1" transform="translate(124 4314.52)"><tspan x="0" y="0">ERR007 / BACK</tspan></text>
+  <line class="st12" x1="50" y1="4328.38" x2="688" y2="4328.38"/>
+  <text class="st4" transform="translate(55 4339.8)"><tspan x="0" y="0">[GENERIC ERROR]</tspan></text>
+  <polygon class="st17" points="313 4361.57 303 4365.57 313 4369.57 309 4365.57 313 4361.57"/>
+  <line class="st16" x1="307" y1="4365.57" x2="616.5" y2="4365.57"/>
+  <text class="st1" transform="translate(319 4360.71)"><tspan x="0" y="0">ERR005</tspan></text>
+  <line class="st15" x1="114" y1="4390.92" x2="124" y2="4400.92"/>
+  <line class="st15" x1="114" y1="4400.92" x2="124" y2="4390.92"/>
+  <line class="st16" x1="119" y1="4395.92" x2="301" y2="4395.92"/>
+  <text class="st1" transform="translate(124 4391.06)"><tspan x="0" y="0">ERR005 / EXIT(1)</tspan></text>
+  <polygon class="st17" points="318 4429.27 308 4433.27 318 4437.27 314 4433.27 318 4429.27"/>
+  <line class="st13" x1="312" y1="4433.27" x2="616.5" y2="4433.27"/>
+  <text class="st5" transform="translate(324 4428.41)"><tspan x="0" y="0">Return Data</tspan></text>
+  <polygon class="st17" points="118 4459.62 108 4463.62 118 4467.62 114 4463.62 118 4459.62"/>
+  <line class="st13" x1="112" y1="4463.62" x2="301" y2="4463.62"/>
+  <text class="st5" transform="translate(124 4458.76)"><tspan x="0" y="0">Show</tspan><tspan class="st25" x="32.52" y="0"> </tspan><tspan x="36.77" y="0">List</tspan></text>
+  <polygon class="st17" points="605.5 4489.97 615.5 4493.97 605.5 4497.97 609.5 4493.97 605.5 4489.97"/>
+  <line class="st13" x1="107" y1="4493.97" x2="611.5" y2="4493.97"/>
+  <text class="st5" transform="translate(114 4489.12)"><tspan x="0" y="0">Send Data</tspan></text>
+  <line class="st16" x1="627.5" y1="4524.32" x2="669.5" y2="4524.32"/>
+  <line class="st16" x1="669.5" y1="4524.32" x2="669.5" y2="4537.32"/>
+  <line class="st16" x1="628.5" y1="4537.32" x2="669.5" y2="4537.32"/>
+  <polygon class="st17" points="638.5 4533.32 628.5 4537.32 638.5 4541.32 634.5 4537.32 638.5 4533.32"/>
+  <text class="st5" transform="translate(634.5 4519.47)"><tspan x="0" y="0">delete_proj()</tspan></text>
+  <polygon class="st17" points="118 4563.67 108 4567.67 118 4571.67 114 4567.67 118 4563.67"/>
+  <line class="st16" x1="112" y1="4567.67" x2="621.5" y2="4567.67"/>
+  <text class="st5" transform="translate(124 4562.82)"><tspan x="0" y="0">Break</tspan></text>
+  <path class="st27" d="M50,4589.67h65v8.35l-10,10h-55v-18.35"/>
+  <rect class="st14" x="50" y="4589.67" width="307.5" height="79.05"/>
+  <text class="st1" transform="translate(65 4604.17)"><tspan x="0" y="0">opt</tspan></text>
+  <text class="st4" transform="translate(130 4603.09)"><tspan x="0" y="0">[RETURN TO MAIN MENU]</tspan></text>
+  <polygon class="st17" points="285 4626.38 295 4630.38 285 4634.38 289 4630.38 285 4626.38"/>
+  <line class="st16" x1="107" y1="4630.38" x2="291" y2="4630.38"/>
+  <text class="st5" transform="translate(114 4625.52)"><tspan x="0" y="0">Function</tspan><tspan class="st56" x="49.86" y="0"> </tspan><tspan x="54.5" y="0">call</tspan></text>
+  <polygon class="st17" points="118 4656.73 108 4660.73 118 4664.73 114 4660.73 118 4656.73"/>
+  <line class="st16" x1="112" y1="4660.73" x2="301" y2="4660.73"/>
+  <text class="st5" transform="translate(124 4655.87)"><tspan x="0" y="0">Break</tspan></text>
+  <rect class="st38" y="4696.91" width="1259.5" height="3"/>
+  <line class="st11" y1="4696.91" x2="1259.5" y2="4696.91"/>
+  <line class="st11" y1="4699.91" x2="1259.5" y2="4699.91"/>
+  <rect class="st26" x="561.25" y="4685.73" width="137" height="24.35"/>
+  <line class="st11" x1="563.25" y1="4697.91" x2="567.25" y2="4697.91"/>
+  <line class="st11" x1="563.25" y1="4699.91" x2="567.25" y2="4699.91"/>
+  <text class="st1" transform="translate(567.25 4702.72)"><tspan x="0" y="0">DATA GENERATION</tspan></text>
+  <line class="st11" x1="690.25" y1="4697.91" x2="694.25" y2="4697.91"/>
+  <line class="st11" x1="690.25" y1="4699.91" x2="694.25" y2="4699.91"/>
+  <path class="st27" d="M30,4727.08h65v8.35l-10,10H30v-18.35"/>
+  <rect class="st14" x="30" y="4727.08" width="1199.5" height="4042.34"/>
+  <text class="st1" transform="translate(45 4741.58)"><tspan x="0" y="0">opt</tspan></text>
+  <text class="st4" transform="translate(110 4740.5)"><tspan x="0" y="0">[DATA GENERATION]</tspan></text>
+  <polygon class="st17" points="489 4763.78 499 4767.78 489 4771.78 493 4767.78 489 4763.78"/>
+  <line class="st16" x1="107" y1="4767.78" x2="495" y2="4767.78"/>
+  <text class="st5" transform="translate(114 4762.93)"><tspan x="0" y="0">Function</tspan><tspan class="st29" x="49.86" y="0"> </tspan><tspan x="53.61" y="0">Call</tspan></text>
+  <polygon class="st17" points="318 4794.14 308 4798.14 318 4802.14 314 4798.14 318 4794.14"/>
+  <line class="st13" x1="312" y1="4798.14" x2="505" y2="4798.14"/>
+  <text class="st5" transform="translate(324 4793.28)"><tspan x="0" y="0">Retrieve Menu Information</tspan></text>
+  <polygon class="st17" points="118 4824.49 108 4828.49 118 4832.49 114 4828.49 118 4824.49"/>
+  <line class="st16" x1="112" y1="4828.49" x2="296" y2="4828.49"/>
+  <text class="st5" transform="translate(124 4823.63)"><tspan x="0" y="0">Show Data Generation Menu</tspan></text>
+  <path class="st27" d="M40,4843.49h65v8.35l-10,10h-55v-18.35"/>
+  <rect class="st14" x="40" y="4843.49" width="800.5" height="690.24"/>
+  <text class="st1" transform="translate(55 4857.98)"><tspan x="0" y="0">opt</tspan></text>
+  <text class="st4" transform="translate(120 4856.91)"><tspan x="0" y="0">[GENERATE EDIT DATA]</tspan></text>
+  <polygon class="st17" points="285 4880.19 295 4884.19 285 4888.19 289 4884.19 285 4880.19"/>
+  <line class="st16" x1="107" y1="4884.19" x2="291" y2="4884.19"/>
+  <text class="st5" transform="translate(114 4879.33)"><tspan x="0" y="0">Function</tspan><tspan class="st29" x="49.86" y="0"> </tspan><tspan x="53.61" y="0">Call</tspan></text>
+  <polygon class="st17" points="605.5 4910.54 615.5 4914.54 605.5 4918.54 609.5 4914.54 605.5 4910.54"/>
+  <line class="st13" x1="307" y1="4914.54" x2="611.5" y2="4914.54"/>
+  <text class="st5" transform="translate(314 4909.69)"><tspan x="0" y="0">Request</tspan><tspan class="st32" x="48.42" y="0"> </tspan><tspan x="52.25" y="0">Project</tspan><tspan class="st67" x="92.71" y="0"> </tspan><tspan x="96.54" y="0">Data</tspan></text>
+  <path class="st27" d="M50,4929.54h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="4929.54" width="638" height="79.05"/>
+  <text class="st1" transform="translate(65 4944.04)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 4942.96)"><tspan x="0" y="0">[No</tspan><tspan class="st42" x="18.33" y="0"> </tspan><tspan x="22.83" y="0">Projects</tspan><tspan class="st31" x="66.24" y="0"> </tspan><tspan x="70.74" y="0">Found]</tspan></text>
+  <polygon class="st17" points="318 4966.25 308 4970.25 318 4974.25 314 4970.25 318 4966.25"/>
+  <line class="st16" x1="312" y1="4970.25" x2="616.5" y2="4970.25"/>
+  <text class="st1" transform="translate(324 4965.39)"><tspan x="0" y="0">ERR007</tspan></text>
+  <polygon class="st17" points="118 4996.6 108 5000.6 118 5004.6 114 5000.6 118 4996.6"/>
+  <line class="st16" x1="112" y1="5000.6" x2="296" y2="5000.6"/>
+  <text class="st1" transform="translate(124 4995.74)"><tspan x="0" y="0">ERR007 / BACK</tspan></text>
+  <polygon class="st17" points="118 5033.95 108 5037.95 118 5041.95 114 5037.95 118 5033.95"/>
+  <line class="st16" x1="112" y1="5037.95" x2="616.5" y2="5037.95"/>
+  <text class="st5" transform="translate(124 5033.09)"><tspan x="0" y="0">Show</tspan><tspan class="st58" x="32.52" y="0"> </tspan><tspan x="36.3" y="0">Project</tspan><tspan class="st40" x="76.76" y="0"> </tspan><tspan x="80.54" y="0">Data</tspan></text>
+  <polygon class="st17" points="738.5 5064.3 748.5 5068.3 738.5 5072.3 742.5 5068.3 738.5 5064.3"/>
+  <line class="st13" x1="107" y1="5068.3" x2="744.5" y2="5068.3"/>
+  <text class="st5" transform="translate(114 5063.44)"><tspan x="0" y="0">confirm_proj_data()</tspan></text>
+  <polygon class="st17" points="318 5094.65 308 5098.65 318 5102.65 314 5098.65 318 5094.65"/>
+  <line class="st13" x1="312" y1="5098.65" x2="749.5" y2="5098.65"/>
+  <text class="st5" transform="translate(324 5093.79)"><tspan x="0" y="0">check_files()</tspan></text>
+  <path class="st27" d="M50,5113.65h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="5113.65" width="780.5" height="61.38"/>
+  <text class="st1" transform="translate(65 5128.15)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 5127.07)"><tspan class="st64" x="0" y="0">[Keyboar</tspan><tspan x="49.28" y="0">d</tspan></text>
+  <text class="st4" transform="translate(126 5140.91)"><tspan class="st61" x="0" y="0">Interrupt</tspan><tspan class="st33" x="49.34" y="0">]</tspan></text>
+  <line class="st15" x1="114" y1="5162.03" x2="124" y2="5172.03"/>
+  <line class="st15" x1="114" y1="5172.03" x2="124" y2="5162.03"/>
+  <line class="st16" x1="119" y1="5167.03" x2="749.5" y2="5167.03"/>
+  <text class="st1" transform="translate(124 5162.17)"><tspan x="0" y="0">ERR003 / EXIT(0)</tspan></text>
+  <path class="st27" d="M50,5189.03h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="5189.03" width="780.5" height="155.59"/>
+  <text class="st1" transform="translate(65 5203.52)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 5202.45)"><tspan x="0" y="0">[Codec/File</tspan><tspan class="st8" x="59.29" y="0"> </tspan><tspan x="65.44" y="0">Error]</tspan></text>
+  <polygon class="st17" points="318 5225.73 308 5229.73 318 5233.73 314 5229.73 318 5225.73"/>
+  <line class="st16" x1="312" y1="5229.73" x2="749.5" y2="5229.73"/>
+  <text class="st1" transform="translate(324 5224.87)"><tspan x="0" y="0">ERR008</tspan></text>
+  <line class="st15" x1="114" y1="5255.08" x2="124" y2="5265.08"/>
+  <line class="st15" x1="114" y1="5265.08" x2="124" y2="5255.08"/>
+  <line class="st16" x1="119" y1="5260.08" x2="296" y2="5260.08"/>
+  <text class="st1" transform="translate(124 5255.22)"><tspan x="0" y="0">ERR008 / EXIT(1)</tspan></text>
+  <line class="st12" x1="50" y1="5269.08" x2="830.5" y2="5269.08"/>
+  <text class="st4" transform="translate(55 5280.5)"><tspan x="0" y="0">[Generic</tspan><tspan class="st39" x="44.63" y="0"> </tspan><tspan x="51.44" y="0">Error]</tspan></text>
+  <polygon class="st17" points="318 5302.27 308 5306.27 318 5310.27 314 5306.27 318 5302.27"/>
+  <line class="st16" x1="312" y1="5306.27" x2="754.5" y2="5306.27"/>
+  <text class="st1" transform="translate(324 5301.41)"><tspan x="0" y="0">ERR005</tspan></text>
+  <line class="st15" x1="114" y1="5331.62" x2="124" y2="5341.62"/>
+  <line class="st15" x1="114" y1="5341.62" x2="124" y2="5331.62"/>
+  <line class="st16" x1="119" y1="5336.62" x2="296" y2="5336.62"/>
+  <text class="st1" transform="translate(124 5331.76)"><tspan x="0" y="0">ERR005 / EXIT(1)</tspan></text>
+  <polygon class="st17" points="318 5369.97 308 5373.97 318 5377.97 314 5373.97 318 5369.97"/>
+  <line class="st13" x1="312" y1="5373.97" x2="749.5" y2="5373.97"/>
+  <text class="st5" transform="translate(324 5369.12)"><tspan x="0" y="0">True</tspan></text>
+  <polygon class="st17" points="738.5 5400.32 748.5 5404.32 738.5 5408.32 742.5 5404.32 738.5 5400.32"/>
+  <line class="st13" x1="307" y1="5404.32" x2="744.5" y2="5404.32"/>
+  <text class="st5" transform="translate(314 5399.47)"><tspan x="0" y="0">gen_data()</tspan></text>
+  <polygon class="st17" points="318 5430.67 308 5434.67 318 5438.67 314 5434.67 318 5430.67"/>
+  <line class="st13" x1="312" y1="5434.67" x2="749.5" y2="5434.67"/>
+  <text class="st5" transform="translate(324 5429.82)"><tspan x="0" y="0">save_to_json()</tspan></text>
+  <polygon class="st17" points="605.5 5461.03 615.5 5465.03 605.5 5469.03 609.5 5465.03 605.5 5461.03"/>
+  <line class="st13" x1="307" y1="5465.03" x2="611.5" y2="5465.03"/>
+  <text class="st5" transform="translate(314 5460.17)"><tspan x="0" y="0">update_proj()</tspan></text>
+  <polygon class="st17" points="318 5491.38 308 5495.38 318 5499.38 314 5495.38 318 5491.38"/>
+  <line class="st13" x1="312" y1="5495.38" x2="621.5" y2="5495.38"/>
+  <text class="st5" transform="translate(324 5490.52)"><tspan x="0" y="0">True</tspan></text>
+  <polygon class="st17" points="118 5521.73 108 5525.73 118 5529.73 114 5525.73 118 5521.73"/>
+  <line class="st16" x1="112" y1="5525.73" x2="296" y2="5525.73"/>
+  <text class="st5" transform="translate(124 5520.87)"><tspan x="0" y="0">Break</tspan></text>
+  <path class="st27" d="M40,5547.73h65v8.35l-10,10h-55v-18.35"/>
+  <rect class="st14" x="40" y="5547.73" width="929.5" height="690.24"/>
+  <text class="st1" transform="translate(55 5562.22)"><tspan x="0" y="0">opt</tspan></text>
+  <text class="st4" transform="translate(120 5561.15)"><tspan x="0" y="0">[GENERATE EDL/XML]</tspan></text>
+  <polygon class="st17" points="285 5584.43 295 5588.43 285 5592.43 289 5588.43 285 5584.43"/>
+  <line class="st16" x1="107" y1="5588.43" x2="291" y2="5588.43"/>
+  <text class="st5" transform="translate(114 5583.58)"><tspan x="0" y="0">Function</tspan><tspan class="st29" x="49.86" y="0"> </tspan><tspan x="53.61" y="0">Call</tspan></text>
+  <polygon class="st17" points="605.5 5614.78 615.5 5618.78 605.5 5622.78 609.5 5618.78 605.5 5614.78"/>
+  <line class="st13" x1="307" y1="5618.78" x2="611.5" y2="5618.78"/>
+  <text class="st5" transform="translate(314 5613.93)"><tspan x="0" y="0">Request</tspan><tspan class="st32" x="48.42" y="0"> </tspan><tspan x="52.25" y="0">Project</tspan><tspan class="st67" x="92.71" y="0"> </tspan><tspan x="96.54" y="0">Data</tspan></text>
+  <path class="st27" d="M50,5633.78h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="5633.78" width="638" height="79.05"/>
+  <text class="st1" transform="translate(65 5648.28)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 5647.2)"><tspan x="0" y="0">[No</tspan><tspan class="st42" x="18.33" y="0"> </tspan><tspan x="22.83" y="0">Projects</tspan><tspan class="st31" x="66.24" y="0"> </tspan><tspan x="70.74" y="0">Found]</tspan></text>
+  <polygon class="st17" points="318 5670.49 308 5674.49 318 5678.49 314 5674.49 318 5670.49"/>
+  <line class="st16" x1="312" y1="5674.49" x2="616.5" y2="5674.49"/>
+  <text class="st1" transform="translate(324 5669.63)"><tspan x="0" y="0">ERR007</tspan></text>
+  <polygon class="st17" points="118 5700.84 108 5704.84 118 5708.84 114 5704.84 118 5700.84"/>
+  <line class="st16" x1="112" y1="5704.84" x2="296" y2="5704.84"/>
+  <text class="st1" transform="translate(124 5699.98)"><tspan x="0" y="0">ERR007 / BACK</tspan></text>
+  <polygon class="st17" points="118 5738.19 108 5742.19 118 5746.19 114 5742.19 118 5738.19"/>
+  <line class="st16" x1="112" y1="5742.19" x2="616.5" y2="5742.19"/>
+  <text class="st5" transform="translate(124 5737.33)"><tspan x="0" y="0">Show</tspan><tspan class="st58" x="32.52" y="0"> </tspan><tspan x="36.3" y="0">Project</tspan><tspan class="st40" x="76.76" y="0"> </tspan><tspan x="80.54" y="0">Data</tspan></text>
+  <polygon class="st17" points="605.5 5768.54 615.5 5772.54 605.5 5776.54 609.5 5772.54 605.5 5768.54"/>
+  <line class="st16" x1="107" y1="5772.54" x2="611.5" y2="5772.54"/>
+  <text class="st5" transform="translate(114 5767.69)"><tspan x="0" y="0">Select</tspan><tspan class="st35" x="36.13" y="0"> </tspan><tspan x="41.54" y="0">Project</tspan></text>
+  <polygon class="st17" points="118 5798.89 108 5802.89 118 5806.89 114 5802.89 118 5798.89"/>
+  <line class="st16" x1="112" y1="5802.89" x2="616.5" y2="5802.89"/>
+  <text class="st5" transform="translate(124 5798.04)"><tspan x="0" y="0">show_generated_data_versions()</tspan></text>
+  <path class="st27" d="M50,5817.89h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="5817.89" width="638" height="61.38"/>
+  <text class="st1" transform="translate(65 5832.39)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 5831.31)"><tspan class="st64" x="0" y="0">[Keyboar</tspan><tspan x="49.28" y="0">d</tspan></text>
+  <text class="st4" transform="translate(126 5845.15)"><tspan class="st61" x="0" y="0">Interrupt</tspan><tspan class="st33" x="49.34" y="0">]</tspan></text>
+  <line class="st15" x1="114" y1="5866.27" x2="124" y2="5876.27"/>
+  <line class="st15" x1="114" y1="5876.27" x2="124" y2="5866.27"/>
+  <line class="st16" x1="119" y1="5871.27" x2="616.5" y2="5871.27"/>
+  <text class="st1" transform="translate(124 5866.41)"><tspan x="0" y="0">ERR003 / EXIT(0)</tspan></text>
+  <polygon class="st17" points="605.5 5904.62 615.5 5908.62 605.5 5912.62 609.5 5908.62 605.5 5904.62"/>
+  <line class="st16" x1="107" y1="5908.62" x2="611.5" y2="5908.62"/>
+  <text class="st5" transform="translate(114 5903.76)"><tspan x="0" y="0">Select</tspan><tspan class="st70" x="36.13" y="0"> </tspan><tspan x="40.3" y="0">Data</tspan><tspan class="st70" x="67.76" y="0"> </tspan><tspan x="71.92" y="0">Version</tspan></text>
+  <polygon class="st17" points="873 5934.97 883 5938.97 873 5942.97 877 5938.97 873 5934.97"/>
+  <line class="st13" x1="627.5" y1="5938.97" x2="879" y2="5938.97"/>
+  <text class="st5" transform="translate(634.5 5934.12)"><tspan x="0" y="0">generate_nle_files()</tspan></text>
+  <path class="st27" d="M50,5953.97h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="5953.97" width="909.5" height="155.59"/>
+  <text class="st1" transform="translate(65 5968.47)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 5967.39)"><tspan x="0" y="0">[Data</tspan><tspan class="st34" x="27.51" y="0"> </tspan><tspan x="31.44" y="0">Error]</tspan></text>
+  <polygon class="st17" points="318 5990.67 308 5994.67 318 5998.67 314 5994.67 318 5990.67"/>
+  <line class="st16" x1="312" y1="5994.67" x2="884" y2="5994.67"/>
+  <text class="st1" transform="translate(324 5989.82)"><tspan x="0" y="0">ERR009</tspan></text>
+  <polygon class="st17" points="118 6021.03 108 6025.03 118 6029.03 114 6025.03 118 6021.03"/>
+  <line class="st16" x1="112" y1="6025.03" x2="296" y2="6025.03"/>
+  <text class="st1" transform="translate(124 6020.17)"><tspan x="0" y="0">ERR009 / BACK</tspan></text>
+  <line class="st12" x1="50" y1="6034.03" x2="959.5" y2="6034.03"/>
+  <text class="st4" transform="translate(55 6045.45)"><tspan x="0" y="0">[Generic</tspan><tspan class="st39" x="44.63" y="0"> </tspan><tspan x="51.44" y="0">Error]</tspan></text>
+  <polygon class="st17" points="318 6067.21 308 6071.21 318 6075.21 314 6071.21 318 6067.21"/>
+  <line class="st16" x1="312" y1="6071.21" x2="884" y2="6071.21"/>
+  <text class="st1" transform="translate(324 6066.36)"><tspan x="0" y="0">ERR005</tspan></text>
+  <line class="st15" x1="114" y1="6096.57" x2="124" y2="6106.57"/>
+  <line class="st15" x1="114" y1="6106.57" x2="124" y2="6096.57"/>
+  <line class="st16" x1="119" y1="6101.57" x2="296" y2="6101.57"/>
+  <text class="st1" transform="translate(124 6096.71)"><tspan x="0" y="0">ERR005 / EXIT(1)</tspan></text>
+  <polygon class="st17" points="318 6134.92 308 6138.92 318 6142.92 314 6138.92 318 6134.92"/>
+  <line class="st13" x1="312" y1="6138.92" x2="889" y2="6138.92"/>
+  <text class="st5" transform="translate(324 6134.06)"><tspan x="0" y="0">Save Generated File</tspan></text>
+  <polygon class="st17" points="605.5 6165.27 615.5 6169.27 605.5 6173.27 609.5 6169.27 605.5 6165.27"/>
+  <line class="st13" x1="307" y1="6169.27" x2="611.5" y2="6169.27"/>
+  <text class="st5" transform="translate(314 6164.41)"><tspan x="0" y="0">update_proj()</tspan></text>
+  <polygon class="st17" points="318 6195.62 308 6199.62 318 6203.62 314 6199.62 318 6195.62"/>
+  <line class="st13" x1="312" y1="6199.62" x2="621.5" y2="6199.62"/>
+  <text class="st5" transform="translate(324 6194.76)"><tspan x="0" y="0">True</tspan></text>
+  <polygon class="st17" points="118 6225.97 108 6229.97 118 6233.97 114 6229.97 118 6225.97"/>
+  <line class="st16" x1="112" y1="6229.97" x2="296" y2="6229.97"/>
+  <text class="st5" transform="translate(124 6225.12)"><tspan x="0" y="0">Break</tspan></text>
+  <path class="st27" d="M40,6251.97h65v8.35l-10,10h-55v-18.35"/>
+  <rect class="st14" x="40" y="6251.97" width="1179.5" height="827.48"/>
+  <text class="st1" transform="translate(55 6266.47)"><tspan x="0" y="0">opt</tspan></text>
+  <text class="st4" transform="translate(120 6265.39)"><tspan x="0" y="0">[GENERATE DEPTH]</tspan></text>
+  <polygon class="st17" points="285 6288.67 295 6292.67 285 6296.67 289 6292.67 285 6288.67"/>
+  <line class="st16" x1="107" y1="6292.67" x2="291" y2="6292.67"/>
+  <text class="st5" transform="translate(114 6287.82)"><tspan x="0" y="0">Function</tspan><tspan class="st29" x="49.86" y="0"> </tspan><tspan x="53.61" y="0">Call</tspan></text>
+  <polygon class="st17" points="605.5 6319.03 615.5 6323.03 605.5 6327.03 609.5 6323.03 605.5 6319.03"/>
+  <line class="st13" x1="307" y1="6323.03" x2="611.5" y2="6323.03"/>
+  <text class="st5" transform="translate(314 6318.17)"><tspan x="0" y="0">Request</tspan><tspan class="st32" x="48.42" y="0"> </tspan><tspan x="52.25" y="0">Project</tspan><tspan class="st67" x="92.71" y="0"> </tspan><tspan x="96.54" y="0">Data</tspan></text>
+  <path class="st27" d="M50,6338.03h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="6338.03" width="638" height="79.05"/>
+  <text class="st1" transform="translate(65 6352.52)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 6351.45)"><tspan x="0" y="0">[No</tspan><tspan class="st42" x="18.33" y="0"> </tspan><tspan x="22.83" y="0">Projects</tspan><tspan class="st31" x="66.24" y="0"> </tspan><tspan x="70.74" y="0">Found]</tspan></text>
+  <polygon class="st17" points="318 6374.73 308 6378.73 318 6382.73 314 6378.73 318 6374.73"/>
+  <line class="st16" x1="312" y1="6378.73" x2="616.5" y2="6378.73"/>
+  <text class="st1" transform="translate(324 6373.87)"><tspan x="0" y="0">ERR007</tspan></text>
+  <polygon class="st17" points="118 6405.08 108 6409.08 118 6413.08 114 6409.08 118 6405.08"/>
+  <line class="st16" x1="112" y1="6409.08" x2="296" y2="6409.08"/>
+  <text class="st1" transform="translate(124 6404.22)"><tspan x="0" y="0">ERR007 / BACK</tspan></text>
+  <polygon class="st17" points="118 6442.43 108 6446.43 118 6450.43 114 6446.43 118 6442.43"/>
+  <line class="st16" x1="112" y1="6446.43" x2="616.5" y2="6446.43"/>
+  <text class="st5" transform="translate(124 6441.58)"><tspan x="0" y="0">Show</tspan><tspan class="st58" x="32.52" y="0"> </tspan><tspan x="36.3" y="0">Project</tspan><tspan class="st40" x="76.76" y="0"> </tspan><tspan x="80.54" y="0">Data</tspan></text>
+  <polygon class="st17" points="605.5 6472.78 615.5 6476.78 605.5 6480.78 609.5 6476.78 605.5 6472.78"/>
+  <line class="st16" x1="107" y1="6476.78" x2="611.5" y2="6476.78"/>
+  <text class="st5" transform="translate(114 6471.93)"><tspan x="0" y="0">Select</tspan><tspan class="st35" x="36.13" y="0"> </tspan><tspan x="41.54" y="0">Project</tspan></text>
+  <polygon class="st17" points="118 6503.14 108 6507.14 118 6511.14 114 6507.14 118 6503.14"/>
+  <line class="st16" x1="112" y1="6507.14" x2="616.5" y2="6507.14"/>
+  <text class="st5" transform="translate(124 6502.28)"><tspan x="0" y="0">show_generated_data_versions()</tspan></text>
+  <path class="st27" d="M50,6522.14h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="6522.14" width="638" height="61.38"/>
+  <text class="st1" transform="translate(65 6536.63)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 6535.55)"><tspan class="st64" x="0" y="0">[Keyboar</tspan><tspan x="49.28" y="0">d</tspan></text>
+  <text class="st4" transform="translate(126 6549.39)"><tspan class="st61" x="0" y="0">Interrupt</tspan><tspan class="st33" x="49.34" y="0">]</tspan></text>
+  <line class="st15" x1="114" y1="6570.51" x2="124" y2="6580.51"/>
+  <line class="st15" x1="114" y1="6580.51" x2="124" y2="6570.51"/>
+  <line class="st16" x1="119" y1="6575.51" x2="616.5" y2="6575.51"/>
+  <text class="st1" transform="translate(124 6570.65)"><tspan x="0" y="0">ERR003 / EXIT(0)</tspan></text>
+  <polygon class="st17" points="605.5 6608.86 615.5 6612.86 605.5 6616.86 609.5 6612.86 605.5 6608.86"/>
+  <line class="st16" x1="107" y1="6612.86" x2="611.5" y2="6612.86"/>
+  <text class="st5" transform="translate(114 6608.01)"><tspan x="0" y="0">Select</tspan><tspan class="st70" x="36.13" y="0"> </tspan><tspan x="40.3" y="0">Data</tspan><tspan class="st70" x="67.76" y="0"> </tspan><tspan x="71.92" y="0">Version</tspan></text>
+  <polygon class="st17" points="118 6639.21 108 6643.21 118 6647.21 114 6643.21 118 6639.21"/>
+  <line class="st16" x1="112" y1="6643.21" x2="616.5" y2="6643.21"/>
+  <text class="st5" transform="translate(124 6638.36)"><tspan x="0" y="0">depth_mode_selector()</tspan></text>
+  <polygon class="st17" points="605.5 6669.57 615.5 6673.57 605.5 6677.57 609.5 6673.57 605.5 6669.57"/>
+  <line class="st16" x1="107" y1="6673.57" x2="611.5" y2="6673.57"/>
+  <text class="st5" transform="translate(114 6668.71)"><tspan x="0" y="0">Select</tspan><tspan class="st48" x="36.13" y="0"> </tspan><tspan x="40.03" y="0">Depth</tspan><tspan class="st30" x="74.72" y="0"> </tspan><tspan x="78.61" y="0">Mode</tspan><tspan class="st48" x="111.13" y="0"> </tspan><tspan x="115.03" y="0">(Lite</tspan><tspan class="st30" x="140.32" y="0"> </tspan><tspan x="144.21" y="0">/</tspan><tspan class="st48" x="147.83" y="0"> </tspan><tspan x="151.72" y="0">Full)</tspan></text>
+  <polygon class="st17" points="1122 6699.92 1132 6703.92 1122 6707.92 1126 6703.92 1122 6699.92"/>
+  <line class="st13" x1="627.5" y1="6703.92" x2="1128" y2="6703.92"/>
+  <text class="st5" transform="translate(634.5 6699.06)"><tspan x="0" y="0">generate_depth()</tspan></text>
+  <path class="st27" d="M50,6718.92h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="6718.92" width="1159.5" height="232.13"/>
+  <text class="st1" transform="translate(65 6733.41)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 6732.34)"><tspan x="0" y="0">[Data</tspan><tspan class="st34" x="27.51" y="0"> </tspan><tspan x="31.44" y="0">Error]</tspan></text>
+  <polygon class="st17" points="318 6755.62 308 6759.62 318 6763.62 314 6759.62 318 6755.62"/>
+  <line class="st16" x1="312" y1="6759.62" x2="1133" y2="6759.62"/>
+  <text class="st1" transform="translate(324 6754.76)"><tspan x="0" y="0">ERR010</tspan></text>
+  <polygon class="st17" points="118 6785.97 108 6789.97 118 6793.97 114 6789.97 118 6785.97"/>
+  <line class="st16" x1="112" y1="6789.97" x2="296" y2="6789.97"/>
+  <text class="st1" transform="translate(124 6785.12)"><tspan x="0" y="0">ERR010 / BACK</tspan></text>
+  <line class="st12" x1="50" y1="6798.97" x2="1209.5" y2="6798.97"/>
+  <text class="st4" transform="translate(55 6810.39)"><tspan x="0" y="0">[DepthAnything</tspan><tspan class="st37" x="82.48" y="0"> </tspan><tspan x="89.44" y="0">Error]</tspan></text>
+  <polygon class="st17" points="318 6832.16 308 6836.16 318 6840.16 314 6836.16 318 6832.16"/>
+  <line class="st16" x1="312" y1="6836.16" x2="1133" y2="6836.16"/>
+  <text class="st1" transform="translate(324 6831.3)"><tspan x="0" y="0">ERR011</tspan></text>
+  <line class="st15" x1="114" y1="6861.51" x2="124" y2="6871.51"/>
+  <line class="st15" x1="114" y1="6871.51" x2="124" y2="6861.51"/>
+  <line class="st16" x1="119" y1="6866.51" x2="296" y2="6866.51"/>
+  <text class="st1" transform="translate(124 6861.65)"><tspan x="0" y="0">ERR011 / EXIT(1)</tspan></text>
+  <line class="st12" x1="50" y1="6875.51" x2="1209.5" y2="6875.51"/>
+  <text class="st4" transform="translate(55 6886.93)"><tspan x="0" y="0">[Generic</tspan><tspan class="st39" x="44.63" y="0"> </tspan><tspan x="51.44" y="0">Error]</tspan></text>
+  <polygon class="st17" points="318 6908.7 308 6912.7 318 6916.7 314 6912.7 318 6908.7"/>
+  <line class="st16" x1="312" y1="6912.7" x2="1133" y2="6912.7"/>
+  <text class="st1" transform="translate(324 6907.84)"><tspan x="0" y="0">ERR005</tspan></text>
+  <line class="st15" x1="114" y1="6938.05" x2="124" y2="6948.05"/>
+  <line class="st15" x1="114" y1="6948.05" x2="124" y2="6938.05"/>
+  <line class="st16" x1="119" y1="6943.05" x2="296" y2="6943.05"/>
+  <text class="st1" transform="translate(124 6938.19)"><tspan x="0" y="0">ERR005 / EXIT(1)</tspan></text>
+  <polygon class="st17" points="318 6976.4 308 6980.4 318 6984.4 314 6980.4 318 6976.4"/>
+  <line class="st13" x1="312" y1="6980.4" x2="1138" y2="6980.4"/>
+  <text class="st5" transform="translate(324 6975.54)"><tspan x="0" y="0">Save Depth of Field Maps</tspan></text>
+  <polygon class="st17" points="605.5 7006.75 615.5 7010.75 605.5 7014.75 609.5 7010.75 605.5 7006.75"/>
+  <line class="st13" x1="307" y1="7010.75" x2="611.5" y2="7010.75"/>
+  <text class="st5" transform="translate(314 7005.9)"><tspan x="0" y="0">update_proj()</tspan></text>
+  <polygon class="st17" points="318 7037.1 308 7041.1 318 7045.1 314 7041.1 318 7037.1"/>
+  <line class="st13" x1="312" y1="7041.1" x2="621.5" y2="7041.1"/>
+  <text class="st5" transform="translate(324 7036.25)"><tspan x="0" y="0">True</tspan></text>
+  <polygon class="st17" points="118 7067.46 108 7071.46 118 7075.46 114 7071.46 118 7067.46"/>
+  <line class="st16" x1="112" y1="7071.46" x2="296" y2="7071.46"/>
+  <text class="st5" transform="translate(124 7066.6)"><tspan x="0" y="0">Break</tspan></text>
+  <path class="st27" d="M40,7093.46h65v8.35l-10,10h-55v-18.35"/>
+  <rect class="st14" x="40" y="7093.46" width="1048.5" height="827.48"/>
+  <text class="st1" transform="translate(55 7107.95)"><tspan x="0" y="0">opt</tspan></text>
+  <text class="st4" transform="translate(120 7106.88)"><tspan class="st50" x="0" y="0">[VISUALIZ</tspan><tspan x="89.66" y="0">E </tspan></text>
+  <polygon class="st17" points="285 7130.16 295 7134.16 285 7138.16 289 7134.16 285 7130.16"/>
+  <line class="st16" x1="107" y1="7134.16" x2="291" y2="7134.16"/>
+  <text class="st5" transform="translate(114 7129.3)"><tspan x="0" y="0">Function</tspan><tspan class="st29" x="49.86" y="0"> </tspan><tspan x="53.61" y="0">Call</tspan></text>
+  <polygon class="st17" points="605.5 7160.51 615.5 7164.51 605.5 7168.51 609.5 7164.51 605.5 7160.51"/>
+  <line class="st13" x1="307" y1="7164.51" x2="611.5" y2="7164.51"/>
+  <text class="st5" transform="translate(314 7159.65)"><tspan x="0" y="0">Request</tspan><tspan class="st32" x="48.42" y="0"> </tspan><tspan x="52.25" y="0">Project</tspan><tspan class="st67" x="92.71" y="0"> </tspan><tspan x="96.54" y="0">Data</tspan></text>
+  <path class="st27" d="M50,7179.51h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="7179.51" width="638" height="79.05"/>
+  <text class="st1" transform="translate(65 7194.01)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 7192.93)"><tspan x="0" y="0">[No</tspan><tspan class="st42" x="18.33" y="0"> </tspan><tspan x="22.83" y="0">Projects</tspan><tspan class="st31" x="66.24" y="0"> </tspan><tspan x="70.74" y="0">Found]</tspan></text>
+  <polygon class="st17" points="318 7216.21 308 7220.21 318 7224.21 314 7220.21 318 7216.21"/>
+  <line class="st16" x1="312" y1="7220.21" x2="616.5" y2="7220.21"/>
+  <text class="st1" transform="translate(324 7215.36)"><tspan x="0" y="0">ERR007</tspan></text>
+  <polygon class="st17" points="118 7246.57 108 7250.57 118 7254.57 114 7250.57 118 7246.57"/>
+  <line class="st16" x1="112" y1="7250.57" x2="296" y2="7250.57"/>
+  <text class="st1" transform="translate(124 7245.71)"><tspan x="0" y="0">ERR007 / BACK</tspan></text>
+  <polygon class="st17" points="118 7283.92 108 7287.92 118 7291.92 114 7287.92 118 7283.92"/>
+  <line class="st16" x1="112" y1="7287.92" x2="616.5" y2="7287.92"/>
+  <text class="st5" transform="translate(124 7283.06)"><tspan x="0" y="0">Show</tspan><tspan class="st58" x="32.52" y="0"> </tspan><tspan x="36.3" y="0">Project</tspan><tspan class="st40" x="76.76" y="0"> </tspan><tspan x="80.54" y="0">Data</tspan></text>
+  <polygon class="st17" points="605.5 7314.27 615.5 7318.27 605.5 7322.27 609.5 7318.27 605.5 7314.27"/>
+  <line class="st16" x1="107" y1="7318.27" x2="611.5" y2="7318.27"/>
+  <text class="st5" transform="translate(114 7313.41)"><tspan x="0" y="0">Select</tspan><tspan class="st35" x="36.13" y="0"> </tspan><tspan x="41.54" y="0">Project</tspan></text>
+  <polygon class="st17" points="118 7344.62 108 7348.62 118 7352.62 114 7348.62 118 7344.62"/>
+  <line class="st16" x1="112" y1="7348.62" x2="616.5" y2="7348.62"/>
+  <text class="st5" transform="translate(124 7343.76)"><tspan x="0" y="0">show_generated_data_versions()</tspan></text>
+  <path class="st27" d="M50,7363.62h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="7363.62" width="638" height="61.38"/>
+  <text class="st1" transform="translate(65 7378.12)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 7377.04)"><tspan class="st64" x="0" y="0">[Keyboar</tspan><tspan x="49.28" y="0">d</tspan></text>
+  <text class="st4" transform="translate(126 7390.88)"><tspan class="st61" x="0" y="0">Interrupt</tspan><tspan class="st33" x="49.34" y="0">]</tspan></text>
+  <line class="st15" x1="114" y1="7412" x2="124" y2="7422"/>
+  <line class="st15" x1="114" y1="7422" x2="124" y2="7412"/>
+  <line class="st16" x1="119" y1="7417" x2="616.5" y2="7417"/>
+  <text class="st1" transform="translate(124 7412.14)"><tspan x="0" y="0">ERR003 / EXIT(0)</tspan></text>
+  <polygon class="st17" points="605.5 7450.35 615.5 7454.35 605.5 7458.35 609.5 7454.35 605.5 7450.35"/>
+  <line class="st16" x1="107" y1="7454.35" x2="611.5" y2="7454.35"/>
+  <text class="st5" transform="translate(114 7449.49)"><tspan x="0" y="0">Select</tspan><tspan class="st70" x="36.13" y="0"> </tspan><tspan x="40.3" y="0">Data</tspan><tspan class="st70" x="67.76" y="0"> </tspan><tspan x="71.92" y="0">Version</tspan></text>
+  <polygon class="st17" points="118 7480.7 108 7484.7 118 7488.7 114 7484.7 118 7480.7"/>
+  <line class="st16" x1="112" y1="7484.7" x2="616.5" y2="7484.7"/>
+  <text class="st5" transform="translate(124 7479.84)"><tspan x="0" y="0">select_data_vis()</tspan></text>
+  <polygon class="st17" points="605.5 7511.05 615.5 7515.05 605.5 7519.05 609.5 7515.05 605.5 7511.05"/>
+  <line class="st16" x1="107" y1="7515.05" x2="611.5" y2="7515.05"/>
+  <text class="st5" transform="translate(114 7510.19)"><tspan x="0" y="0">Select different forms of data visualizations</tspan></text>
+  <polygon class="st17" points="997 7541.4 1007 7545.4 997 7549.4 1001 7545.4 997 7541.4"/>
+  <line class="st13" x1="627.5" y1="7545.4" x2="1003" y2="7545.4"/>
+  <text class="st5" transform="translate(634.5 7540.54)"><tspan x="0" y="0">generate_vis()</tspan></text>
+  <path class="st27" d="M50,7560.4h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="7560.4" width="1028.5" height="232.13"/>
+  <text class="st1" transform="translate(65 7574.9)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 7573.82)"><tspan x="0" y="0">[Data</tspan><tspan class="st34" x="27.51" y="0"> </tspan><tspan x="31.44" y="0">Error]</tspan></text>
+  <polygon class="st17" points="318 7597.1 308 7601.1 318 7605.1 314 7601.1 318 7597.1"/>
+  <line class="st16" x1="312" y1="7601.1" x2="1008" y2="7601.1"/>
+  <text class="st1" transform="translate(324 7596.25)"><tspan x="0" y="0">ERR010</tspan></text>
+  <polygon class="st17" points="118 7627.46 108 7631.46 118 7635.46 114 7631.46 118 7627.46"/>
+  <line class="st16" x1="112" y1="7631.46" x2="296" y2="7631.46"/>
+  <text class="st1" transform="translate(124 7626.6)"><tspan x="0" y="0">ERR010 / BACK</tspan></text>
+  <line class="st12" x1="50" y1="7640.46" x2="1078.5" y2="7640.46"/>
+  <text class="st4" transform="translate(55 7651.88)"><tspan x="0" y="0">[Library</tspan><tspan class="st6" x="40.96" y="0"> </tspan><tspan x="47.44" y="0">Error]</tspan></text>
+  <polygon class="st17" points="318 7673.64 308 7677.64 318 7681.64 314 7677.64 318 7673.64"/>
+  <line class="st16" x1="312" y1="7677.64" x2="1008" y2="7677.64"/>
+  <text class="st1" transform="translate(324 7672.79)"><tspan x="0" y="0">ERR012</tspan></text>
+  <line class="st15" x1="114" y1="7703" x2="124" y2="7713"/>
+  <line class="st15" x1="114" y1="7713" x2="124" y2="7703"/>
+  <line class="st16" x1="119" y1="7708" x2="296" y2="7708"/>
+  <text class="st1" transform="translate(124 7703.14)"><tspan x="0" y="0">ERR012 / EXIT(1)</tspan></text>
+  <line class="st12" x1="50" y1="7717" x2="1078.5" y2="7717"/>
+  <text class="st4" transform="translate(55 7728.41)"><tspan x="0" y="0">[Generic</tspan><tspan class="st39" x="44.63" y="0"> </tspan><tspan x="51.44" y="0">Error]</tspan></text>
+  <polygon class="st17" points="318 7750.18 308 7754.18 318 7758.18 314 7754.18 318 7750.18"/>
+  <line class="st16" x1="312" y1="7754.18" x2="1008" y2="7754.18"/>
+  <text class="st1" transform="translate(324 7749.33)"><tspan x="0" y="0">ERR005</tspan></text>
+  <line class="st15" x1="114" y1="7779.53" x2="124" y2="7789.53"/>
+  <line class="st15" x1="114" y1="7789.53" x2="124" y2="7779.53"/>
+  <line class="st16" x1="119" y1="7784.53" x2="296" y2="7784.53"/>
+  <text class="st1" transform="translate(124 7779.68)"><tspan x="0" y="0">ERR005 / EXIT(1)</tspan></text>
+  <polygon class="st17" points="318 7817.89 308 7821.89 318 7825.89 314 7821.89 318 7817.89"/>
+  <line class="st13" x1="312" y1="7821.89" x2="1013" y2="7821.89"/>
+  <text class="st5" transform="translate(324 7817.03)"><tspan x="0" y="0">Save Visualized Data</tspan></text>
+  <polygon class="st17" points="605.5 7848.24 615.5 7852.24 605.5 7856.24 609.5 7852.24 605.5 7848.24"/>
+  <line class="st13" x1="307" y1="7852.24" x2="611.5" y2="7852.24"/>
+  <text class="st5" transform="translate(314 7847.38)"><tspan x="0" y="0">update_proj()</tspan></text>
+  <polygon class="st17" points="318 7878.59 308 7882.59 318 7886.59 314 7882.59 318 7878.59"/>
+  <line class="st13" x1="312" y1="7882.59" x2="621.5" y2="7882.59"/>
+  <text class="st5" transform="translate(324 7877.73)"><tspan x="0" y="0">True</tspan></text>
+  <polygon class="st17" points="118 7908.94 108 7912.94 118 7916.94 114 7912.94 118 7908.94"/>
+  <line class="st16" x1="112" y1="7912.94" x2="296" y2="7912.94"/>
+  <text class="st5" transform="translate(124 7908.08)"><tspan x="0" y="0">Break</tspan></text>
+  <path class="st27" d="M40,7934.94h65v8.35l-10,10h-55v-18.35"/>
+  <rect class="st14" x="40" y="7934.94" width="1048.5" height="827.48"/>
+  <text class="st1" transform="translate(55 7949.44)"><tspan x="0" y="0">opt</tspan></text>
+  <text class="st4" transform="translate(120 7948.36)"><tspan x="0" y="0">[EXPORT DATA]</tspan></text>
+  <polygon class="st17" points="285 7971.64 295 7975.64 285 7979.64 289 7975.64 285 7971.64"/>
+  <line class="st16" x1="107" y1="7975.64" x2="291" y2="7975.64"/>
+  <text class="st5" transform="translate(114 7970.79)"><tspan x="0" y="0">Function</tspan><tspan class="st29" x="49.86" y="0"> </tspan><tspan x="53.61" y="0">Call</tspan></text>
+  <polygon class="st17" points="605.5 8002 615.5 8006 605.5 8010 609.5 8006 605.5 8002"/>
+  <line class="st13" x1="307" y1="8006" x2="611.5" y2="8006"/>
+  <text class="st5" transform="translate(314 8001.14)"><tspan x="0" y="0">Request</tspan><tspan class="st32" x="48.42" y="0"> </tspan><tspan x="52.25" y="0">Project</tspan><tspan class="st67" x="92.71" y="0"> </tspan><tspan x="96.54" y="0">Data</tspan></text>
+  <path class="st27" d="M50,8021h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="8021" width="638" height="79.05"/>
+  <text class="st1" transform="translate(65 8035.49)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 8034.41)"><tspan x="0" y="0">[No</tspan><tspan class="st42" x="18.33" y="0"> </tspan><tspan x="22.83" y="0">Projects</tspan><tspan class="st31" x="66.24" y="0"> </tspan><tspan x="70.74" y="0">Found]</tspan></text>
+  <polygon class="st17" points="318 8057.7 308 8061.7 318 8065.7 314 8061.7 318 8057.7"/>
+  <line class="st16" x1="312" y1="8061.7" x2="616.5" y2="8061.7"/>
+  <text class="st1" transform="translate(324 8056.84)"><tspan x="0" y="0">ERR007</tspan></text>
+  <polygon class="st17" points="118 8088.05 108 8092.05 118 8096.05 114 8092.05 118 8088.05"/>
+  <line class="st16" x1="112" y1="8092.05" x2="296" y2="8092.05"/>
+  <text class="st1" transform="translate(124 8087.19)"><tspan x="0" y="0">ERR007 / BACK</tspan></text>
+  <polygon class="st17" points="118 8125.4 108 8129.4 118 8133.4 114 8129.4 118 8125.4"/>
+  <line class="st16" x1="112" y1="8129.4" x2="616.5" y2="8129.4"/>
+  <text class="st5" transform="translate(124 8124.54)"><tspan x="0" y="0">Show</tspan><tspan class="st58" x="32.52" y="0"> </tspan><tspan x="36.3" y="0">Project</tspan><tspan class="st40" x="76.76" y="0"> </tspan><tspan x="80.54" y="0">Data</tspan></text>
+  <polygon class="st17" points="605.5 8155.75 615.5 8159.75 605.5 8163.75 609.5 8159.75 605.5 8155.75"/>
+  <line class="st16" x1="107" y1="8159.75" x2="611.5" y2="8159.75"/>
+  <text class="st5" transform="translate(114 8154.9)"><tspan x="0" y="0">Select</tspan><tspan class="st35" x="36.13" y="0"> </tspan><tspan x="41.54" y="0">Project</tspan></text>
+  <polygon class="st17" points="118 8186.1 108 8190.1 118 8194.1 114 8190.1 118 8186.1"/>
+  <line class="st16" x1="112" y1="8190.1" x2="616.5" y2="8190.1"/>
+  <text class="st5" transform="translate(124 8185.25)"><tspan x="0" y="0">show_generated_data_versions()</tspan></text>
+  <path class="st27" d="M50,8205.1h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="8205.1" width="638" height="61.38"/>
+  <text class="st1" transform="translate(65 8219.6)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 8218.52)"><tspan class="st64" x="0" y="0">[Keyboar</tspan><tspan x="49.28" y="0">d</tspan></text>
+  <text class="st4" transform="translate(126 8232.36)"><tspan class="st61" x="0" y="0">Interrupt</tspan><tspan class="st33" x="49.34" y="0">]</tspan></text>
+  <line class="st15" x1="114" y1="8253.48" x2="124" y2="8263.48"/>
+  <line class="st15" x1="114" y1="8263.48" x2="124" y2="8253.48"/>
+  <line class="st16" x1="119" y1="8258.48" x2="616.5" y2="8258.48"/>
+  <text class="st1" transform="translate(124 8253.62)"><tspan x="0" y="0">ERR003 / EXIT(0)</tspan></text>
+  <polygon class="st17" points="605.5 8291.83 615.5 8295.83 605.5 8299.83 609.5 8295.83 605.5 8291.83"/>
+  <line class="st16" x1="107" y1="8295.83" x2="611.5" y2="8295.83"/>
+  <text class="st5" transform="translate(114 8290.97)"><tspan x="0" y="0">Select</tspan><tspan class="st70" x="36.13" y="0"> </tspan><tspan x="40.3" y="0">Data</tspan><tspan class="st70" x="67.76" y="0"> </tspan><tspan x="71.92" y="0">Version</tspan></text>
+  <polygon class="st17" points="118 8322.18 108 8326.18 118 8330.18 114 8326.18 118 8322.18"/>
+  <line class="st16" x1="112" y1="8326.18" x2="616.5" y2="8326.18"/>
+  <text class="st5" transform="translate(124 8321.33)"><tspan x="0" y="0">select_data_export()</tspan></text>
+  <polygon class="st17" points="605.5 8352.53 615.5 8356.53 605.5 8360.53 609.5 8356.53 605.5 8352.53"/>
+  <line class="st16" x1="107" y1="8356.53" x2="611.5" y2="8356.53"/>
+  <text class="st5" transform="translate(114 8351.68)"><tspan x="0" y="0">Select</tspan><tspan class="st53" x="36.13" y="0"> </tspan><tspan x="40.38" y="0">PDF</tspan><tspan class="st41" x="66.38" y="0"> </tspan><tspan x="70.63" y="0">or</tspan><tspan class="st53" x="82.19" y="0"> </tspan><tspan x="86.45" y="0">CSV</tspan><tspan class="st41" x="113.18" y="0"> </tspan><tspan x="117.43" y="0">Export</tspan></text>
+  <polygon class="st17" points="997 8382.89 1007 8386.89 997 8390.89 1001 8386.89 997 8382.89"/>
+  <line class="st13" x1="627.5" y1="8386.89" x2="1003" y2="8386.89"/>
+  <text class="st5" transform="translate(634.5 8382.03)"><tspan x="0" y="0">generate_data_export()</tspan></text>
+  <path class="st27" d="M50,8401.89h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="8401.89" width="1028.5" height="232.13"/>
+  <text class="st1" transform="translate(65 8416.38)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 8415.3)"><tspan x="0" y="0">[Data</tspan><tspan class="st34" x="27.51" y="0"> </tspan><tspan x="31.44" y="0">Error]</tspan></text>
+  <polygon class="st17" points="318 8438.59 308 8442.59 318 8446.59 314 8442.59 318 8438.59"/>
+  <line class="st16" x1="312" y1="8442.59" x2="1008" y2="8442.59"/>
+  <text class="st1" transform="translate(324 8437.73)"><tspan x="0" y="0">ERR010</tspan></text>
+  <polygon class="st17" points="118 8468.94 108 8472.94 118 8476.94 114 8472.94 118 8468.94"/>
+  <line class="st16" x1="112" y1="8472.94" x2="296" y2="8472.94"/>
+  <text class="st1" transform="translate(124 8468.08)"><tspan x="0" y="0">ERR010 / BACK</tspan></text>
+  <line class="st12" x1="50" y1="8481.94" x2="1078.5" y2="8481.94"/>
+  <text class="st4" transform="translate(55 8493.36)"><tspan x="0" y="0">[Library</tspan><tspan class="st6" x="40.96" y="0"> </tspan><tspan x="47.44" y="0">Error]</tspan></text>
+  <polygon class="st17" points="318 8515.13 308 8519.13 318 8523.13 314 8519.13 318 8515.13"/>
+  <line class="st16" x1="312" y1="8519.13" x2="1008" y2="8519.13"/>
+  <text class="st1" transform="translate(324 8514.27)"><tspan x="0" y="0">ERR013</tspan></text>
+  <line class="st15" x1="114" y1="8544.48" x2="124" y2="8554.48"/>
+  <line class="st15" x1="114" y1="8554.48" x2="124" y2="8544.48"/>
+  <line class="st16" x1="119" y1="8549.48" x2="296" y2="8549.48"/>
+  <text class="st1" transform="translate(124 8544.62)"><tspan x="0" y="0">ERR013 / EXIT(1)</tspan></text>
+  <line class="st12" x1="50" y1="8558.48" x2="1078.5" y2="8558.48"/>
+  <text class="st4" transform="translate(55 8569.9)"><tspan x="0" y="0">[Generic</tspan><tspan class="st39" x="44.63" y="0"> </tspan><tspan x="51.44" y="0">Error]</tspan></text>
+  <polygon class="st17" points="318 8591.67 308 8595.67 318 8599.67 314 8595.67 318 8591.67"/>
+  <line class="st16" x1="312" y1="8595.67" x2="1008" y2="8595.67"/>
+  <text class="st1" transform="translate(324 8590.81)"><tspan x="0" y="0">ERR005</tspan></text>
+  <line class="st15" x1="114" y1="8621.02" x2="124" y2="8631.02"/>
+  <line class="st15" x1="114" y1="8631.02" x2="124" y2="8621.02"/>
+  <line class="st16" x1="119" y1="8626.02" x2="296" y2="8626.02"/>
+  <text class="st1" transform="translate(124 8621.16)"><tspan x="0" y="0">ERR005 / EXIT(1)</tspan></text>
+  <polygon class="st17" points="318 8659.37 308 8663.37 318 8667.37 314 8663.37 318 8659.37"/>
+  <line class="st13" x1="312" y1="8663.37" x2="1013" y2="8663.37"/>
+  <text class="st5" transform="translate(324 8658.51)"><tspan x="0" y="0">Save PDF/CSV</tspan></text>
+  <polygon class="st17" points="605.5 8689.72 615.5 8693.72 605.5 8697.72 609.5 8693.72 605.5 8689.72"/>
+  <line class="st13" x1="307" y1="8693.72" x2="611.5" y2="8693.72"/>
+  <text class="st5" transform="translate(314 8688.87)"><tspan x="0" y="0">update_proj()</tspan></text>
+  <polygon class="st17" points="318 8720.07 308 8724.07 318 8728.07 314 8724.07 318 8720.07"/>
+  <line class="st13" x1="312" y1="8724.07" x2="621.5" y2="8724.07"/>
+  <text class="st5" transform="translate(324 8719.22)"><tspan x="0" y="0">True</tspan></text>
+  <polygon class="st17" points="118 8750.42 108 8754.42 118 8758.42 114 8754.42 118 8750.42"/>
+  <line class="st16" x1="112" y1="8754.42" x2="296" y2="8754.42"/>
+  <text class="st5" transform="translate(124 8749.57)"><tspan x="0" y="0">Break</tspan></text>
+  <rect class="st38" y="8797.6" width="1259.5" height="3"/>
+  <line class="st11" y1="8797.6" x2="1259.5" y2="8797.6"/>
+  <line class="st11" y1="8800.6" x2="1259.5" y2="8800.6"/>
+  <rect class="st26" x="600.25" y="8786.42" width="59" height="24.35"/>
+  <line class="st11" x1="602.25" y1="8798.6" x2="606.25" y2="8798.6"/>
+  <line class="st11" x1="602.25" y1="8800.6" x2="606.25" y2="8800.6"/>
+  <text class="st1" transform="translate(606.25 8803.42)"><tspan x="0" y="0">ABOUT</tspan></text>
+  <line class="st11" x1="651.25" y1="8798.6" x2="655.25" y2="8798.6"/>
+  <line class="st11" x1="651.25" y1="8800.6" x2="655.25" y2="8800.6"/>
+  <path class="st27" d="M40,8827.78h65v8.35l-10,10h-55v-18.35"/>
+  <rect class="st14" x="40" y="8827.78" width="527" height="245.48"/>
+  <text class="st1" transform="translate(55 8842.27)"><tspan x="0" y="0">opt</tspan></text>
+  <text class="st4" transform="translate(120 8841.2)"><tspan x="0" y="0">[SHOW ABOUT]</tspan></text>
+  <polygon class="st17" points="489 8864.48 499 8868.48 489 8872.48 493 8868.48 489 8864.48"/>
+  <line class="st16" x1="107" y1="8868.48" x2="495" y2="8868.48"/>
+  <text class="st5" transform="translate(114 8863.62)"><tspan x="0" y="0">Function</tspan><tspan class="st29" x="49.86" y="0"> </tspan><tspan x="53.61" y="0">Call</tspan></text>
+  <polygon class="st17" points="318 8894.83 308 8898.83 318 8902.83 314 8898.83 318 8894.83"/>
+  <line class="st13" x1="312" y1="8898.83" x2="505" y2="8898.83"/>
+  <text class="st5" transform="translate(324 8893.97)"><tspan x="0" y="0">Retrieve About Information</tspan></text>
+  <polygon class="st17" points="118 8925.18 108 8929.18 118 8933.18 114 8929.18 118 8925.18"/>
+  <line class="st16" x1="112" y1="8929.18" x2="296" y2="8929.18"/>
+  <text class="st5" transform="translate(124 8924.33)"><tspan x="0" y="0">Show About Information</tspan></text>
+  <path class="st27" d="M50,8944.18h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="8944.18" width="307.5" height="61.38"/>
+  <text class="st1" transform="translate(65 8958.68)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 8957.6)"><tspan class="st64" x="0" y="0">[Keyboar</tspan><tspan x="49.28" y="0">d</tspan></text>
+  <text class="st4" transform="translate(126 8971.44)"><tspan class="st61" x="0" y="0">Interrupt</tspan><tspan class="st33" x="49.34" y="0">]</tspan></text>
+  <line class="st15" x1="114" y1="8992.56" x2="124" y2="9002.56"/>
+  <line class="st15" x1="114" y1="9002.56" x2="124" y2="8992.56"/>
+  <line class="st16" x1="119" y1="8997.56" x2="296" y2="8997.56"/>
+  <text class="st1" transform="translate(124 8992.7)"><tspan x="0" y="0">ERR003 / Exit(0)</tspan></text>
+  <polygon class="st17" points="285 9030.91 295 9034.91 285 9038.91 289 9034.91 285 9030.91"/>
+  <line class="st16" x1="107" y1="9034.91" x2="291" y2="9034.91"/>
+  <text class="st5" transform="translate(114 9030.05)"><tspan x="0" y="0">Press</tspan><tspan class="st43" x="33.23" y="0"> </tspan><tspan x="36.87" y="0">Return</tspan><tspan class="st63" x="75.89" y="0"> </tspan><tspan x="79.53" y="0">/</tspan><tspan class="st43" x="83.14" y="0"> </tspan><tspan x="86.78" y="0">Timer</tspan></text>
+  <polygon class="st17" points="118 9061.26 108 9065.26 118 9069.26 114 9065.26 118 9061.26"/>
+  <line class="st16" x1="112" y1="9065.26" x2="301" y2="9065.26"/>
+  <text class="st5" transform="translate(124 9060.4)"><tspan x="0" y="0">Break</tspan></text>
+  <rect class="st38" y="9101.44" width="1259.5" height="3"/>
+  <line class="st11" y1="9101.44" x2="1259.5" y2="9101.44"/>
+  <line class="st11" y1="9104.44" x2="1259.5" y2="9104.44"/>
+  <rect class="st26" x="594.75" y="9090.26" width="70" height="24.35"/>
+  <line class="st11" x1="596.75" y1="9102.44" x2="600.75" y2="9102.44"/>
+  <line class="st11" x1="596.75" y1="9104.44" x2="600.75" y2="9104.44"/>
+  <text class="st1" transform="translate(600.75 9107.26)"><tspan x="0" y="0">CREDITS</tspan></text>
+  <line class="st11" x1="656.75" y1="9102.44" x2="660.75" y2="9102.44"/>
+  <line class="st11" x1="656.75" y1="9104.44" x2="660.75" y2="9104.44"/>
+  <path class="st27" d="M40,9131.61h65v8.35l-10,10h-55v-18.35"/>
+  <rect class="st14" x="40" y="9131.61" width="527" height="245.48"/>
+  <text class="st1" transform="translate(55 9146.11)"><tspan x="0" y="0">opt</tspan></text>
+  <text class="st4" transform="translate(120 9145.03)"><tspan x="0" y="0">[SHOW CREDITS]</tspan></text>
+  <polygon class="st17" points="489 9168.32 499 9172.32 489 9176.32 493 9172.32 489 9168.32"/>
+  <line class="st16" x1="107" y1="9172.32" x2="495" y2="9172.32"/>
+  <text class="st5" transform="translate(114 9167.46)"><tspan x="0" y="0">Function</tspan><tspan class="st29" x="49.86" y="0"> </tspan><tspan x="53.61" y="0">Call</tspan></text>
+  <polygon class="st17" points="318 9198.67 308 9202.67 318 9206.67 314 9202.67 318 9198.67"/>
+  <line class="st13" x1="312" y1="9202.67" x2="505" y2="9202.67"/>
+  <text class="st5" transform="translate(324 9197.81)"><tspan x="0" y="0">Retrieve Credits</tspan></text>
+  <polygon class="st17" points="118 9229.02 108 9233.02 118 9237.02 114 9233.02 118 9229.02"/>
+  <line class="st16" x1="112" y1="9233.02" x2="296" y2="9233.02"/>
+  <text class="st5" transform="translate(124 9228.16)"><tspan x="0" y="0">Show Credits</tspan></text>
+  <path class="st27" d="M50,9248.02h61v8.35l-10,10h-51v-18.35"/>
+  <rect class="st14" x="50" y="9248.02" width="307.5" height="61.38"/>
+  <text class="st1" transform="translate(65 9262.51)"><tspan class="st52" x="0" y="0">al</tspan><tspan x="11.67" y="0">t</tspan></text>
+  <text class="st4" transform="translate(126 9261.44)"><tspan class="st64" x="0" y="0">[Keyboar</tspan><tspan x="49.28" y="0">d</tspan></text>
+  <text class="st4" transform="translate(126 9275.27)"><tspan class="st61" x="0" y="0">Interrupt</tspan><tspan class="st33" x="49.34" y="0">]</tspan></text>
+  <line class="st15" x1="114" y1="9296.39" x2="124" y2="9306.39"/>
+  <line class="st15" x1="114" y1="9306.39" x2="124" y2="9296.39"/>
+  <line class="st16" x1="119" y1="9301.39" x2="296" y2="9301.39"/>
+  <text class="st1" transform="translate(124 9296.54)"><tspan x="0" y="0">ERR003 / Exit(0)</tspan></text>
+  <polygon class="st17" points="285 9334.75 295 9338.75 285 9342.75 289 9338.75 285 9334.75"/>
+  <line class="st16" x1="107" y1="9338.75" x2="291" y2="9338.75"/>
+  <text class="st5" transform="translate(114 9333.89)"><tspan x="0" y="0">Press</tspan><tspan class="st43" x="33.23" y="0"> </tspan><tspan x="36.87" y="0">Return</tspan><tspan class="st63" x="75.89" y="0"> </tspan><tspan x="79.53" y="0">/</tspan><tspan class="st43" x="83.14" y="0"> </tspan><tspan x="86.78" y="0">Timer</tspan></text>
+  <polygon class="st17" points="118 9365.1 108 9369.1 118 9373.1 114 9369.1 118 9365.1"/>
+  <line class="st16" x1="112" y1="9369.1" x2="301" y2="9369.1"/>
+  <text class="st5" transform="translate(124 9364.24)"><tspan x="0" y="0">Break</tspan></text>
+  <rect class="st38" y="9405.27" width="1259.5" height="3"/>
+  <line class="st11" y1="9405.27" x2="1259.5" y2="9405.27"/>
+  <line class="st11" y1="9408.27" x2="1259.5" y2="9408.27"/>
+  <rect class="st26" x="608.25" y="9394.1" width="43" height="24.35"/>
+  <line class="st11" x1="610.25" y1="9406.27" x2="614.25" y2="9406.27"/>
+  <line class="st11" x1="610.25" y1="9408.27" x2="614.25" y2="9408.27"/>
+  <text class="st1" transform="translate(614.25 9411.09)"><tspan class="st7" x="0" y="0">EXI</tspan><tspan x="21.06" y="0">T</tspan></text>
+  <line class="st11" x1="643.25" y1="9406.27" x2="647.25" y2="9406.27"/>
+  <line class="st11" x1="643.25" y1="9408.27" x2="647.25" y2="9408.27"/>
+  <path class="st27" d="M50,9435.45h65v8.35l-10,10h-55v-18.35"/>
+  <rect class="st14" x="50" y="9435.45" width="307.5" height="165.76"/>
+  <text class="st1" transform="translate(65 9449.94)"><tspan x="0" y="0">opt</tspan></text>
+  <text class="st4" transform="translate(130 9448.87)"><tspan x="0" y="0">[EXIT ALGORITHM]</tspan></text>
+  <polygon class="st17" points="285 9472.15 295 9476.15 285 9480.15 289 9476.15 285 9472.15"/>
+  <line class="st16" x1="107" y1="9476.15" x2="291" y2="9476.15"/>
+  <text class="st5" transform="translate(114 9471.29)"><tspan x="0" y="0">Function</tspan><tspan class="st56" x="49.86" y="0"> </tspan><tspan x="54.5" y="0">call</tspan></text>
+  <polygon class="st17" points="118 9502.5 108 9506.5 118 9510.5 114 9506.5 118 9502.5"/>
+  <line class="st16" x1="112" y1="9506.5" x2="301" y2="9506.5"/>
+  <text class="st5" transform="translate(124 9501.65)"><tspan x="0" y="0">True</tspan></text>
+  <line class="st16" x1="107" y1="9536.85" x2="149" y2="9536.85"/>
+  <line class="st16" x1="149" y1="9536.85" x2="149" y2="9549.85"/>
+  <line class="st16" x1="108" y1="9549.85" x2="149" y2="9549.85"/>
+  <polygon class="st17" points="118 9545.85 108 9549.85 118 9553.85 114 9549.85 118 9545.85"/>
+  <text class="st5" transform="translate(114 9532)"><tspan x="0" y="0">Break</tspan></text>
+  <line class="st16" x1="107" y1="9580.21" x2="149" y2="9580.21"/>
+  <line class="st16" x1="149" y1="9580.21" x2="149" y2="9593.21"/>
+  <line class="st16" x1="108" y1="9593.21" x2="149" y2="9593.21"/>
+  <polygon class="st17" points="118 9589.21 108 9593.21 118 9597.21 114 9593.21 118 9589.21"/>
+  <text class="st5" transform="translate(114 9575.35)"><tspan class="st57" x="0" y="0">Exit(0</tspan><tspan class="st72" x="33.67" y="0">)</tspan></text>
+</svg>

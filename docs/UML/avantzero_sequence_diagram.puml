@@ -31,6 +31,18 @@ group BOOT [BOOT- AND\nINITIAL CHECKS]
     USIF -> SYS : init() 
     activate SYS #16ad8f
     SYS -> USIF : show_splash()
+    alt Check folder structure
+    USIF -> SYS : check_folder_structure()
+    SYS -> USIF : True
+        else Folder structure does not exist
+        USIF -> SYS : check_folder_structure()
+        SYS -> USIF : False
+        USIF -> SYS : create_folder_structure()
+        alt Permission Error
+        SYS -x USIF: <b>ERR004 / EXIT (1)</b>
+        end
+    SYS -> USIF : True
+    end
     ====DEPENDENCY CHECK====
     SYS --> DEPGEN : check_dependencies()
     activate UTILS #16ad8f
@@ -306,12 +318,114 @@ group MAIN [MAIN\nFUNCTIONALITY]
         end
 
         opt GENERATE DEPTH
+            USIF -> SYS : Function Call
+            SYS --> PROJM: Request Project Data
+            activate PROJM #9de637
+            alt No Projects Found
+                PROJM -> SYS : <b>ERR007</b>
+                SYS -> USIF : <b>ERR007 / BACK</b>
+            end
+            PROJM -> USIF: Show Project Data
+            USIF -> PROJM : Select Project
+            PROJM -> USIF : show_generated_data_versions()
+            alt Keyboard\nInterrupt
+                PROJM -X USIF : <b>ERR003 / EXIT(0) </b>
+            end
+            USIF -> PROJM: Select Data Version
+            PROJM -> USIF : depth_mode_selector()
+            USIF -> PROJM: Select Depth Mode (Lite / Full)
+            PROJM --> DEPGEN : generate_depth()
+            activate DEPGEN #9de637
+            alt Data Error
+                DEPGEN -> SYS: <b>ERR010</b>
+                SYS -> USIF : <b>ERR010 / BACK</b>
+            else DepthAnything Error
+                DEPGEN -> SYS : <b>ERR011</b>
+                SYS -x USIF : <b>ERR011 / EXIT(1)</b>
+            else Generic Error
+                DEPGEN -> SYS : <b>ERR005</b>
+                SYS -x USIF : <b>ERR005 / EXIT(1)</b>
+            end
+            DEPGEN --> SYS : Save Depth of Field Maps
+            deactivate DEPGEN
+            SYS --> PROJM : update_proj()
+            PROJM --> SYS : True
+            deactivate PROJM
+            SYS -> USIF : Break
         end
 
         opt VISUALIZE DATA
+            USIF -> SYS : Function Call
+            SYS --> PROJM: Request Project Data
+            activate PROJM #9de637
+            alt No Projects Found
+                PROJM -> SYS : <b>ERR007</b>
+                SYS -> USIF : <b>ERR007 / BACK</b>
+            end
+            PROJM -> USIF: Show Project Data
+            USIF -> PROJM : Select Project
+            PROJM -> USIF : show_generated_data_versions()
+            alt Keyboard\nInterrupt
+                PROJM -X USIF : <b>ERR003 / EXIT(0) </b>
+            end
+            USIF -> PROJM: Select Data Version
+            PROJM -> USIF : select_data_vis()
+            USIF -> PROJM: Select different forms of data visualizations
+            PROJM --> DANLY : generate_vis()
+            activate DANLY #9de637
+            alt Data Error
+                DANLY -> SYS: <b>ERR010</b>
+                SYS -> USIF : <b>ERR010 / BACK</b>
+            else Library Error
+                DANLY -> SYS : <b>ERR012</b>
+                SYS -x USIF : <b>ERR012 / EXIT(1)</b>
+            else Generic Error
+                DANLY -> SYS : <b>ERR005</b>
+                SYS -x USIF : <b>ERR005 / EXIT(1)</b>
+            end
+            DANLY --> SYS : Save Visualized Data
+            deactivate DANLY
+            SYS --> PROJM : update_proj()
+            PROJM --> SYS : True
+            deactivate PROJM
+            SYS -> USIF : Break
         end
 
         opt EXPORT DATA
+        USIF -> SYS : Function Call
+            SYS --> PROJM: Request Project Data
+            activate PROJM #9de637
+            alt No Projects Found
+                PROJM -> SYS : <b>ERR007</b>
+                SYS -> USIF : <b>ERR007 / BACK</b>
+            end
+            PROJM -> USIF: Show Project Data
+            USIF -> PROJM : Select Project
+            PROJM -> USIF : show_generated_data_versions()
+            alt Keyboard\nInterrupt
+                PROJM -X USIF : <b>ERR003 / EXIT(0) </b>
+            end
+            USIF -> PROJM: Select Data Version
+            PROJM -> USIF : select_data_export()
+            USIF -> PROJM: Select PDF or CSV Export
+            PROJM --> DANLY : generate_data_export()
+            activate DANLY #9de637
+            alt Data Error
+                DANLY -> SYS: <b>ERR010</b>
+                SYS -> USIF : <b>ERR010 / BACK</b>
+            else Library Error
+                DANLY -> SYS : <b>ERR013</b>
+                SYS -x USIF : <b>ERR013 / EXIT(1)</b>
+            else Generic Error
+                DANLY -> SYS : <b>ERR005</b>
+                SYS -x USIF : <b>ERR005 / EXIT(1)</b>
+            end
+            DANLY --> SYS : Save PDF/CSV
+            deactivate DANLY
+            SYS --> PROJM : update_proj()
+            PROJM --> SYS : True
+            deactivate PROJM
+            SYS -> USIF : Break
         end
         deactivate SYS
     end
