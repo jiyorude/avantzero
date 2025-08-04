@@ -9,7 +9,7 @@ AvantZero was created as a final submission project for Harvard's CS50X - Introd
 
 | Version | To-Do | Description | Status |
 |---------:|:--------:|:-----------:|:-------:|
-| 0.0.0 | Documentation | ~~Functional Design~~, *Technical Design*, ~~Sequence Diagram~~, *Design mock-up Documentation website*, ~~Readme~~, ~~Development Roadmap~~ | *65%* |
+| 0.0.0 | Documentation | ~~Functional Design~~, *Technical Design*, ~~Sequence Diagram~~,  ~~Readme~~, ~~Development Roadmap~~ | *80%* |
 | 0.1.0 | Preparation | **Software:** File- and folder structre ready, outline of algorithm functions and helper function definitions. **Documentation Website:** Loading screen and Homepage layout ready (a11y, responsive), i18n implementation for Dutch and English | 0% |
 | 0.2.0 | Splash Screen / Main Menu | **Software:** Completed Loading/Splash screen, completed splash helper functions, main menu completed with full functionality, user can terminate out of the program. **Documentation website:** Errors are properly documented alongside fixes, homepage of Documentation Website has clickable buttons leading to empty pages, responsivity, a11y, i18n, fully working loading screen | 0% |
 | 0.2.1 + 0.2.2 | Splash Screen / Main Menu - GUI/Unit Testing | **Software:** Tkinter GUI fully working, GUI implementation for all functions, Manual and automated unit tests of main menu, loading screen and functions. **Documentation:** Error Database is updated | 0% |
