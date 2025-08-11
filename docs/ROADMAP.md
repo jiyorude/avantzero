@@ -1,6 +1,6 @@
 ### AvantZero Roadmap
 
-*Current Version: 0.0.0*
+*Current Version: 0.0.0 - August 11th, 2025*
 
 This file contains an overview concerning the current development roadmap for the AvantZero algorithm. Please be advised that AvantZero merely serves as a *proof of concept* for the Avant algorithm and will not receive any (major) software updates after the release of its initial version. <br><br>
 
