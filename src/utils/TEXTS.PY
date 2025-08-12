@@ -1,0 +1,1 @@
+# Contains all texts found within the algorithm
