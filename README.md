@@ -6,7 +6,7 @@ Quake III Machinima post-production
 
 <br/>
 
-**Version: 0.0.0 - August 11th, 2025**
+**Version: 0.0.0 - August 12th, 2025**
 <br/><br/>
 Created by Jordy Veenstra (A Pixelated Point of View)<br/>
 Final submission project for Harvard's CS50X (Introduction to Computer Science) course. <br><br>

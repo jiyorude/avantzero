@@ -1,6 +1,6 @@
 ### AvantZero Roadmap
 
-*Current Version: 0.0.0 - August 11th, 2025*
+*Current Version: 0.0.0 - August 12th, 2025*
 
 This file contains an overview concerning the current development roadmap for the AvantZero algorithm. Please be advised that AvantZero merely serves as a *proof of concept* for the Avant algorithm and will not receive any (major) software updates after the release of its initial version. <br><br>
 
@@ -9,8 +9,8 @@ AvantZero was created as a final submission project for Harvard's CS50X - Introd
 
 | Version | To-Do | Description | Status |
 |---------:|:--------:|:-----------:|:-------:|
-| 0.0.0 | Documentation | ~~Functional Design~~, *Technical Design*, ~~Sequence Diagram~~,  ~~Readme~~, ~~Development Roadmap~~ | *80%* |
-| 0.1.0 | Preparation | **Software:** File- and folder structre ready, outline of algorithm functions and helper function definitions. **Documentation Website:** Loading screen and Homepage layout ready (a11y, responsive), i18n implementation for Dutch and English | 0% |
+| 0.0.0 | Documentation | ~~Functional Design~~, ~~Technical Design~~, ~~Sequence Diagram~~,  ~~Readme~~, ~~Development Roadmap~~ | **100% - 12/08/2025** |
+| 0.1.0 | Preparation | **Software:** File- and folder structre ready, outline of algorithm functions and helper function definitions. **Documentation Website:** Loading screen and Homepage layout ready (a11y, responsive), i18n implementation for Dutch and English | *0%* |
 | 0.2.0 | Splash Screen / Main Menu | **Software:** Completed Loading/Splash screen, completed splash helper functions, main menu completed with full functionality, user can terminate out of the program. **Documentation website:** Errors are properly documented alongside fixes, homepage of Documentation Website has clickable buttons leading to empty pages, responsivity, a11y, i18n, fully working loading screen | 0% |
 | 0.2.1 + 0.2.2 | Splash Screen / Main Menu - GUI/Unit Testing | **Software:** Tkinter GUI fully working, GUI implementation for all functions, Manual and automated unit tests of main menu, loading screen and functions. **Documentation:** Error Database is updated | 0% |
 | 0.3.0 | Documentation: Background, Requirements, Installation | **Documentation:** Completed background chapter on documentation website, completed requirements chapter on documentation website, completed installation chapter on documentation website, all pages are a11y-compliant, responsive and accessible in Dutch and English, user can switch languages at will. | 0% |
