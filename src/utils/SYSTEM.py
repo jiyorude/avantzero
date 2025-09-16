@@ -1,4 +1,15 @@
+from utils.DANLY import DANLY
+from utils.DATAGEN import DATAGEN
+from utils.DEPGEN import DEPGEN
+from utils.PROJM import PROJM
+from utils.NLEGEN import NLEGEN
+from utils.UTILITIES import UTILS
+import utils.TEXTS as AVZTX
+import os
+
 class SYSTEM:
+    COREDANLY, COREDATAGEN, COREDEPGEN, COREPROJM, CORENLEGEN, COREUTILS = DANLY, DATAGEN, DEPGEN, PROJM, NLEGEN, UTILS 
+    
     def init(self):
         return True
     
@@ -6,7 +17,15 @@ class SYSTEM:
         return True
     
     def check_folder_structure(self):
-        return True
+        try:
+            if not os.path.exists(os.path.join(os.path.expanduser("~"), "Documents", "AvantZero")):
+                os.makedirs(os.path.join(os.path.expanduser("~"), "Documents", "AvantZero"))
+                with open(os.path.join(os.path.expanduser("~"), "Documents", "AvantZero", '_AvantZero_Documentation.url'), 'w') as file:
+                    file.write(f"[InternetShortcut]\nURL=https://avantzero-docs.vercel.app")
+            else:
+                return True
+        except Exception:
+            return '004'
 
     def check_dependencies(self):
         return True
