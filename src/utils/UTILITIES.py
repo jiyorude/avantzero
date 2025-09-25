@@ -3,12 +3,15 @@ from tkinter import messagebox
 
 class UTILS:
     def return_to_main_menu(self):
+        #TBA
         return True
     
-    def show_error(self, code, message, link):
+    def show_error(code, message, link):
         root = tkinter.Tk()
         root.withdraw()
-        if link:
+        if "github" in link:
+            message += f"\n\nCheck out the Issues section on GitHub to see whether the issue has been reported."
+        if "vercel" in link:
             message += f"\n\nMore info at: {link}"
         messagebox.showerror(f"Error {code}", message, link)
         root.destroy()

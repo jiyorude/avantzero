@@ -4,7 +4,7 @@ from utils.DEPGEN import DEPGEN
 from utils.PROJM import PROJM
 from utils.NLEGEN import NLEGEN
 from utils.UTILITIES import UTILS
-import os, tkinter, time, sys
+import os, tkinter, time, sys, pkg_resources
 from tkinter import font, ttk
 from PIL import Image, ImageTk
 
@@ -104,25 +104,44 @@ class SYSTEM:
         self.progress.place(relx=0.5, rely=0.92, anchor="s")
         self.splash_window.update()
 
-
-    # WIP
+    # DONE
     def check_folder_structure(self):
         try:
             if not os.path.exists(os.path.join(os.path.expanduser("~"), "Documents", "AvantZero")):
                 os.makedirs(os.path.join(os.path.expanduser("~"), "Documents", "AvantZero"))
                 with open(os.path.join(os.path.expanduser("~"), "Documents", "AvantZero", '_AvantZero_Documentation.url'), 'w') as file:
                     file.write(f"[InternetShortcut]\nURL=https://avantzero-docs.vercel.app")
-            else:
-                return True
+        # TODO: ADD DOCS LINK
         except PermissionError:
-            err = UTILS.show_error('004A')
-            return err
-        except Exception:
-            err = UTILS.show_error('004B')
-            return err
-
+            UTILS.show_error('004A', "AvantZero does not have permission to check/create the folder structure.", "TBA")
+            exit(1)
+        except Exception as e:
+            UTILS.show_error('004B', f"General Exception regarding the folder structure: {e}", "https://github.com/jiyorude/avantzero/issues")
+            exit(1)
+        else:
+            return True
+        
+    # DONE   
     def check_dependencies(self):
-        return True
+        try:
+            cores = ['DANLY.py', 'DATAGEN.py', 'DEPGEN.py', 'NLEGEN.py', 'PROJM.py', 'SYSTEM.py', 'UTILITIES.py', 'TEXTS.py']
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            missing_cores = []
+            for core in cores:
+                file_path = os.path.join(script_dir, core)
+                if not os.path.isfile(file_path):
+                    missing_cores.append(core)
+            if missing_cores:
+                raise FileNotFoundError
+        except FileNotFoundError:
+            # TODO: ADD DOCS LINK
+            UTILS.show_error('001A', f'Unable to find Python file dependencies: {", ".join(missing_cores)}', 'TBA')
+            exit(1)
+        except Exception as e:
+            UTILS.show_error('001B', f"General Exception regarding dependency check: {e}", "https://github.com/jiyorude/avantzero/issues")
+            exit(1)
+        else:
+            return True
     
     # DONE
     def update_splash(self, progress_val: int, status_text=""):
@@ -142,14 +161,99 @@ class SYSTEM:
             self.version_label = None
             self.progress = None    
     
+    # DONE
     def check_packages(self):
+        missing = []
+        script_dir = os.path.dirname(os.path.abspath(__file__)) 
+        requirements_path = os.path.abspath(os.path.join(script_dir, "../../requirements.txt")) 
+        with open(requirements_path, 'r', encoding='UTF-16') as req:            
+            for line in req:
+                package = line.strip()
+                try:
+                    pkg_resources.require(package)
+                except pkg_resources.DistributionNotFound:
+                    missing.append(package)
+                except pkg_resources.VersionConflict as e:
+                    missing.append(f"{package} (version conflict: {e})")
+            try:
+                # TODO: Add DOCS LINK
+                if missing:
+                    raise ImportError
+            except ImportError:
+                UTILS.show_error('002', f'Errors with the following packages: {" ".join(missing)}', 'TBA')
+                exit(1)
         return True
     
     def main_menu(self):
-        print("You made it to the main menu!")
-        time.sleep(5)
-        sys.exit(0)
-        return False
+        self.main_window = tkinter.Tk()
+        self.main_window.title("AvantZero")
+        self.main_window.geometry("1280x720")
+        self.main_window.configure(bg="#2b2b2b")
+        title_label = tkinter.Label(
+            self.main_window,
+            text="AvantZero",
+            fg="white",
+            bg="#2b2b2b",
+            font=("Gantari Regular", 14)
+        )
+        title_label.pack(side="left", padx=10)
+        project_manager_button = tkinter.Button(
+            self.main_window,
+            text="Project Manager",
+            command=self.boot_project_manager,
+            width=20,
+            height=2,
+            bg="#16ad8f",
+            fg="white",
+            font=("Gantari Regular", 14)
+        )
+        project_manager_button.pack(pady=10)
+        data_generator_button = tkinter.Button(
+            self.main_window,
+            text="Data Generator",
+            command=self.boot_data_generator,
+            width=20,
+            height=2,
+            bg="#16ad8f",
+            fg="white",
+            font=("Gantari Regular", 14)
+        )
+        data_generator_button.pack(pady=10)
+        about_button = tkinter.Button(
+            self.main_window,
+            text="About",
+            command=self.boot_about,
+            width=20,
+            height=2,
+            bg="#16ad8f",
+            fg="white",
+            font=("Gantari Regular", 14)
+        )
+        about_button.pack(pady=10)
+        credits_button = tkinter.Button(
+            self.main_window,
+            text="Credits",
+            command=self.boot_credits,
+            width=20,
+            height=2,
+            bg="#16ad8f",
+            fg="white",
+            font=("Gantari Regular", 14)
+        )
+        credits_button.pack(pady=10)
+        exit_button = tkinter.Button(
+            self.main_window,
+            text="Exit",
+            command=lambda: self.exit_avantzero(0),
+            width=20,
+            height=2,
+            bg="#ff4d4d",
+            fg="white",
+            font=("Gantari Regular", 14)
+        )
+        exit_button.pack(pady=10)
+        self.main_window.protocol("WM_DELETE_WINDOW", lambda: self.exit_avantzero(0))
+        self.main_window.mainloop()
 
 
 
