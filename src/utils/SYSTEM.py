@@ -187,16 +187,21 @@ class SYSTEM:
     def main_menu(self):
         self.main_window = tkinter.Tk()
         self.main_window.title("AvantZero")
-        self.main_window.geometry("1280x720")
+        self.main_window.geometry("800x600")
         self.main_window.configure(bg="#2b2b2b")
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        icon_path = os.path.join(script_dir, "..", "assets", "ico", "AvantZeroIco.ico")
+        self.main_window.iconbitmap(icon_path)
+        main_title = "AVANTZERO"
+        main_title = "  ".join(main_title)
         title_label = tkinter.Label(
             self.main_window,
-            text="AvantZero",
+            text=main_title,
             fg="white",
             bg="#2b2b2b",
-            font=("Gantari Regular", 14)
+            font=("Gantari Regular", 24)
         )
-        title_label.pack(side="left", padx=10)
+        title_label.grid(row=0, column=0, columnspan=3, pady=20)
         project_manager_button = tkinter.Button(
             self.main_window,
             text="Project Manager",
@@ -207,7 +212,7 @@ class SYSTEM:
             fg="white",
             font=("Gantari Regular", 14)
         )
-        project_manager_button.pack(pady=10)
+        project_manager_button.grid(row=1, column=0, padx=10, pady=10)
         data_generator_button = tkinter.Button(
             self.main_window,
             text="Data Generator",
@@ -218,7 +223,7 @@ class SYSTEM:
             fg="white",
             font=("Gantari Regular", 14)
         )
-        data_generator_button.pack(pady=10)
+        data_generator_button.grid(row=1, column=1, padx=10, pady=10)
         about_button = tkinter.Button(
             self.main_window,
             text="About",
@@ -229,7 +234,7 @@ class SYSTEM:
             fg="white",
             font=("Gantari Regular", 14)
         )
-        about_button.pack(pady=10)
+        about_button.grid(row=1, column=2, padx=10, pady=10)
         credits_button = tkinter.Button(
             self.main_window,
             text="Credits",
@@ -240,7 +245,7 @@ class SYSTEM:
             fg="white",
             font=("Gantari Regular", 14)
         )
-        credits_button.pack(pady=10)
+        credits_button.grid(row=2, column=0, padx=10, pady=10)
         exit_button = tkinter.Button(
             self.main_window,
             text="Exit",
@@ -251,10 +256,15 @@ class SYSTEM:
             fg="white",
             font=("Gantari Regular", 14)
         )
-        exit_button.pack(pady=10)
+        exit_button.grid(row=2, column=1, columnspan=2, padx=10, pady=10)
+        self.main_window.grid_rowconfigure(0, weight=1)
+        self.main_window.grid_rowconfigure(1, weight=1)
+        self.main_window.grid_rowconfigure(2, weight=1)
+        self.main_window.grid_columnconfigure(0, weight=1)
+        self.main_window.grid_columnconfigure(1, weight=1)
+        self.main_window.grid_columnconfigure(2, weight=1)
         self.main_window.protocol("WM_DELETE_WINDOW", lambda: self.exit_avantzero(0))
         self.main_window.mainloop()
-
 
 
 # LATER LMAO
@@ -279,6 +289,6 @@ class SYSTEM:
         time.sleep(1)
         return True
     
+    # done
     def exit_avantzero(self, code: 0 | 1):
-        print("Exiting AvantZero...")
         sys.exit(code)

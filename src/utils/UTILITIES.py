@@ -1,4 +1,4 @@
-import tkinter
+import tkinter, os
 from tkinter import messagebox
 
 class UTILS:
@@ -13,5 +13,5 @@ class UTILS:
             message += f"\n\nCheck out the Issues section on GitHub to see whether the issue has been reported."
         if "vercel" in link:
             message += f"\n\nMore info at: {link}"
-        messagebox.showerror(f"Error {code}", message, link)
+        messagebox.showerror(f"ERROR: {code}", message)
         root.destroy()
