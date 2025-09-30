@@ -4,6 +4,7 @@ from utils.DEPGEN import DEPGEN
 from utils.PROJM import PROJM
 from utils.NLEGEN import NLEGEN
 from utils.UTILITIES import UTILS
+from utils import TEXTS as AVZTX
 import os, tkinter, time, sys, pkg_resources
 from tkinter import font, ttk
 from PIL import Image, ImageTk
@@ -49,15 +50,14 @@ class SYSTEM:
         splash_logofont = font.Font(family='Quantum', size=175, weight="bold")
         self.splash_label = tkinter.Label(
             self.splash_window,
-            text='A',
+            text=AVZTX.splashOne,
             fg="white",
             bg="#2b2b2b",
             font=splash_logofont
         )
         self.splash_label.place(relx=0.5, rely=0.37, anchor="center")
         splash_avztext = font.Font(family='Gantari ExtraLight', size=18)
-        text = "AVANTZERO"
-        spaced_text = "  ".join(text)
+        spaced_text = "  ".join(AVZTX.mame_one)
         self.splash_logotitle = tkinter.Label(
             self.splash_window,
             text=spaced_text,
@@ -69,7 +69,7 @@ class SYSTEM:
         splash_loadingtext = font.Font(family='Gantari Regular', size=10)
         self.status_label = tkinter.Label(
             self.splash_window,
-            text="Starting...",
+            text=AVZTX.mame_two,
             fg="white",
             bg="#2b2b2b",
             font=splash_loadingtext
@@ -77,7 +77,7 @@ class SYSTEM:
         self.status_label.place(relx=0.0367, rely=0.975, anchor="sw")
         self.version_label = tkinter.Label(
             self.splash_window,
-            text='v0.2.0',
+            text=AVZTX.mame_three,
             fg="white",
             bg="#2b2b2b",
             font=splash_loadingtext
@@ -111,12 +111,11 @@ class SYSTEM:
                 os.makedirs(os.path.join(os.path.expanduser("~"), "Documents", "AvantZero"))
                 with open(os.path.join(os.path.expanduser("~"), "Documents", "AvantZero", '_AvantZero_Documentation.url'), 'w') as file:
                     file.write(f"[InternetShortcut]\nURL=https://avantzero-docs.vercel.app")
-        # TODO: ADD DOCS LINK
         except PermissionError:
-            UTILS.show_error('004A', "AvantZero does not have permission to check/create the folder structure.", "TBA")
+            UTILS.show_error(AVZTX.err_four_a_title, AVZTX.err_four_a_msg, AVZTX.err_four_a_link)
             exit(1)
         except Exception as e:
-            UTILS.show_error('004B', f"General Exception regarding the folder structure: {e}", "https://github.com/jiyorude/avantzero/issues")
+            UTILS.show_error(AVZTX.err_four_b_title, f"{AVZTX.err_four_b_msg} {e}", AVZTX.err_four_b_link)
             exit(1)
         else:
             return True
@@ -134,11 +133,10 @@ class SYSTEM:
             if missing_cores:
                 raise FileNotFoundError
         except FileNotFoundError:
-            # TODO: ADD DOCS LINK
-            UTILS.show_error('001A', f'Unable to find Python file dependencies: {", ".join(missing_cores)}', 'TBA')
+            UTILS.show_error({AVZTX.err_one_a_title}, f'{AVZTX.err_one_a} {", ".join(missing_cores)}', {AVZTX.err_one_a_link})
             exit(1)
         except Exception as e:
-            UTILS.show_error('001B', f"General Exception regarding dependency check: {e}", "https://github.com/jiyorude/avantzero/issues")
+            UTILS.show_error(AVZTX.err_one_b_title, f"{AVZTX.err_one_b_msg} {e}", AVZTX.err_four_b_link)
             exit(1)
         else:
             return True
@@ -180,31 +178,30 @@ class SYSTEM:
                 if missing:
                     raise ImportError
             except ImportError:
-                UTILS.show_error('002', f'Errors with the following packages: {" ".join(missing)}', 'TBA')
+                UTILS.show_error(AVZTX.err_two_title, f'{AVZTX.err_two_msg} {" ".join(missing)}', AVZTX.err_two_link)
                 exit(1)
         return True
     
     def main_menu(self):
         self.main_window = tkinter.Tk()
-        self.main_window.title("AvantZero")
+        self.main_window.title(AVZTX.mame_one)
         self.main_window.geometry("800x600")
         self.main_window.configure(bg="#2b2b2b")
         script_dir = os.path.dirname(os.path.abspath(__file__))
         icon_path = os.path.join(script_dir, "..", "assets", "ico", "AvantZeroIco.ico")
         self.main_window.iconbitmap(icon_path)
-        main_title = "AVANTZERO"
-        main_title = "  ".join(main_title)
+        main_title = "  ".join(AVZTX.mame_one)
         title_label = tkinter.Label(
             self.main_window,
             text=main_title,
             fg="white",
             bg="#2b2b2b",
-            font=("Gantari Regular", 24)
+            font=("Gantari ExtraLight", 24)
         )
         title_label.grid(row=0, column=0, columnspan=3, pady=20)
         project_manager_button = tkinter.Button(
             self.main_window,
-            text="Project Manager",
+            text=AVZTX.mame_four,
             command=self.boot_project_manager,
             width=20,
             height=2,
@@ -215,7 +212,7 @@ class SYSTEM:
         project_manager_button.grid(row=1, column=0, padx=10, pady=10)
         data_generator_button = tkinter.Button(
             self.main_window,
-            text="Data Generator",
+            text=AVZTX.mame_five,
             command=self.boot_data_generator,
             width=20,
             height=2,
@@ -226,7 +223,7 @@ class SYSTEM:
         data_generator_button.grid(row=1, column=1, padx=10, pady=10)
         about_button = tkinter.Button(
             self.main_window,
-            text="About",
+            text=AVZTX.mame_six,
             command=self.boot_about,
             width=20,
             height=2,
@@ -237,7 +234,7 @@ class SYSTEM:
         about_button.grid(row=1, column=2, padx=10, pady=10)
         credits_button = tkinter.Button(
             self.main_window,
-            text="Credits",
+            text=AVZTX.mame_seven,
             command=self.boot_credits,
             width=20,
             height=2,
@@ -248,7 +245,7 @@ class SYSTEM:
         credits_button.grid(row=2, column=0, padx=10, pady=10)
         exit_button = tkinter.Button(
             self.main_window,
-            text="Exit",
+            text=AVZTX.mame_eight,
             command=lambda: self.exit_avantzero(0),
             width=20,
             height=2,

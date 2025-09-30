@@ -1,5 +1,6 @@
 import tkinter, os
 from tkinter import messagebox
+from utils import TEXTS as AVZTX
 
 class UTILS:
     def return_to_main_menu(self):
@@ -10,8 +11,8 @@ class UTILS:
         root = tkinter.Tk()
         root.withdraw()
         if "github" in link:
-            message += f"\n\nCheck out the Issues section on GitHub to see whether the issue has been reported."
+            message += AVZTX.error_github
         if "vercel" in link:
-            message += f"\n\nMore info at: {link}"
+            message += f"{AVZTX.error_vercel} {link}"
         messagebox.showerror(f"ERROR: {code}", message)
         root.destroy()
