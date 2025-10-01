@@ -12,7 +12,6 @@ from PIL import Image, ImageTk
 class SYSTEM:
     COREDANLY, COREDATAGEN, COREDEPGEN, COREPROJM, CORENLEGEN, COREUTILS = DANLY, DATAGEN, DEPGEN, PROJM, NLEGEN, UTILS 
     
-    #DONE
     def __init__(self):
         self.splash_window = None
         self.splash_label = None
@@ -22,7 +21,6 @@ class SYSTEM:
         self.progress = None
         self.license_label = None
     
-    #DONE
     def center_window(self, window: str, width=500, height=500):
         screen_width = window.winfo_screenwidth()
         screen_height = window.winfo_screenheight()
@@ -30,7 +28,6 @@ class SYSTEM:
         y = int((screen_height / 2) - (height / 2))
         window.geometry(f"{width}x{height}+{x}+{y}") 
     
-    #DONE
     def show_splash(self, width=500, height=500):
         self.splash_window = tkinter.Tk()
         self.splash_window.overrideredirect(True)
@@ -104,7 +101,6 @@ class SYSTEM:
         self.progress.place(relx=0.5, rely=0.92, anchor="s")
         self.splash_window.update()
 
-    # DONE
     def check_folder_structure(self):
         try:
             if not os.path.exists(os.path.join(os.path.expanduser("~"), "Documents", "AvantZero")):
@@ -120,7 +116,6 @@ class SYSTEM:
         else:
             return True
         
-    # DONE   
     def check_dependencies(self):
         try:
             cores = ['DANLY.py', 'DATAGEN.py', 'DEPGEN.py', 'NLEGEN.py', 'PROJM.py', 'SYSTEM.py', 'UTILITIES.py', 'TEXTS.py']
@@ -141,7 +136,6 @@ class SYSTEM:
         else:
             return True
     
-    # DONE
     def update_splash(self, progress_val: int, status_text=""):
         if self.splash_window and self.splash_label:
             self.status_label.config(text=status_text)
@@ -149,7 +143,6 @@ class SYSTEM:
                 self.progress["value"] = progress_val
             self.splash_window.update_idletasks()
 
-    # DONE
     def remove_splash(self):
         if self.splash_window:
             self.splash_window.destroy()
@@ -159,7 +152,6 @@ class SYSTEM:
             self.version_label = None
             self.progress = None    
     
-    # DONE
     def check_packages(self):
         missing = []
         script_dir = os.path.dirname(os.path.abspath(__file__)) 
@@ -185,7 +177,7 @@ class SYSTEM:
     def main_menu(self):
         self.main_window = tkinter.Tk()
         self.main_window.title(AVZTX.mame_one)
-        self.main_window.geometry("800x600")
+        self.main_window.geometry("1280x720")
         self.main_window.configure(bg="#2b2b2b")
         script_dir = os.path.dirname(os.path.abspath(__file__))
         icon_path = os.path.join(script_dir, "..", "assets", "ico", "AvantZeroIco.ico")
@@ -196,76 +188,77 @@ class SYSTEM:
             text=main_title,
             fg="white",
             bg="#2b2b2b",
-            font=("Gantari ExtraLight", 24)
+            font=("Gantari ExtraLight", 25)
         )
-        title_label.grid(row=0, column=0, columnspan=3, pady=20)
-        project_manager_button = tkinter.Button(
+        title_label.pack(pady=(80, 3)) 
+        payoff_label = tkinter.Label(
             self.main_window,
+            text=AVZTX.mame_nine,
+            fg='white',
+            bg='#2b2b2b',
+            font=("Gantari ExtraLight", 12)
+        )
+        payoff_label.pack(pady=(0, 40))
+        menu_frame = tkinter.Frame(self.main_window, bg="#2b2b2b")
+        menu_frame.pack(pady=25)
+        project_manager_button = tkinter.Button(
+            menu_frame,
             text=AVZTX.mame_four,
             command=self.boot_project_manager,
             width=20,
             height=2,
-            bg="#16ad8f",
+            bg="#006D77",
             fg="white",
             font=("Gantari Regular", 14)
         )
-        project_manager_button.grid(row=1, column=0, padx=10, pady=10)
+        project_manager_button.pack(pady=15)
         data_generator_button = tkinter.Button(
-            self.main_window,
+            menu_frame,
             text=AVZTX.mame_five,
             command=self.boot_data_generator,
             width=20,
             height=2,
-            bg="#16ad8f",
+            bg="#006D77",
             fg="white",
             font=("Gantari Regular", 14)
         )
-        data_generator_button.grid(row=1, column=1, padx=10, pady=10)
+        data_generator_button.pack(pady=15)
         about_button = tkinter.Button(
-            self.main_window,
+            menu_frame,
             text=AVZTX.mame_six,
             command=self.boot_about,
             width=20,
             height=2,
-            bg="#16ad8f",
+            bg="#006D77",
             fg="white",
             font=("Gantari Regular", 14)
         )
-        about_button.grid(row=1, column=2, padx=10, pady=10)
+        about_button.pack(pady=15)
         credits_button = tkinter.Button(
-            self.main_window,
+            menu_frame,
             text=AVZTX.mame_seven,
             command=self.boot_credits,
             width=20,
             height=2,
-            bg="#16ad8f",
+            bg="#006D77",
             fg="white",
             font=("Gantari Regular", 14)
         )
-        credits_button.grid(row=2, column=0, padx=10, pady=10)
+        credits_button.pack(pady=15)
         exit_button = tkinter.Button(
-            self.main_window,
+            menu_frame,
             text=AVZTX.mame_eight,
             command=lambda: self.exit_avantzero(0),
             width=20,
             height=2,
-            bg="#ff4d4d",
+            bg="#990404",
             fg="white",
             font=("Gantari Regular", 14)
         )
-        exit_button.grid(row=2, column=1, columnspan=2, padx=10, pady=10)
-        self.main_window.grid_rowconfigure(0, weight=1)
-        self.main_window.grid_rowconfigure(1, weight=1)
-        self.main_window.grid_rowconfigure(2, weight=1)
-        self.main_window.grid_columnconfigure(0, weight=1)
-        self.main_window.grid_columnconfigure(1, weight=1)
-        self.main_window.grid_columnconfigure(2, weight=1)
+        exit_button.pack(pady=15)
         self.main_window.protocol("WM_DELETE_WINDOW", lambda: self.exit_avantzero(0))
         self.main_window.mainloop()
-
-
-# LATER LMAO
-    
+ 
     def boot_project_manager(self):
         print("Booting Project Manager...")
         time.sleep(1)

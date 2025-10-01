@@ -13,6 +13,7 @@ mame_five = "Data Generator"
 mame_six = "About"
 mame_seven = "Credits"
 mame_eight = "Exit"
+mame_nine = "Experimental Quake III Machinima Algorithm"
 
 # ERRORS
 err_one_a_title = "001A"
