@@ -166,7 +166,6 @@ class SYSTEM:
                 except pkg_resources.VersionConflict as e:
                     missing.append(f"{package} (version conflict: {e})")
             try:
-                # TODO: Add DOCS LINK
                 if missing:
                     raise ImportError
             except ImportError:
@@ -177,14 +176,16 @@ class SYSTEM:
     def main_menu(self):
         self.main_window = tkinter.Tk()
         self.main_window.title(AVZTX.mame_one)
-        self.main_window.geometry("1280x720")
+        self.main_window.geometry("500x720")
         self.main_window.configure(bg="#2b2b2b")
         script_dir = os.path.dirname(os.path.abspath(__file__))
         icon_path = os.path.join(script_dir, "..", "assets", "ico", "AvantZeroIco.ico")
         self.main_window.iconbitmap(icon_path)
+        self.menu_frame = tkinter.Frame(self.main_window, bg="#2b2b2b")
+        self.menu_frame.pack(fill="both", expand=True)
         main_title = "  ".join(AVZTX.mame_one)
         title_label = tkinter.Label(
-            self.main_window,
+            self.menu_frame,
             text=main_title,
             fg="white",
             bg="#2b2b2b",
@@ -192,93 +193,225 @@ class SYSTEM:
         )
         title_label.pack(pady=(80, 3)) 
         payoff_label = tkinter.Label(
-            self.main_window,
+            self.menu_frame,
             text=AVZTX.mame_nine,
             fg='white',
             bg='#2b2b2b',
             font=("Gantari ExtraLight", 12)
         )
         payoff_label.pack(pady=(0, 40))
-        menu_frame = tkinter.Frame(self.main_window, bg="#2b2b2b")
-        menu_frame.pack(pady=25)
+        menu_buttons_frame = tkinter.Frame(self.menu_frame, bg="#2b2b2b")
+        menu_buttons_frame.pack(pady=25)
         project_manager_button = tkinter.Button(
-            menu_frame,
-            text=AVZTX.mame_four,
+            menu_buttons_frame, 
+            text=AVZTX.mame_four, 
             command=self.boot_project_manager,
-            width=20,
-            height=2,
-            bg="#006D77",
-            fg="white",
+            width=20, 
+            height=2, 
+            bg="#006D77", 
+            fg="white", 
             font=("Gantari Regular", 14)
         )
         project_manager_button.pack(pady=15)
         data_generator_button = tkinter.Button(
-            menu_frame,
-            text=AVZTX.mame_five,
+            menu_buttons_frame, 
+            text=AVZTX.mame_five, 
             command=self.boot_data_generator,
-            width=20,
-            height=2,
-            bg="#006D77",
-            fg="white",
+            width=20, 
+            height=2, 
+            bg="#006D77", 
+            fg="white", 
             font=("Gantari Regular", 14)
         )
         data_generator_button.pack(pady=15)
         about_button = tkinter.Button(
-            menu_frame,
-            text=AVZTX.mame_six,
+            menu_buttons_frame, 
+            text=AVZTX.mame_six, 
             command=self.boot_about,
-            width=20,
-            height=2,
-            bg="#006D77",
-            fg="white",
+            width=20, 
+            height=2, 
+            bg="#006D77", 
+            fg="white", 
             font=("Gantari Regular", 14)
         )
         about_button.pack(pady=15)
         credits_button = tkinter.Button(
-            menu_frame,
-            text=AVZTX.mame_seven,
+            menu_buttons_frame, 
+            text=AVZTX.mame_seven, 
             command=self.boot_credits,
-            width=20,
-            height=2,
-            bg="#006D77",
-            fg="white",
+            width=20, 
+            height=2, 
+            bg="#006D77", 
+            fg="white", 
             font=("Gantari Regular", 14)
         )
         credits_button.pack(pady=15)
         exit_button = tkinter.Button(
-            menu_frame,
-            text=AVZTX.mame_eight,
+            menu_buttons_frame, 
+            text=AVZTX.mame_eight, 
             command=lambda: self.exit_avantzero(0),
-            width=20,
-            height=2,
-            bg="#990404",
-            fg="white",
+            width=20, 
+            height=2, 
+            bg="#990404", 
+            fg="white", 
             font=("Gantari Regular", 14)
         )
         exit_button.pack(pady=15)
         self.main_window.protocol("WM_DELETE_WINDOW", lambda: self.exit_avantzero(0))
         self.main_window.mainloop()
- 
+
     def boot_project_manager(self):
-        print("Booting Project Manager...")
-        time.sleep(1)
-        return True
+        self.menu_frame.pack_forget()
+
+        if not hasattr(self, 'manager_frame'):
+            self.manager_frame = tkinter.Frame(self.main_window, bg="#2b2b2b")
+            self.manager_frame.pack(fill="both", expand=True)
+
+            title_label = tkinter.Label(
+                self.manager_frame,
+                text=AVZTX.proj_title_one,
+                fg="white",
+                bg="#2b2b2b",
+                font=("Gantari ExtraLight", 25)
+            )
+            title_label.pack(pady=50)
+
+            content_label = tkinter.Label(
+                self.manager_frame,
+                text=AVZTX.proj_title_two,
+                fg="white",
+                bg="#2b2b2b",
+                font=("Gantari Regular", 14)
+            )
+            content_label.pack(pady=20)
+
+            back_button = tkinter.Button(
+                self.manager_frame,
+                text=AVZTX.back_button,
+                command=lambda: (self.manager_frame.pack_forget(), self.menu_frame.pack(fill="both", expand=True)),
+                width=10,
+                height=1,
+                bg="#006D77",
+                fg="white"
+                )
+            back_button.pack(pady=30)
+        else:
+            self.manager_frame.pack(fill="both", expand=True)
+
     
     def boot_data_generator(self):
-        print("Booting Data Generator...")
-        time.sleep(1)
-        return True
-    
+        self.menu_frame.pack_forget()
+
+        if not hasattr(self, 'data_frame'):
+            self.data_frame = tkinter.Frame(self.main_window, bg="#2b2b2b")
+            self.data_frame.pack(fill="both", expand=True)
+
+            title_label = tkinter.Label(
+                self.data_frame,
+                text=AVZTX.data_title_one,
+                fg="white",
+                bg="#2b2b2b",
+                font=("Gantari ExtraLight", 25)
+            )
+            title_label.pack(pady=50)
+
+            content_label = tkinter.Label(
+                self.data_frame,
+                text=AVZTX.data_title_two,
+                fg="white",
+                bg="#2b2b2b",
+                font=("Gantari Regular", 14)
+            )
+            content_label.pack(pady=20)
+
+            back_button = tkinter.Button(
+                self.data_frame,
+                text=AVZTX.back_button,
+                command=lambda: (self.data_frame.pack_forget(), self.menu_frame.pack(fill="both", expand=True)),
+                width=10,
+                height=1,
+                bg="#006D77",
+                fg="white"
+                )
+            back_button.pack(pady=30)
+        else:
+            self.data_frame.pack(fill="both", expand=True)
+
     def boot_about(self):
-        print("Booting about...")
-        time.sleep(1)
-        return True
+        self.menu_frame.pack_forget()
+
+        if not hasattr(self, 'about_frame'):
+            self.about_frame = tkinter.Frame(self.main_window, bg="#2b2b2b")
+            self.about_frame.pack(fill="both", expand=True)
+
+            title_label = tkinter.Label(
+                self.about_frame,
+                text=AVZTX.about_title_one,
+                fg="white",
+                bg="#2b2b2b",
+                font=("Gantari ExtraLight", 25)
+            )
+            title_label.pack(pady=50)
+
+            content_label = tkinter.Label(
+                self.about_frame,
+                text=AVZTX.about_title_two,
+                fg="white",
+                bg="#2b2b2b",
+                font=("Gantari Regular", 14)
+            )
+            content_label.pack(pady=20)
+
+            back_button = tkinter.Button(
+                self.about_frame,
+                text=AVZTX.back_button,
+                command=lambda: (self.about_frame.pack_forget(), self.menu_frame.pack(fill="both", expand=True)),
+                width=10,
+                height=1,
+                bg="#006D77",
+                fg="white"
+                )
+            back_button.pack(pady=30)
+        else:
+            self.about_frame.pack(fill="both", expand=True)
     
     def boot_credits(self):
-        print("Booting Credits...")
-        time.sleep(1)
-        return True
-    
-    # done
+        self.menu_frame.pack_forget()
+
+        if not hasattr(self, 'credits_frame'):
+            self.credits_frame = tkinter.Frame(self.main_window, bg="#2b2b2b")
+            self.credits_frame.pack(fill="both", expand=True)
+
+            title_label = tkinter.Label(
+                self.credits_frame,
+                text=AVZTX.credits_title_one,
+                fg="white",
+                bg="#2b2b2b",
+                font=("Gantari ExtraLight", 25)
+            )
+            title_label.pack(pady=50)
+
+            content_label = tkinter.Label(
+                self.credits_frame,
+                text=AVZTX.credits_title_two,
+                fg="white",
+                bg="#2b2b2b",
+                font=("Gantari Regular", 14)
+            )
+            content_label.pack(pady=20)
+
+            back_button = tkinter.Button(
+                self.credits_frame,
+                text=AVZTX.back_button,
+                command=lambda: (self.credits_frame.pack_forget(), self.menu_frame.pack(fill="both", expand=True)),
+                width=10,
+                height=1,
+                bg="#006D77",
+                fg="white"
+                )
+            back_button.pack(pady=30)
+        else:
+            self.credits_frame.pack(fill="both", expand=True)
+
     def exit_avantzero(self, code: 0 | 1):
         sys.exit(code)

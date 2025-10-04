@@ -25,21 +25,10 @@ def main():
         )
         AVANTZERO.check_packages()
         AVANTZERO.remove_splash()
-        while True:
-            choice = AVANTZERO.main_menu()
-            match(choice):
-                case 1:
-                    AVANTZERO.boot_project_manager()
-                case 2:
-                    AVANTZERO.boot_data_generator()
-                case 3:
-                    AVANTZERO.boot_about()
-                case 4:
-                    AVANTZERO.boot_credits()
-                case 5:
-                    AVANTZERO.exit_avantzero()
-    except KeyboardInterrupt:
+    except Exception:
         AVANTZERO.exit_avantzero(0)
+    else:
+        AVANTZERO.main_menu()
 
 if __name__ == "__main__":
     main()

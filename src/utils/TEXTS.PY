@@ -30,6 +30,22 @@ err_four_a_link =  "TBA" # TODO: ADD DOCS LINK
 err_four_b_title = "004B"
 err_four_b_msg = "General Exception regarding the folder structure:"
 err_four_b_link = "https://github.com/jiyorude/avantzero/issues"
-
 error_github = "\n\nCheck out the Issues section on GitHub to see whether your issue has been reported."
 error_vercel = "\n\nMore info at:"
+
+# PROJECT MANAGER
+proj_title_one = "Project Manager"
+proj_title_two = "im in your projects, managing stuff"
+
+# DATA GENERATOR
+data_title_one = "Data Generator"
+data_title_two = "WIP. More things added soon"
+
+# ABOUT
+about_title_one = "About AvantZero"
+about_title_two = "This section will contain information\nabout the algorithm... Work in progress..."
+back_button = "Back"
+
+# CREDITS
+credits_title_one = "Credits"
+credits_title_two = "This section contains credits information.\nMore coming soon."
